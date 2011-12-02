@@ -1,3 +1,7 @@
+libmate 2011.12.01
+
+now
+
 libmate 2.32.0
 
 mate-sound APIs now use libcanberra internally. That means that
