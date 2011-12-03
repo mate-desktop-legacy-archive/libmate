@@ -17,7 +17,7 @@ values for the configuration parameters to simply client code.
 	their configuration requirements.
 	</para>
 	<para>
-	The mate-config module exists for applications that 
+	The mate-config module exists for applications that
 		<itemizedlist>
 			<listitem>
 				<para>need to provide a backwards-compatible
@@ -79,7 +79,7 @@ values for the configuration parameters to simply client code.
 	These files are world-readable. Items that have security or privacy
 	implications are stored and retrieved using the "private" versions of
 	the mate-config routines, and the data for these items is stored in
-	files under the <filename>~user/.mate2_private</filename> directory,
+	files under the <filename>~user/.config/mate/private</filename> directory,
 	which is not accessable by anyone except that user and the system
 	administrator.</para></listitem>
 
@@ -169,8 +169,8 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@Returns: 
+@path:
+@Returns:
 
 
 <!-- ##### MACRO mate_config_get_string_with_default ##### -->
@@ -178,9 +178,9 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@def: 
-@Returns: 
+@path:
+@def:
+@Returns:
 
 
 <!-- ##### MACRO mate_config_get_translated_string ##### -->
@@ -188,8 +188,8 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@Returns: 
+@path:
+@Returns:
 
 
 <!-- ##### MACRO mate_config_get_translated_string_with_default ##### -->
@@ -197,9 +197,9 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@def: 
-@Returns: 
+@path:
+@def:
+@Returns:
 
 
 <!-- ##### MACRO mate_config_private_get_string ##### -->
@@ -207,8 +207,8 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@Returns: 
+@path:
+@Returns:
 
 
 <!-- ##### MACRO mate_config_private_get_string_with_default ##### -->
@@ -216,9 +216,9 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@def: 
-@Returns: 
+@path:
+@def:
+@Returns:
 
 
 <!-- ##### MACRO mate_config_private_get_translated_string ##### -->
@@ -226,8 +226,8 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@Returns: 
+@path:
+@Returns:
 
 
 <!-- ##### MACRO mate_config_private_get_translated_string_with_default ##### -->
@@ -235,9 +235,9 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@def: 
-@Returns: 
+@path:
+@def:
+@Returns:
 
 
 <!-- ##### MACRO mate_config_set_string ##### -->
@@ -245,8 +245,8 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@new_value: 
+@path:
+@new_value:
 
 
 <!-- ##### MACRO mate_config_set_translated_string ##### -->
@@ -254,8 +254,8 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@value: 
+@path:
+@value:
 
 
 <!-- ##### MACRO mate_config_private_set_string ##### -->
@@ -263,8 +263,8 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@new_value: 
+@path:
+@new_value:
 
 
 <!-- ##### MACRO mate_config_private_set_translated_string ##### -->
@@ -272,8 +272,8 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@new_value: 
+@path:
+@new_value:
 
 
 <!-- ##### MACRO mate_config_get_int ##### -->
@@ -281,8 +281,8 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@Returns: 
+@path:
+@Returns:
 
 
 <!-- ##### MACRO mate_config_get_int_with_default ##### -->
@@ -290,9 +290,9 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@def: 
-@Returns: 
+@path:
+@def:
+@Returns:
 
 
 <!-- ##### MACRO mate_config_private_get_int ##### -->
@@ -300,8 +300,8 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@Returns: 
+@path:
+@Returns:
 
 
 <!-- ##### MACRO mate_config_private_get_int_with_default ##### -->
@@ -309,9 +309,9 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@def: 
-@Returns: 
+@path:
+@def:
+@Returns:
 
 
 <!-- ##### MACRO mate_config_set_int ##### -->
@@ -319,8 +319,8 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@new_value: 
+@path:
+@new_value:
 
 
 <!-- ##### MACRO mate_config_private_set_int ##### -->
@@ -328,8 +328,8 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@new_value: 
+@path:
+@new_value:
 
 
 <!-- ##### MACRO mate_config_get_float ##### -->
@@ -337,8 +337,8 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@Returns: 
+@path:
+@Returns:
 
 
 <!-- ##### MACRO mate_config_get_float_with_default ##### -->
@@ -346,9 +346,9 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@def: 
-@Returns: 
+@path:
+@def:
+@Returns:
 
 
 <!-- ##### MACRO mate_config_private_get_float ##### -->
@@ -356,8 +356,8 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@Returns: 
+@path:
+@Returns:
 
 
 <!-- ##### MACRO mate_config_private_get_float_with_default ##### -->
@@ -365,9 +365,9 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@def: 
-@Returns: 
+@path:
+@def:
+@Returns:
 
 
 <!-- ##### MACRO mate_config_set_float ##### -->
@@ -375,8 +375,8 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@new_value: 
+@path:
+@new_value:
 
 
 <!-- ##### MACRO mate_config_private_set_float ##### -->
@@ -384,8 +384,8 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@new_value: 
+@path:
+@new_value:
 
 
 <!-- ##### MACRO mate_config_get_bool ##### -->
@@ -393,8 +393,8 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@Returns: 
+@path:
+@Returns:
 
 
 <!-- ##### MACRO mate_config_get_bool_with_default ##### -->
@@ -402,9 +402,9 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@def: 
-@Returns: 
+@path:
+@def:
+@Returns:
 
 
 <!-- ##### MACRO mate_config_private_get_bool ##### -->
@@ -412,8 +412,8 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@Returns: 
+@path:
+@Returns:
 
 
 <!-- ##### MACRO mate_config_private_get_bool_with_default ##### -->
@@ -421,9 +421,9 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@def: 
-@Returns: 
+@path:
+@def:
+@Returns:
 
 
 <!-- ##### MACRO mate_config_set_bool ##### -->
@@ -431,8 +431,8 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@new_value: 
+@path:
+@new_value:
 
 
 <!-- ##### MACRO mate_config_private_set_bool ##### -->
@@ -440,8 +440,8 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@new_value: 
+@path:
+@new_value:
 
 
 <!-- ##### MACRO mate_config_get_vector ##### -->
@@ -449,9 +449,9 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@argcp: 
-@argvp: 
+@path:
+@argcp:
+@argvp:
 
 
 <!-- ##### MACRO mate_config_get_vector_with_default ##### -->
@@ -459,10 +459,10 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@argcp: 
-@argvp: 
-@def: 
+@path:
+@argcp:
+@argvp:
+@def:
 
 
 <!-- ##### MACRO mate_config_private_get_vector ##### -->
@@ -470,9 +470,9 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@argcp: 
-@argvp: 
+@path:
+@argcp:
+@argvp:
 
 
 <!-- ##### MACRO mate_config_private_get_vector_with_default ##### -->
@@ -480,10 +480,10 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@argcp: 
-@argvp: 
-@def: 
+@path:
+@argcp:
+@argvp:
+@def:
 
 
 <!-- ##### MACRO mate_config_set_vector ##### -->
@@ -491,9 +491,9 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@argc: 
-@argv: 
+@path:
+@argc:
+@argv:
 
 
 <!-- ##### MACRO mate_config_private_set_vector ##### -->
@@ -501,9 +501,9 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@argc: 
-@argv: 
+@path:
+@argc:
+@argv:
 
 
 <!-- ##### FUNCTION mate_config_assemble_vector ##### -->
@@ -511,9 +511,9 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@argc: 
-@argv: 
-@Returns: 
+@argc:
+@argv:
+@Returns:
 
 
 <!-- ##### MACRO mate_config_has_section ##### -->
@@ -521,8 +521,8 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@Returns: 
+@path:
+@Returns:
 
 
 <!-- ##### MACRO mate_config_private_has_section ##### -->
@@ -530,8 +530,8 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@Returns: 
+@path:
+@Returns:
 
 
 <!-- ##### MACRO mate_config_init_iterator ##### -->
@@ -539,8 +539,8 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@Returns: 
+@path:
+@Returns:
 
 
 <!-- ##### MACRO mate_config_private_init_iterator ##### -->
@@ -548,8 +548,8 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@Returns: 
+@path:
+@Returns:
 
 
 <!-- ##### MACRO mate_config_init_iterator_sections ##### -->
@@ -557,8 +557,8 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@Returns: 
+@path:
+@Returns:
 
 
 <!-- ##### MACRO mate_config_private_init_iterator_sections ##### -->
@@ -566,8 +566,8 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@Returns: 
+@path:
+@Returns:
 
 
 <!-- ##### FUNCTION mate_config_iterator_next ##### -->
@@ -575,10 +575,10 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@iterator_handle: 
-@key: 
-@value: 
-@Returns: 
+@iterator_handle:
+@key:
+@value:
+@Returns:
 
 
 <!-- ##### FUNCTION mate_config_drop_all ##### -->
@@ -586,7 +586,7 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@void: 
+@void:
 
 
 <!-- ##### FUNCTION mate_config_sync ##### -->
@@ -594,8 +594,8 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@void: 
-@Returns: 
+@void:
+@Returns:
 
 
 <!-- ##### MACRO mate_config_sync_file ##### -->
@@ -603,8 +603,8 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@Returns: 
+@path:
+@Returns:
 
 
 <!-- ##### MACRO mate_config_private_sync_file ##### -->
@@ -612,8 +612,8 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
-@Returns: 
+@path:
+@Returns:
 
 
 <!-- ##### MACRO mate_config_drop_file ##### -->
@@ -621,7 +621,7 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
+@path:
 
 
 <!-- ##### MACRO mate_config_private_drop_file ##### -->
@@ -629,7 +629,7 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
+@path:
 
 
 <!-- ##### MACRO mate_config_clean_file ##### -->
@@ -637,7 +637,7 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
+@path:
 
 
 <!-- ##### MACRO mate_config_private_clean_file ##### -->
@@ -645,7 +645,7 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
+@path:
 
 
 <!-- ##### MACRO mate_config_clean_section ##### -->
@@ -653,7 +653,7 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
+@path:
 
 
 <!-- ##### MACRO mate_config_private_clean_section ##### -->
@@ -661,7 +661,7 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
+@path:
 
 
 <!-- ##### MACRO mate_config_clean_key ##### -->
@@ -669,7 +669,7 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
+@path:
 
 
 <!-- ##### MACRO mate_config_private_clean_key ##### -->
@@ -677,7 +677,7 @@ which returns the translated version of the string for the current locale.
 
 </para>
 
-@path: 
+@path:
 
 
 <!-- ##### MACRO mate_config_get_real_path ##### -->
@@ -706,7 +706,7 @@ key).
 
 </para>
 
-@path: 
+@path:
 
 
 <!-- ##### FUNCTION mate_config_pop_prefix ##### -->
@@ -714,7 +714,7 @@ key).
 
 </para>
 
-@void: 
+@void:
 
 
 <!-- ##### FUNCTION mate_config_make_vector ##### -->
@@ -722,8 +722,8 @@ key).
 
 </para>
 
-@string: 
-@argcp: 
-@argvp: 
+@string:
+@argcp:
+@argvp:
 
 

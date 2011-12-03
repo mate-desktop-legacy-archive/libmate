@@ -39,7 +39,7 @@ extern "C" {
  * an important feature for environments that mix MATE versions)
  */
 #define MATE_DOT_MATE ".mate2/"
-#define MATE_DOT_MATE_PRIVATE ".cache/mate/private/"
+#define MATE_DOT_MATE_PRIVATE ".config/mate/private/"
 
 #define LIBMATE_MODULE libmate_module_info_get()
 const MateModuleInfo* libmate_module_info_get(void) G_GNUC_CONST;
