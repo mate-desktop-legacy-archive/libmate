@@ -7,9 +7,9 @@ AC_PREREQ(2.54)
 # if backwards compatibility has been broken,
 # set LIBMATE_BINARY_AGE and LIBMATE_INTERFACE_AGE to 0.
 #
-m4_define([libmate_major_version], [2011])
-m4_define([libmate_minor_version], [12])
-m4_define([libmate_micro_version], [01])
+m4_define([libmate_major_version], [1])
+m4_define([libmate_minor_version], [1])
+m4_define([libmate_micro_version], [0])
 m4_define([libmate_interface_age], [0])
 # If you need a modifier for the version number.
 # Normally empty, but can be used to make "fixup" releases.
@@ -18,10 +18,10 @@ m4_define([libmate_extraversion], [])
 dnl required versions of other tools.
 m4_define([audiofile_required_version], [0.2.3])
 m4_define([esound_required_version],    [0.2.26])
-m4_define([mateconf_required_version],     [1.1.11])
+m4_define([mateconf_required_version],     [1.1.0])
 m4_define([glib_required_version],      [2.8.0])
-m4_define([mate_vfs_required_version], [2.5.3])
-m4_define([libmatecomponent_required_version], [2.13.0])
+m4_define([mate_vfs_required_version], [1.1.0])
+m4_define([libmatecomponent_required_version], [1.1.0])
 m4_define([gobject_required_version], [2.0.0])
 m4_define([gio_required_version],       [2.16.0])
 m4_define([canberra_required_version], [0])
