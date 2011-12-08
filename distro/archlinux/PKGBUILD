@@ -31,7 +31,7 @@ build() {
         --sysconfdir=/etc \
         --localstatedir=/var \
         --disable-static \
-        --libexecdir=/usr/lib/${pkgname} \
+        --libexecdir=/usr/lib/libmate \
         --disable-canberra \
         --disable-schemas-install || return 1
 

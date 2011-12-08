@@ -43,7 +43,7 @@ const char* g_extension_pointer(const char* path);
 
 /* pass in a string, and it will add the users home dir ie,
  * pass in .mate/bookmarks.html and it will return
- * /home/imain/.mate2/bookmarks.html
+ * /home/imain/.config/mate/bookmarks.html
  *
  * Remember to g_free() returned value! */
 #define mate_util_prepend_user_home(x) (g_build_filename(g_get_home_dir(), (x), NULL))

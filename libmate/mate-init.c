@@ -171,13 +171,12 @@ static char *mate_user_accels_dir = NULL;
 /**
 * mate_user_dir_get:
 *
-* Retrieves the user-specific directory for MATE apps to use ($HOME/.mate2
+* Retrieves the user-specific directory for MATE apps to use ($HOME/.config/mate
 * is the usual MATE 2 value).
 *
 * Returns: An absolute path to the directory.
 */
-const char *
-mate_user_dir_get (void)
+const char* mate_user_dir_get(void)
 {
 	return mate_user_dir;
 }
@@ -338,7 +337,7 @@ static void
 libmate_userdir_setup (gboolean create_dirs)
 {
 	struct stat statbuf;
-	
+
 	if(!mate_user_dir) {
                 const char *override;
 
