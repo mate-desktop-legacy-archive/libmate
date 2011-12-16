@@ -2,7 +2,7 @@
 
 # fill it
 pkgname=libmate
-pkgver=1.1.1
+pkgver=1.1.2
 pkgrel=1
 pkgdesc="Common libraries for MATE"
 depends=('libavahi-client3' 'libavahi-common3' 'libavahi-glib1' 'libc6'

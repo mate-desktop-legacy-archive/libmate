@@ -1,5 +1,5 @@
 pkgname=libmate
-pkgver=1.1.1
+pkgver=1.1.2
 pkgrel=1
 pkgdesc="Common libraries for MATE"
 arch=('i686' 'x86_64')
