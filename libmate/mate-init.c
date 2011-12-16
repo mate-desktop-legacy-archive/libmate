@@ -86,7 +86,7 @@ mate_matecomponent_module_info_get (void)
 {
 	static MateModuleInfo module_info = {
 		"matecomponent",
-		/* FIXME: get this from matecomponent */"1.101.2",
+		/* FIXME: get this from matecomponent */"1.1.0",
 		N_("MateComponent Support"),
 		NULL, NULL,
 		NULL, matecomponent_post_args_parse,
