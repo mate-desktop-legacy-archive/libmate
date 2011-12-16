@@ -547,15 +547,15 @@ libmate_module_info_get (void)
 #ifdef HAVE_BIND_TEXTDOMAIN_CODESET
 		bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
 #endif
-		req[i].required_version = "0.9.1";
+		req[i].required_version = "1.1.0";
 		req[i].module_info = mate_matecomponent_activation_module_info_get ();
 		i++;
 
-		req[i].required_version = "0.3.0";
+		req[i].required_version = "1.1.0";
 		req[i].module_info = mate_vfs_module_info_get ();
 		i++;
 
-		req[i].required_version = "1.1.1";
+		req[i].required_version = "1.1.0";
 		req[i].module_info = mate_mateconf_module_info_get ();
 		i++;
 
