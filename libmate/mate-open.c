@@ -6,9 +6,10 @@
 
 #include <stdio.h>
 
+/* only used for mate_program_init
 #include "mate-url.h"
 #include "mate-program.h"
-#include "mate-init.h"
+#include "mate-init.h"*/
 
 static gboolean is_file_uri_with_anchor(char* str)
 {
@@ -32,7 +33,10 @@ int main(int argc, char* argv[])
 		return 1;
 	}
 
-	mate_program_init("mate-url-show", VERSION, LIBMATE_MODULE, argc, argv, NULL);
+	g_type_init();
+
+	/* slow
+	 * mate_program_init("mate-url-show", VERSION, LIBMATE_MODULE, argc, argv, NULL);*/
 
 	file = g_file_new_for_commandline_arg(argv[1]);
 
