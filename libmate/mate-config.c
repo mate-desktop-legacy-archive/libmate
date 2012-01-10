@@ -638,10 +638,10 @@ static const char* access_config(access_type mode, const char* section_name, con
 	return def;
 }
 
-/* an extended version of access_config for looking up values in ~/.mate2.
+/* an extended version of access_config for looking up values in ~/.config/mate.
  * For writes it falls through to the standard behaviour.
  * For lookups, it first checks for the value in
- * $(datadir)/mate/config-override, and if it isn't there in ~/.mate2,
+ * $(datadir)/mate/config-override, and if it isn't there in ~/.config/mate,
  * then checks $(datadir)/mate/config, and as a last fallback uses def.
  * This gives system administrators high level control over the default
  * configuration values for MATE

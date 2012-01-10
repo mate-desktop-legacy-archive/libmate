@@ -38,8 +38,8 @@ extern "C" {
  * to override .mate2 via environment variable and this is
  * an important feature for environments that mix MATE versions)
  */
-#define MATE_DOT_MATE ".mate2/"
-#define MATE_DOT_MATE_PRIVATE ".mate2_private/"
+#define MATE_DOT_MATE ".config/mate/"
+#define MATE_DOT_MATE_PRIVATE ".config/mate/private/"
 
 #define LIBMATE_MODULE libmate_module_info_get()
 const MateModuleInfo* libmate_module_info_get(void) G_GNUC_CONST;

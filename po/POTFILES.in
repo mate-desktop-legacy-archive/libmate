@@ -1,7 +1,7 @@
 # files added by intltool-prepare
-mate-data/mate-2.soundlist.in
+mate-data/mate.soundlist.in
 mate-data/mate-default.xml.in.in
-mate-data/gtk-events-2.soundlist.in
+mate-data/gtk2-mate-events.soundlist.in
 libmate/mate-exec.c
 libmate/mate-mateconf.c
 libmate/mate-help.c

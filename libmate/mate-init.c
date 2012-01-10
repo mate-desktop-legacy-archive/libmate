@@ -86,7 +86,7 @@ mate_matecomponent_module_info_get (void)
 {
 	static MateModuleInfo module_info = {
 		"matecomponent",
-		/* FIXME: get this from matecomponent */"1.101.2",
+		/* FIXME: get this from matecomponent */"1.1.0",
 		N_("MateComponent Support"),
 		NULL, NULL,
 		NULL, matecomponent_post_args_parse,
@@ -171,13 +171,12 @@ static char *mate_user_accels_dir = NULL;
 /**
 * mate_user_dir_get:
 *
-* Retrieves the user-specific directory for MATE apps to use ($HOME/.mate2
+* Retrieves the user-specific directory for MATE apps to use ($HOME/.config/mate
 * is the usual MATE 2 value).
 *
 * Returns: An absolute path to the directory.
 */
-const char *
-mate_user_dir_get (void)
+const char* mate_user_dir_get(void)
 {
 	return mate_user_dir;
 }
@@ -338,7 +337,7 @@ static void
 libmate_userdir_setup (gboolean create_dirs)
 {
 	struct stat statbuf;
-	
+
 	if(!mate_user_dir) {
                 const char *override;
 
@@ -548,15 +547,15 @@ libmate_module_info_get (void)
 #ifdef HAVE_BIND_TEXTDOMAIN_CODESET
 		bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
 #endif
-		req[i].required_version = "0.9.1";
+		req[i].required_version = "1.1.0";
 		req[i].module_info = mate_matecomponent_activation_module_info_get ();
 		i++;
 
-		req[i].required_version = "0.3.0";
+		req[i].required_version = "1.1.0";
 		req[i].module_info = mate_vfs_module_info_get ();
 		i++;
 
-		req[i].required_version = "1.1.1";
+		req[i].required_version = "1.1.0";
 		req[i].module_info = mate_mateconf_module_info_get ();
 		i++;
 

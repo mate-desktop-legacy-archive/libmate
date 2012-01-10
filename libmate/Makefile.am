@@ -78,8 +78,6 @@ mate_open_SOURCES = \
 	mate-open.c
 
 mate_open_LDADD = \
-	libmate-2.la \
-	$(LIBMATE_LIBS) \
 	$(GIO_LIBS)
 
 libmatetypebuiltins.h: stamp-libmatetypebuiltins.h

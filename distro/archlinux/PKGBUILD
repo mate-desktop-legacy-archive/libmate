@@ -1,5 +1,5 @@
 pkgname=libmate
-pkgver=2011.12.01
+pkgver=1.1.2
 pkgrel=1
 pkgdesc="Common libraries for MATE"
 arch=('i686' 'x86_64')
@@ -31,7 +31,7 @@ build() {
         --sysconfdir=/etc \
         --localstatedir=/var \
         --disable-static \
-        --libexecdir=/usr/lib/${pkgname} \
+        --libexecdir=/usr/lib/libmate \
         --disable-canberra \
         --disable-schemas-install || return 1
 
