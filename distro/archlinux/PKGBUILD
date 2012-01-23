@@ -16,6 +16,7 @@ install=libmate.install
 # http://cptl.org/mate/${pkgname}.tar.gz
 # http://hax0r.se/mate/${pkgname}.tar.gz
 # http://matsusoft.com.ar/uploads/gnu-linux/mate/${pkgname}.tar.gz
+# http://matsusoft.com.ar/projects/mate/source/${pkgname}.tar.gz
 
 source=(http://sourceforge.net/projects/matede/files/${pkgver}/${pkgname}.tar.gz/download)
 sha256sums=('6e609be68bb7486054814dbaa5a4f6a648e0dc12409d3406f5a01b72086f968a')
