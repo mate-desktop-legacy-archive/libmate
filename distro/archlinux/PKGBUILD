@@ -7,10 +7,9 @@ license=('LGPL')
 depends=('ttf-freefont' 'mate-conf')
 makedepends=('mate-doc-utils' 'mate-common' 'mate-corba' 'mate-conf' 'libmatecomponent' 'mate-mime-data' 'gvfs' 'mate-vfs') #  'libcanberra'
 options=('!emptydirs' '!libtool')
-url="http://matsusoft.com.ar/projects"
+url="http://matsusoft.com.ar/projects/mate/"
 groups=('mate')
 install=libmate.install
-
 
 # mirrors
 # http://cptl.org/mate/${pkgname}.tar.gz
@@ -18,11 +17,11 @@ install=libmate.install
 # http://matsusoft.com.ar/uploads/gnu-linux/mate/${pkgname}.tar.gz
 # http://matsusoft.com.ar/projects/mate/source/${pkgname}.tar.gz
 
-source=(http://sourceforge.net/projects/matede/files/${pkgver}/${pkgname}.tar.gz/download)
-sha256sums=('6e609be68bb7486054814dbaa5a4f6a648e0dc12409d3406f5a01b72086f968a')
+source=()
+sha256sums=()
 
 build() {
-    cd "${srcdir}/${pkgname}"
+	cd "${srcdir}/../../../"
 
     # Optional Features:
     #    --enable-esd            Enable ESounD (default=no)
@@ -40,7 +39,7 @@ build() {
 }
 
 package() {
-    cd "${srcdir}/${pkgname}"
+	cd "${srcdir}/../../../"
 
     make MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL=1  DESTDIR="${pkgdir}" install || return 1
 
