@@ -8,7 +8,7 @@ AC_PREREQ(2.54)
 # set LIBMATE_BINARY_AGE and LIBMATE_INTERFACE_AGE to 0.
 #
 m4_define([libmate_major_version], [1])
-m4_define([libmate_minor_version], [2])
+m4_define([libmate_minor_version], [3])
 m4_define([libmate_micro_version], [0])
 m4_define([libmate_interface_age], [0])
 # If you need a modifier for the version number.
@@ -240,3 +240,10 @@ doc/reference/version.xml
 ])
 
 AC_OUTPUT
+
+echo "
+Configure summary:
+
+	ESounD support..............: ${enable_esd}
+	Canberra support............: ${enable_canberra}
+"
