@@ -1,51 +1,51 @@
-# translation of libmate.HEAD.po to Tamil
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
-# I. Felix <ifelix@redhat.com>, 2009.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: libmate.HEAD\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=libmate&component=general\n"
-"POT-Creation-Date: 2009-03-15 09:03+0000\n"
-"PO-Revision-Date: 2009-03-15 14:45+0530\n"
-"Last-Translator: I. Felix <ifelix@redhat.com>\n"
-"Language-Team: Tamil <fedora-trans-ta@redhat.com>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-01-02 23:30+0100\n"
+"PO-Revision-Date: 2012-01-02 22:48+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\\n\n"
+"Language: ta\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../mate-data/mate-2.soundlist.in.h:1
+#: ../mate-data/mate.soundlist.in.h:1
 msgid "Error message"
 msgstr "பிழை செய்தி"
 
-#: ../mate-data/mate-2.soundlist.in.h:2
+#: ../mate-data/mate.soundlist.in.h:2
 msgid "Informational message"
 msgstr "செய்தி தகவல்"
 
-#: ../mate-data/mate-2.soundlist.in.h:3
+#: ../mate-data/mate.soundlist.in.h:3
 msgid "Log in"
 msgstr "புகுபதிவு"
 
-#: ../mate-data/mate-2.soundlist.in.h:4
+#: ../mate-data/mate.soundlist.in.h:4
 msgid "Log out"
 msgstr "விடுபதிவு"
 
-#: ../mate-data/mate-2.soundlist.in.h:5
+#: ../mate-data/mate.soundlist.in.h:5
 msgid "Miscellaneous message"
 msgstr "இதர தகவல்"
 
-#: ../mate-data/mate-2.soundlist.in.h:6
+#: ../mate-data/mate.soundlist.in.h:6
 msgid "Question dialog"
 msgstr "கேள்வி உரையாடல்"
 
-#: ../mate-data/mate-2.soundlist.in.h:7
+#: ../mate-data/mate.soundlist.in.h:7
 msgid "System events"
 msgstr "அமைப்பு நிகழ்வுகள்"
 
-#: ../mate-data/mate-2.soundlist.in.h:8
+#: ../mate-data/mate.soundlist.in.h:8
 msgid "Warning message"
 msgstr "எச்சரிக்கை செய்தி"
 
@@ -53,27 +53,27 @@ msgstr "எச்சரிக்கை செய்தி"
 msgid "Default Background"
 msgstr "முன்னிருப்பு பின்னணி"
 
-#: ../mate-data/gtk-events-2.soundlist.in.h:1
+#: ../mate-data/gtk2-mate-events.soundlist.in.h:1
 msgid "Choose menu item"
 msgstr "பட்டி உருப்படி தெரிவுசெய்க"
 
-#: ../mate-data/gtk-events-2.soundlist.in.h:2
+#: ../mate-data/gtk2-mate-events.soundlist.in.h:2
 msgid "Click on command button"
 msgstr "கட்டளை பொத்தானை அமுத்துக"
 
-#: ../mate-data/gtk-events-2.soundlist.in.h:3
+#: ../mate-data/gtk2-mate-events.soundlist.in.h:3
 msgid "Select check box"
 msgstr "பரிசோதனை பெட்டியை தேர்வு செய்"
 
-#: ../mate-data/gtk-events-2.soundlist.in.h:4
+#: ../mate-data/gtk2-mate-events.soundlist.in.h:4
 msgid "User interface events"
 msgstr "பயனர் இடைமுகம் நிகழ்வுகள்"
 
-#: ../libmate/mate-exec.c:450
+#: ../libmate/mate-exec.c:457
 msgid "Cannot find a terminal, using xterm, even if it may not work"
 msgstr "முனையம் ஒன்றைக் கண்டுபிடிக்க முடியவில்லை, இயக்க முடியாவிட்டாலும், xterm பயன்படுத்தும்"
 
-#: ../libmate/mate-mateconf.c:175
+#: ../libmate/mate-mateconf.c:169
 msgid "MATE MateConf Support"
 msgstr "குனோம் MateConf ஆதரவளிப்பு"
 
@@ -97,18 +97,14 @@ msgstr "%s ஓர் அடைவு இல்லாததால், உதவ�
 #: ../libmate/mate-help.c:217
 #, c-format
 msgid "Unable to find help paths %s or %s. Please check your installation"
-msgstr ""
-"உதவி பாதைகளை %s இல் அல்லது %s இல் கண்டுபிடிக்க முடியவில்லை. உங்கள் நிறுவலை "
-"சரிபார்க்கவும்"
+msgstr "உதவி பாதைகளை %s இல் அல்லது %s இல் கண்டுபிடிக்க முடியவில்லை. உங்கள் நிறுவலை சரிபார்க்கவும்"
 
 #: ../libmate/mate-help.c:233
 #, c-format
 msgid ""
 "Unable to find the help files in either %s or %s.  Please check your "
 "installation"
-msgstr ""
-"உதவிக் கோப்புகளை %s இல் அல்லது %s இல் கண்டுபிடிக்க முடியவில்லை. உங்கள் நிறுவலை "
-"சரிபார்க்கவும்"
+msgstr "உதவிக் கோப்புகளை %s இல் அல்லது %s இல் கண்டுபிடிக்க முடியவில்லை. உங்கள் நிறுவலை சரிபார்க்கவும்"
 
 #: ../libmate/mate-help.c:350
 #, c-format
@@ -129,296 +125,292 @@ msgstr "MateComponent ஆதரவளிப்பு"
 msgid "MateComponent activation Support"
 msgstr "MateComponent தொடங்கல் ஆதரவளிப்பு"
 
-#: ../libmate/mate-init.c:380 ../libmate/mate-init.c:394
+#: ../libmate/mate-init.c:379 ../libmate/mate-init.c:393
 #, c-format
 msgid "Could not create per-user mate configuration directory `%s': %s\n"
 msgstr "தலா-பயனர்ப்படி குனோம் அமை-வடிவ அடைவு `%s': %s படைக்க முடியவில்லை\n"
 
-#: ../libmate/mate-init.c:402
+#: ../libmate/mate-init.c:401
 #, c-format
 msgid "Could not stat private per-user mate configuration directory `%s': %s\n"
 msgstr "தலா-பயனர்ப்படி குனோம் அமை-வடிவ அடைவு `%s' படைக்க முடியவில்லை: %s\n"
 
-#: ../libmate/mate-init.c:410
+#: ../libmate/mate-init.c:409
 #, c-format
 msgid ""
-"Could not set mode 0700 on private per-user mate configuration directory `%"
-"s': %s\n"
-msgstr ""
-"க்னோம் அமைப்பு அடைவில் பயனீட்டாளர் அமைப்பை 0700 பாங்கிற்கு அமைக்க முடியவில்லை `%s': %s\n"
-"s\n"
+"Could not set mode 0700 on private per-user mate configuration directory "
+"`%s': %s\n"
+msgstr "க்னோம் அமைப்பு அடைவில் பயனீட்டாளர் அமைப்பை 0700 பாங்கிற்கு அமைக்க முடியவில்லை `%s': %s\ns\n"
 
-#: ../libmate/mate-init.c:417
+#: ../libmate/mate-init.c:416
 #, c-format
 msgid "Could not create mate accelerators directory `%s': %s\n"
 msgstr "குனோம் முடுக்கியின் அடைவு `%s': %s ஐ படைக்க முடியவில்லை\n"
 
-#: ../libmate/mate-init.c:456
+#: ../libmate/mate-init.c:455
 msgid "MATE Virtual Filesystem"
 msgstr "குனோம் மாய கோப்பு-அமைப்பு"
 
-#: ../libmate/mate-init.c:474 ../libmate/mate-init.c:517
+#: ../libmate/mate-init.c:473 ../libmate/mate-init.c:516
 msgid "Disable sound server usage"
 msgstr "ஒலிச் சேவையக பயன்படுத்தலை முடக்கு"
 
-#: ../libmate/mate-init.c:477 ../libmate/mate-init.c:520
+#: ../libmate/mate-init.c:476 ../libmate/mate-init.c:519
 msgid "Enable sound server usage"
 msgstr "ஒலிச் சேவையக பயன்படுத்தலை இயலுமைப்படுத்து"
 
-#: ../libmate/mate-init.c:481 ../libmate/mate-init.c:523
+#: ../libmate/mate-init.c:480 ../libmate/mate-init.c:522
 msgid "Host:port on which the sound server to use is running"
 msgstr "ஒலிச் சேவையகம் பயன்படுத்த வேண்டிய விருந்தோம்பு:துறை பயன்படுத்தப்படுகின்றது"
 
-#: ../libmate/mate-init.c:482 ../libmate/mate-init.c:525
+#: ../libmate/mate-init.c:481 ../libmate/mate-init.c:524
 msgid "HOSTNAME:PORT"
 msgstr "விருந்தோம்பு:துறை"
 
-#: ../libmate/mate-init.c:491 ../libmate/mate-init.c:535
+#: ../libmate/mate-init.c:490 ../libmate/mate-init.c:534
 msgid "MATE Library"
 msgstr "குனோம் நூலகம்"
 
-#: ../libmate/mate-init.c:492
+#: ../libmate/mate-init.c:491
 msgid "Show MATE options"
 msgstr "MATE விருப்பங்களை காட்டு"
 
-#: ../libmate/mate-program.c:457
+#: ../libmate/mate-program.c:469
 msgid "Popt Table"
 msgstr "Popt அட்டவணை"
 
-#: ../libmate/mate-program.c:458
+#: ../libmate/mate-program.c:469
 msgid "The table of options for popt"
 msgstr "அட்டவணையாக poptக்கான விருப்புத் தேர்வுகள்"
 
-#: ../libmate/mate-program.c:465
+#: ../libmate/mate-program.c:471
 msgid "Popt Flags"
 msgstr "Popt கொடிகள்"
 
-#: ../libmate/mate-program.c:466
+#: ../libmate/mate-program.c:471
 msgid "The flags to use for popt"
 msgstr "poptக்காக பயன்படுத்த வேண்டிய கொடிகள்"
 
-#: ../libmate/mate-program.c:474
+#: ../libmate/mate-program.c:473
 msgid "Popt Context"
 msgstr "Popt சூழல்"
 
-#: ../libmate/mate-program.c:475
+#: ../libmate/mate-program.c:473
 msgid "The popt context pointer that MateProgram is using"
 msgstr "MateProgram பயன்படுத்துகின்ற Popt சூழல் சுட்டி"
 
-#: ../libmate/mate-program.c:483
+#: ../libmate/mate-program.c:475
 msgid "GOption Context"
 msgstr "GOption சூழல்"
 
-#: ../libmate/mate-program.c:484
+#: ../libmate/mate-program.c:475
 msgid "The goption context pointer that MateProgram is using"
 msgstr "goption சூழல் சுட்டியை MateProgram பயன்படுத்துகிறது"
 
-#: ../libmate/mate-program.c:492
+#: ../libmate/mate-program.c:477
 msgid "Human readable name"
 msgstr "மனிதர் வாசிக்கக்கூடிய பெயர்"
 
-#: ../libmate/mate-program.c:493
+#: ../libmate/mate-program.c:477
 msgid "Human readable name of this application"
 msgstr "இந்த  பயன்பாட்டின் மனிதர் வாசிக்கக்கூடிய பெயர்"
 
-#: ../libmate/mate-program.c:502
+#: ../libmate/mate-program.c:479
 msgid "MATE path"
 msgstr "குனோம் பாதை"
 
-#: ../libmate/mate-program.c:503
+#: ../libmate/mate-program.c:479
 msgid "Path in which to look for installed files"
 msgstr "நிறுவப்பட்ட கோப்புகளுக்காக தேடவேண்டிய பாதை"
 
-#: ../libmate/mate-program.c:512
+#: ../libmate/mate-program.c:481
 msgid "App ID"
 msgstr "பயன்பாட்டின் அடையாளம்"
 
-#: ../libmate/mate-program.c:513
+#: ../libmate/mate-program.c:481
 msgid "ID string to use for this application"
 msgstr "இப் பயன்பாட்டுக்காக பயன்படுத்த வேண்டிய அடையாள சரம்"
 
-#: ../libmate/mate-program.c:520
+#: ../libmate/mate-program.c:483
 msgid "App version"
 msgstr "பயன்பாட்டு பதிப்பு"
 
-#: ../libmate/mate-program.c:521
+#: ../libmate/mate-program.c:483
 msgid "Version of this application"
 msgstr "இப் பயன்பாட்டின் பதிப்பு"
 
-#: ../libmate/mate-program.c:528
+#: ../libmate/mate-program.c:485
 msgid "MATE Prefix"
 msgstr "குனோம் முற்சேர்க்கை"
 
-#: ../libmate/mate-program.c:529
+#: ../libmate/mate-program.c:485
 msgid "Prefix where MATE was installed"
 msgstr "குனோம் நிறுவிக்கப்பட்ட இடத்தின் முற்சேர்க்கை"
 
-#: ../libmate/mate-program.c:538
+#: ../libmate/mate-program.c:487
 msgid "MATE Libdir"
 msgstr "குனோம் நூலக-அடைவு"
 
-#: ../libmate/mate-program.c:539
+#: ../libmate/mate-program.c:487
 msgid "Library prefix where MATE was installed"
 msgstr "குனோம் நிறுவிக்கப்பட்ட இடத்தின் நூலக முற்சேர்க்கை"
 
-#: ../libmate/mate-program.c:548
+#: ../libmate/mate-program.c:489
 msgid "MATE Datadir"
 msgstr "குனோம் தரவு-அடைவு"
 
-#: ../libmate/mate-program.c:549
+#: ../libmate/mate-program.c:489
 msgid "Data prefix where MATE was installed"
 msgstr "குனோம் நிறுவிக்கப்பட்ட இடத்தின் தரவு முற்சேர்க்கை"
 
-#: ../libmate/mate-program.c:558
+#: ../libmate/mate-program.c:491
 msgid "MATE Sysconfdir"
 msgstr "குனோம் அமைப்புவடிவஅடைவு (Sysconfdir)"
 
-#: ../libmate/mate-program.c:559
+#: ../libmate/mate-program.c:491
 msgid "Configuration prefix where MATE was installed"
 msgstr "குனோம் நிறுவிக்கப்பட்ட இடத்தின் அமைவடிவ முற்சேர்க்கை"
 
-#: ../libmate/mate-program.c:569
+#: ../libmate/mate-program.c:493
 msgid "MATE App Prefix"
 msgstr "குனோம் பயன்பாட்டு முற்சேர்க்கை"
 
-#: ../libmate/mate-program.c:570
+#: ../libmate/mate-program.c:493
 msgid "Prefix where this application was installed"
 msgstr "இப் பயன்பாடு நிறுவிக்கப்பட்ட இடத்தின் முற்சேர்க்கை"
 
-#: ../libmate/mate-program.c:578
+#: ../libmate/mate-program.c:495
 msgid "MATE App Libdir"
 msgstr "குனோம் பயன்பாட்டு நூலக அடைவு"
 
-#: ../libmate/mate-program.c:579
+#: ../libmate/mate-program.c:495
 msgid "Library prefix where this application was installed"
 msgstr "பயன்பாடு நிறுவிக்கப்பட்ட இடத்தின் நூலக முற்சேர்க்கை"
 
-#: ../libmate/mate-program.c:588
+#: ../libmate/mate-program.c:497
 msgid "MATE App Datadir"
 msgstr "குனோம் பயன்பாட்டு அடைவு"
 
-#: ../libmate/mate-program.c:589
+#: ../libmate/mate-program.c:497
 msgid "Data prefix where this application was installed"
 msgstr "பயன்பாடு நிறுவிக்கப்பட்ட இடத்தின் தரவு முற்சேர்க்கை"
 
-#: ../libmate/mate-program.c:598
+#: ../libmate/mate-program.c:499
 msgid "MATE App Sysconfdir"
 msgstr "குனோம் பயன்பாட்டு  அமைப்புவடிவஅடைவு (Sysconfdir)"
 
-#: ../libmate/mate-program.c:599
+#: ../libmate/mate-program.c:499
 msgid "Configuration prefix where this application was installed"
 msgstr "பயன்பாடு நிறுவிக்கப்பட்ட இடத்தின்  வடிவ முற்சேர்க்கை"
 
-#: ../libmate/mate-program.c:608
+#: ../libmate/mate-program.c:501
 msgid "Create Directories"
 msgstr "அடைவுகளை உருவாக்கு"
 
-#: ../libmate/mate-program.c:609
+#: ../libmate/mate-program.c:501
 msgid "Create standard MATE directories on startup"
 msgstr "தொடங்கும்போது வழமையான குனோம் அடைவுகளை படைக்கவும்"
 
-#: ../libmate/mate-program.c:618
+#: ../libmate/mate-program.c:503
 msgid "Enable Sound"
 msgstr "ஒலி இயலுமைப்படுத்தவும்"
 
-#: ../libmate/mate-program.c:619
+#: ../libmate/mate-program.c:503
 msgid "Enable sound on startup"
 msgstr "தொடங்கும்போது ஒலியை இயலுமைப்படுத்துக"
 
-#: ../libmate/mate-program.c:627
+#: ../libmate/mate-program.c:505
 msgid "Espeaker"
 msgstr "Espeaker"
 
-#: ../libmate/mate-program.c:628
+#: ../libmate/mate-program.c:505
 msgid "How to connect to esd"
 msgstr "esdஉடன் எப்படி இணைத்து கொள்வது"
 
-#: ../libmate/mate-program.c:1393
+#: ../libmate/mate-program.c:1288
 msgid "Help options"
 msgstr "உதவி விருப்பத்தேர்வுகள்"
 
-#: ../libmate/mate-program.c:1398
+#: ../libmate/mate-program.c:1294
 msgid "Application options"
 msgstr "பயன்பாட்டு விருப்பத்தேர்வுகள்"
 
-#: ../libmate/mate-program.c:1414
+#: ../libmate/mate-program.c:1311
 msgid "Dynamic modules to load"
 msgstr "ஏற்ற வேண்டிய இயங்குநிலை கூறுகள்"
 
-#: ../libmate/mate-program.c:1415
+#: ../libmate/mate-program.c:1312
 msgid "MODULE1,MODULE2,..."
 msgstr "கூறு1,கூறு2,..."
 
 #. Translators: the first %s is the error message, 2nd %s the program name
-#: ../libmate/mate-program.c:1633
+#: ../libmate/mate-program.c:1527
 #, c-format
 msgid ""
 "%s\n"
 "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"%s\n"
-"'%s --help' ஐ இயக்கி இருக்கும் கட்டளை வரி விருப்பங்களின் முழு பட்டியலையும் பார்க்கவும்.\n"
+msgstr "%s\n'%s --help' ஐ இயக்கி இருக்கும் கட்டளை வரி விருப்பங்களின் முழு பட்டியலையும் பார்க்கவும்.\n"
 
-#: ../libmate/mate-url.c:85
+#: ../libmate/mate-url.c:82
 #, c-format
 msgid "Unknown internal error while displaying this location."
 msgstr "இடத்தை காட்டும் போது தெரியாத உள் பிழை"
 
-#: ../libmate/mate-url.c:92
+#: ../libmate/mate-url.c:86
 #, c-format
 msgid "The specified location is invalid."
 msgstr "குறிப்பிட்ட இடம் தவராணது."
 
-#: ../libmate/mate-url.c:99
+#: ../libmate/mate-url.c:90
 #, c-format
 msgid ""
 "There was an error parsing the default action command associated with this "
 "location."
 msgstr "இந்த இடத்தோடு தொடர்புடைய கட்டளையை பயன்படுத்தும் போது பகுத்தலில் பிழை நேர்ந்தது"
 
-#: ../libmate/mate-url.c:107 ../libmate/mate-url.c:180
+#: ../libmate/mate-url.c:94 ../libmate/mate-url.c:145
 #, c-format
 msgid ""
-"There was an error launching the default action command associated with this "
-"location."
+"There was an error launching the default action command associated with this"
+" location."
 msgstr "இந்த இடத்தோடு தொடர்புடைய கட்டைளையை செயல்படுத்தும் போது துவக்க பிழை நேர்ந்தது"
 
-#: ../libmate/mate-url.c:115
+#: ../libmate/mate-url.c:98
 #, c-format
 msgid "There is no default action associated with this location."
 msgstr "இந்த இடத்தோடு தொடர்புடைய இயல்பான செயல் எதுவுமில்லை"
 
-#: ../libmate/mate-url.c:122
+#: ../libmate/mate-url.c:102
 #, c-format
 msgid "The default action does not support this protocol."
 msgstr "இந்த செயல் இந்த விதிமுறையை என்றும் மீராது"
 
-#: ../libmate/mate-url.c:129
+#: ../libmate/mate-url.c:106
 #, c-format
 msgid "The request was cancelled."
 msgstr "கோரிக்கை ரத்து செய்யப்பட்டது."
 
-#: ../libmate/mate-url.c:139
+#: ../libmate/mate-url.c:115
 #, c-format
 msgid "The host \"%s\" could not be found."
 msgstr "புரவலன் \"%s\" ஐ காண முடியவில்லை."
 
-#: ../libmate/mate-url.c:145
+#: ../libmate/mate-url.c:119
 #, c-format
 msgid "The host could not be found."
 msgstr "புரவலனை காண முடியவில்லை."
 
-#: ../libmate/mate-url.c:156
+#: ../libmate/mate-url.c:128
 #, c-format
 msgid "The location or file could not be found."
 msgstr "இடம் அல்லது கோப்பினை காண முடியவில்லை."
 
-#: ../libmate/mate-url.c:163
+#: ../libmate/mate-url.c:132
 #, c-format
 msgid "The login has failed."
 msgstr "புகுபதிவு செய்ய முடியவில்லை"
 
-#: ../libmate/mate-open.c:52
+#: ../libmate/mate-open.c:57
 #, c-format
 msgid "Error showing url: %s\n"
 msgstr "URL காட்டும்போது பிழை: %s\n"
@@ -453,7 +445,8 @@ msgid "Disable if two keys are pressed at the same time."
 msgstr "ஒரே நேரத்தில் இரண்டு விசைகள் அழுத்தப்படும்போது முடக்குசெய்."
 
 #: ../schemas/desktop_mate_accessibility_keyboard.schemas.in.h:3
-msgid "Do not accept a key as being pressed unless held for @delay milliseconds."
+msgid ""
+"Do not accept a key as being pressed unless held for @delay milliseconds."
 msgstr "@delay மில்லிநொடிகளுக்கு அழுத்தப்படும் வரை, விசை அழுத்தப்பட்டதாக ஏற்றுக்கொள்ள வேண்டாம்."
 
 #: ../schemas/desktop_mate_accessibility_keyboard.schemas.in.h:4
@@ -465,7 +458,8 @@ msgid "How many milliseconds it takes to go from 0 to maximum speed."
 msgstr "0 விலிருந்து ஆகக்கூடிய வேகத்தை அடைவதற்கு எத்தனை மில்லிநொடிகள் எடுக்கும்."
 
 #: ../schemas/desktop_mate_accessibility_keyboard.schemas.in.h:6
-msgid "How many milliseconds to wait before mouse movement keys start to operate."
+msgid ""
+"How many milliseconds to wait before mouse movement keys start to operate."
 msgstr "சுட்டி நகர்த்தல் விசைகளை தொடங்குவதற்கு எத்தனை மில்லிநொடிகள் காத்திருக்க வேண்டும்."
 
 #: ../schemas/desktop_mate_accessibility_keyboard.schemas.in.h:7
@@ -496,9 +490,7 @@ msgstr "மில்லிநொடிகளில் ஆகக்குறை�
 msgid ""
 "List of assistive technology applications to start when logging into the "
 "MATE desktop."
-msgstr ""
-"க்னோம் மேல்மேசைக்குள் நுழையும் போது பங்கெடுத்துக்கொள்ளும் தொழில்நுட்ப பயன்பாடுகளின் "
-"பட்டியலிடவும்."
+msgstr "க்னோம் மேல்மேசைக்குள் நுழையும் போது பங்கெடுத்துக்கொள்ளும் தொழில்நுட்ப பயன்பாடுகளின் பட்டியலிடவும்."
 
 #: ../schemas/desktop_mate_accessibility_startup.schemas.in.h:2
 msgid "Startup Assistive Technology Applications"
@@ -601,7 +593,8 @@ msgid "Whether the default tasks application needs a terminal to run"
 msgstr "முன்னிருப்பு மேலோடி இயக்குவதற்கு முனையம் வேண்டுமா"
 
 #: ../schemas/desktop_mate_applications_terminal.schemas.in.h:1
-msgid "Argument used to execute programs in the terminal defined by the 'exec' key."
+msgid ""
+"Argument used to execute programs in the terminal defined by the 'exec' key."
 msgstr "'exec' விசையால் குறிப்பிடப்பட்ட முனையத்தில் இயங்கும் நிரல்களின் அளவுரு"
 
 #: ../schemas/desktop_mate_applications_terminal.schemas.in.h:2
@@ -620,9 +613,7 @@ msgstr "தேவைப்படும் போது பயன்பாட்�
 msgid ""
 "A list with names of the first window manager workspaces. This key has been "
 "deprecated since MATE 2.12."
-msgstr ""
-"முதல் சாளர மேலாளர் பணியிடங்களின் பெயர்களிடங்கிய பட்டியல். MATE 2.12லிருந்து இந்த விசை "
-"எதிரிடையானது."
+msgstr "முதல் சாளர மேலாளர் பணியிடங்களின் பெயர்களிடங்கிய பட்டியல். MATE 2.12லிருந்து இந்த விசை எதிரிடையானது."
 
 #: ../schemas/desktop_mate_applications_window_manager.schemas.in.h:2
 msgid "Fallback window manager (deprecated)"
@@ -632,9 +623,7 @@ msgstr "பின்சார்ந்த சாளரமேலாளர் (எ
 msgid ""
 "Fallback window manager if user window manager can't be found. This key has "
 "been deprecated since MATE 2.12."
-msgstr ""
-"பயனர் சாளரமேலாளர் காணாவிட்டால், பின்சார்ந்த சாளரமேலாளர். MATE 2.12லிருந்து இந்த விசை "
-"எதிரிடையானது."
+msgstr "பயனர் சாளரமேலாளர் காணாவிட்டால், பின்சார்ந்த சாளரமேலாளர். MATE 2.12லிருந்து இந்த விசை எதிரிடையானது."
 
 #: ../schemas/desktop_mate_applications_window_manager.schemas.in.h:4
 msgid "Names of the workspaces (deprecated)"
@@ -648,16 +637,15 @@ msgstr "எத்தனை பணிஇடங்கள் (எதிரிடை
 msgid ""
 "The number of workspaces the window manager should use This key has been "
 "deprecated since MATE 2.12."
-msgstr ""
-"சாளரமேலாளர் எத்தனை பணிஇடங்களை பயன்படுத்தவேண்டும். MATE 2.12லிருந்து இந்த விசை "
-"எதிரிடையானது."
+msgstr "சாளரமேலாளர் எத்தனை பணிஇடங்களை பயன்படுத்தவேண்டும். MATE 2.12லிருந்து இந்த விசை எதிரிடையானது."
 
 #: ../schemas/desktop_mate_applications_window_manager.schemas.in.h:7
 msgid "User window manager (deprecated)"
 msgstr "பயனர் சாளரமேலாளர் (எதிரிடையானது)"
 
 #: ../schemas/desktop_mate_applications_window_manager.schemas.in.h:8
-msgid "Window manager to try first. This key has been deprecated since MATE 2.12."
+msgid ""
+"Window manager to try first. This key has been deprecated since MATE 2.12."
 msgstr "சாளர மேலாளர் முதலில் முயற்சிக்கட்டும். MATE 2.12லிருந்து இந்த விசை எதிரிடையானது."
 
 #: ../schemas/desktop_mate_background.schemas.in.in.h:1
@@ -667,12 +655,9 @@ msgstr "வண்ண நிழலாக்குதல் வகை"
 #: ../schemas/desktop_mate_background.schemas.in.in.h:2
 msgid ""
 "Determines how the image set by wallpaper_filename is rendered. Possible "
-"values are \"none\", \"wallpaper\", \"centered\", \"scaled\", \"stretched\", "
-"\"zoom\"."
+"values are \"none\", \"wallpaper\", \"centered\", \"scaled\", \"stretched\","
+" \"zoom\", \"spanned\"."
 msgstr ""
-"வால் பேப்பர் கோப்பு பெயரில் உள்ள பிம்பம் எவ்வாறு சீரமைக்கப்பட்டது என்பதை கண்டுபிடிக்கும். "
-"மதிப்புகள் \"none\", \"wallpaper\", \"centered\", \"scaled\", \"stretched\", "
-"\"zoom\" ஆக இருக்கும் (_f)"
 
 #: ../schemas/desktop_mate_background.schemas.in.in.h:3
 msgid "Draw Desktop Background"
@@ -688,11 +673,9 @@ msgstr "பணிமேடை பின்னணியை கனோம் வர
 
 #: ../schemas/desktop_mate_background.schemas.in.in.h:6
 msgid ""
-"How to shade the background color. Possible values are \"horizontal-gradient"
-"\", \"vertical-gradient\", and \"solid\"."
-msgstr ""
-"பின்னணி நிறத்தின் அளவை எப்படி மாற்றுவது. மதிப்புகள் \"horizontal-gradient"
-"\", \"vertical-gradient\", மற்றும் \"solid\" இருக்கும்"
+"How to shade the background color. Possible values are \"horizontal-"
+"gradient\", \"vertical-gradient\", and \"solid\"."
+msgstr "பின்னணி நிறத்தின் அளவை எப்படி மாற்றுவது. மதிப்புகள் \"horizontal-gradient\", \"vertical-gradient\", மற்றும் \"solid\" இருக்கும்"
 
 #: ../schemas/desktop_mate_background.schemas.in.in.h:7
 msgid "Left or Top color when drawing gradients, or the solid color."
@@ -719,7 +702,8 @@ msgid "Primary Color"
 msgstr "முதல் வண்ணம்"
 
 #: ../schemas/desktop_mate_background.schemas.in.in.h:13
-msgid "Right or Bottom color when drawing gradients, not used for solid color."
+msgid ""
+"Right or Bottom color when drawing gradients, not used for solid color."
 msgstr "வலது அல்லது கீழ் வண்ணம் சரிவு வண்ணத்தை பயன்படுத்தும் போது அல்லது நிலையான வண்ணத்தில்"
 
 #: ../schemas/desktop_mate_background.schemas.in.in.h:14
@@ -826,16 +810,15 @@ msgstr "GtkFileChooser க்கான பகுதி"
 msgid ""
 "Module to use as the filesystem model for the GtkFileChooser widget. "
 "Possible values are \"gio\", \"mate-vfs\" and \"gtk+\"."
-msgstr ""
-"GtkFileChooser சிறு சாளரம் கோப்பு அமைப்பு மாதிரியாக பயன்படுத்த வேண்டிய பகுதி. "
-"மதிப்புகள் \"gio\", \"mate-vfs\" மற்றும் \"gtk+\"."
+msgstr "GtkFileChooser சிறு சாளரம் கோப்பு அமைப்பு மாதிரியாக பயன்படுத்த வேண்டிய பகுதி. மதிப்புகள் \"gio\", \"mate-vfs\" மற்றும் \"gtk+\"."
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:24
 msgid "Monospace font"
 msgstr "Monospace எழுத்துரு"
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:25
-msgid "Name of a monospaced (fixed-width) font for use in locations like terminals."
+msgid ""
+"Name of a monospaced (fixed-width) font for use in locations like terminals."
 msgstr "முனையத்தில் பயன்படுத்தப்படும் நிலையால இடைவெளி(fixed-width) உள்ள எழுத்துருவின் பெயர்"
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:26
@@ -887,12 +870,8 @@ msgid "Toolbar Style"
 msgstr "கருவிப் பட்டை பாணி"
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:38
-msgid ""
-"Toolbar Style. Valid values are \"both\", \"both-horiz\", \"icons\", and "
-"\"text\"."
-msgstr ""
-"கருவிப்பட்டை தோற்றம். சரியான மதிப்புகள் \"both\", \"both_horiz\", \"icon\", மற்றும் "
-"\"text\""
+msgid "Toolbar Style. Valid values are \"both\", \"both-horiz\", \"icons\", and \"text\"."
+msgstr "கருவிப்பட்டை தோற்றம். சரியான மதிப்புகள் \"both\", \"both_horiz\", \"icon\", மற்றும் \"text\""
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:39
 msgid "Use Custom Font"
@@ -906,9 +885,7 @@ msgstr "பயன்பாட்டிற்கு அணுகல் ஆதர�
 msgid ""
 "Whether animations should be displayed. Note: This is a global key, it "
 "changes the behaviour of the window manager, the panel etc."
-msgstr ""
-"உயிர்சித்திரம் காட்டப்பட வேண்டுமா.குறிப்பு: இது பொதுவான விசை, இது சாளர மேலாளரின் "
-"நடத்தை மற்றும் பலகத்தை மாற்றும்"
+msgstr "உயிர்சித்திரம் காட்டப்பட வேண்டுமா.குறிப்பு: இது பொதுவான விசை, இது சாளர மேலாளரின் நடத்தை மற்றும் பலகத்தை மாற்றும்"
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:42
 msgid "Whether buttons may display an icon in addition to the button text."
@@ -948,11 +925,9 @@ msgstr "பயனீட்டாளர் கருவிப்பட்டி�
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:50
 msgid ""
-"Whether the user can dynamically type a new accelerator when positioned over "
-"an active menuitem."
-msgstr ""
-"பயனர் செயலிலுள்ள பட்டி உருப்படியின் மேல் ஒரு புதிய மாற்றியில் எவ்வாறாயினும் தட்டச்சு "
-"செய்யலாம்"
+"Whether the user can dynamically type a new accelerator when positioned over"
+" an active menuitem."
+msgstr "பயனர் செயலிலுள்ள பட்டி உருப்படியின் மேல் ஒரு புதிய மாற்றியில் எவ்வாறாயினும் தட்டச்சு செய்யலாம்"
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:51
 msgid "Whether to display a status bar meter on the right."
@@ -996,36 +971,28 @@ msgstr "எந்த URL அல்லது MIME வகை கையாளுத
 
 #: ../schemas/desktop_mate_lockdown.schemas.in.h:9
 msgid ""
-"Prevent the user from accessing the terminal or specifying a command line to "
-"be executed. For example, this would disable access to the panel's \"Run "
+"Prevent the user from accessing the terminal or specifying a command line to"
+" be executed. For example, this would disable access to the panel's \"Run "
 "Application\" dialog."
-msgstr ""
-"பயனீட்டாளர் முனையத்தை பயன்படுத்துவதை தடுக்க அதற்காக கட்டளைவரியை உள்ளிடவும். உதாரணம், "
-"\"Run Application\" உரையாடல் பலகத்தை அணுகுவதை செயலிழக்க செய்யும்"
+msgstr "பயனீட்டாளர் முனையத்தை பயன்படுத்துவதை தடுக்க அதற்காக கட்டளைவரியை உள்ளிடவும். உதாரணம், \"Run Application\" உரையாடல் பலகத்தை அணுகுவதை செயலிழக்க செய்யும்"
 
 #: ../schemas/desktop_mate_lockdown.schemas.in.h:10
 msgid ""
 "Prevent the user from modifying print settings. For example, this would "
 "disable access to all applications' \"Print Setup\" dialogs."
-msgstr ""
-"பயனீட்டாளர் அச்சுப்பொறி அமைப்பை மாற்றுவதை தடுக்கும். உதாரணம் , இது அனைத்து பயன்பாட்டிலும் "
-"உள்ள \"அச்சுப்பொறி அமைப்பு\" உரையாடல் பெட்டியை செயலிழக்க செய்யும்"
+msgstr "பயனீட்டாளர் அச்சுப்பொறி அமைப்பை மாற்றுவதை தடுக்கும். உதாரணம் , இது அனைத்து பயன்பாட்டிலும் உள்ள \"அச்சுப்பொறி அமைப்பு\" உரையாடல் பெட்டியை செயலிழக்க செய்யும்"
 
 #: ../schemas/desktop_mate_lockdown.schemas.in.h:11
 msgid ""
 "Prevent the user from printing. For example, this would disable access to "
 "all applications' \"Print\" dialogs."
-msgstr ""
-"பயனீட்டாளர் அச்சடிப்பதை தடுக்கும். உதாரணமாக , இது அனைத்து பயன்பாட்டிலும் உள்ள \"அச்சடி\" "
-"உரையாடல் பெட்டியை செயல்நீக்கம் செய்யாது"
+msgstr "பயனீட்டாளர் அச்சடிப்பதை தடுக்கும். உதாரணமாக , இது அனைத்து பயன்பாட்டிலும் உள்ள \"அச்சடி\" உரையாடல் பெட்டியை செயல்நீக்கம் செய்யாது"
 
 #: ../schemas/desktop_mate_lockdown.schemas.in.h:12
 msgid ""
 "Prevent the user from saving files to disk. For example, this would disable "
 "access to all applications' \"Save as\" dialogs."
-msgstr ""
-"பயனீட்டாளர் கோப்பை வட்டில் சேமிப்பதை தடுக்கும். உதாரணம், இது \"எனச்சேமி\" உரையாடலை "
-"செயலிழக்க செய்யும்"
+msgstr "பயனீட்டாளர் கோப்பை வட்டில் சேமிப்பதை தடுக்கும். உதாரணம், இது \"எனச்சேமி\" உரையாடலை செயலிழக்க செய்யும்"
 
 #: ../schemas/desktop_mate_lockdown.schemas.in.h:13
 msgid ""
@@ -1081,9 +1048,7 @@ msgstr "நிலை காட்டி தோற்றம்"
 msgid ""
 "Cursor theme name. Used only by Xservers that support Xcursor, such as "
 "XFree86 4.3 and later."
-msgstr ""
-"நிலைகாட்டி திட்ட பெயர். XFree86 4.3 அல்லது அதற்கு அடுத்தது போன்ற Xservers ஆல் மட்டுமே "
-"பயன்படுத்தப்பட்டு Xcursorக்கு துணை புரிகிறது."
+msgstr "நிலைகாட்டி திட்ட பெயர். XFree86 4.3 அல்லது அதற்கு அடுத்தது போன்ற Xservers ஆல் மட்டுமே பயன்படுத்தப்பட்டு Xcursorக்கு துணை புரிகிறது."
 
 #: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:6
 msgid "Distance before a drag is started."
@@ -1093,9 +1058,7 @@ msgstr "இழுக்கத்துவங்கும் போது இட�
 msgid ""
 "Distance in pixels the pointer must move before accelerated mouse motion is "
 "activated. A value of -1 is the system default."
-msgstr ""
-"காட்டி சுட்டி முடக்கம் துவங்கும் போது இருக்கும் இடைவெளியின் அளவு பிக்செல்லில் "
-"காட்டப்படும்.  -1 கணினியில் இயல்பான மதிப்பு"
+msgstr "காட்டி சுட்டி முடக்கம் துவங்கும் போது இருக்கும் இடைவெளியின் அளவு பிக்செல்லில் காட்டப்படும்.  -1 கணினியில் இயல்பான மதிப்பு"
 
 #: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:8
 msgid "Double Click Time"
@@ -1110,18 +1073,13 @@ msgid ""
 "Font name of the cursor. If unset, the default font is used. This value is "
 "only propagated to the X server start of each session, so changing it mid-"
 "session won't have an effect until the next time you log in."
-msgstr ""
-"கர்சரின் எழுத்துரு பெயர். அமைக்கப்படவில்லை எனில் இயல்பான எழுத்துரு பயன்படுத்தப்படும். இந்த "
-"மதிப்பு X சேவகனுக்கு அனுப்பபட்டு அமர்வின் துவக்கத்தில் பிரதிபலிக்கும், அமர்வின் இடையில் "
-"மாற்றம் செய்தால் அடுத்த முறை துவங்கும் போது செயல்படும்"
+msgstr "கர்சரின் எழுத்துரு பெயர். அமைக்கப்படவில்லை எனில் இயல்பான எழுத்துரு பயன்படுத்தப்படும். இந்த மதிப்பு X சேவகனுக்கு அனுப்பபட்டு அமர்வின் துவக்கத்தில் பிரதிபலிக்கும், அமர்வின் இடையில் மாற்றம் செய்தால் அடுத்த முறை துவங்கும் போது செயல்படும்"
 
 #: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:11
 msgid ""
 "Highlights the current location of the pointer when the Control key is "
 "pressed and released."
-msgstr ""
-"கண்ரோல் விசை அழுத்தப்படும் போதும் விடுவிக்கப்படும் போதும் தற்போதைய காட்டியின் இடம் "
-"தனிப்படுத்தி காட்டப்படும்"
+msgstr "கண்ரோல் விசை அழுத்தப்படும் போதும் விடுவிக்கப்படும் போதும் தற்போதைய காட்டியின் இடம் தனிப்படுத்தி காட்டப்படும்"
 
 #: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:12
 msgid "Length of a double click."
@@ -1223,9 +1181,7 @@ msgstr "வெளி சிறுபடங்களை செயல்படு�
 msgid ""
 "Set to true to disable all external thumbnailer programs, independent on "
 "whether they are independently disabled/enabled."
-msgstr ""
-"வெளி சிறுபட நிரல்களை செயல்படுத்தாமல் இருக்க இதை உண்மை என அமைக்க வேண்டும், தனித்தனியே "
-"செயலிழக்க செய்யலாம்/செயல்படுத்தலாம்"
+msgstr "வெளி சிறுபட நிரல்களை செயல்படுத்தாமல் இருக்க இதை உண்மை என அமைக்க வேண்டும், தனித்தனியே செயலிழக்க செய்யலாம்/செயல்படுத்தலாம்"
 
 #: ../schemas/desktop_mate_typing_break.schemas.in.h:1
 msgid "Allow postponing of breaks"
@@ -1258,4 +1214,3 @@ msgstr "விசைப்பலகை பூட்டு செயல்பட�
 #: ../schemas/desktop_mate_typing_break.schemas.in.h:8
 msgid "Whether or not the typing break screen can be postponed."
 msgstr "விசைப்பலகை நிறுத்த திரையை தாமதிக்க முடியுமா"
-

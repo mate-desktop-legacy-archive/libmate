@@ -1,55 +1,51 @@
-# Hungarian translation of libmate.
-# Copyright (C) 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010 Free Software Foundation, Inc.
-# This file is distributed under the same license as the libmate package.
-#
-# Andras Timar <timar@mate.hu>, 2002, 2003.
-# Gabor Sari <saga@mate.hu>, 2003.
-# Laszlo Dvornik <dvornik@mate.hu>, 2004.
-# Gabor Kelemen <kelemeng@mate.hu>, 2004, 2005, 2006, 2007, 2008, 2009.
-# Gabor Kelemen <kelemeng at mate dot hu>, 2010.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: libmate.HEAD\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-25 21:54+0100\n"
-"PO-Revision-Date: 2010-02-25 21:57+0100\n"
-"Last-Translator: Gabor Kelemen <kelemeng at mate dot hu>\n"
-"Language-Team: Hungarian <mate at fsf dot hu>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-01-02 23:30+0100\n"
+"PO-Revision-Date: 2012-01-02 22:49+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../mate-data/mate-2.soundlist.in.h:1
+#: ../mate-data/mate.soundlist.in.h:1
 msgid "Error message"
 msgstr "Hibaüzenet"
 
-#: ../mate-data/mate-2.soundlist.in.h:2
+#: ../mate-data/mate.soundlist.in.h:2
 msgid "Informational message"
 msgstr "Információs üzenet"
 
-#: ../mate-data/mate-2.soundlist.in.h:3
+#: ../mate-data/mate.soundlist.in.h:3
 msgid "Log in"
 msgstr "Bejelentkezés"
 
-#: ../mate-data/mate-2.soundlist.in.h:4
+#: ../mate-data/mate.soundlist.in.h:4
 msgid "Log out"
 msgstr "Kijelentkezés"
 
-#: ../mate-data/mate-2.soundlist.in.h:5
+#: ../mate-data/mate.soundlist.in.h:5
 msgid "Miscellaneous message"
 msgstr "Egyéb üzenet"
 
-#: ../mate-data/mate-2.soundlist.in.h:6
+#: ../mate-data/mate.soundlist.in.h:6
 msgid "Question dialog"
 msgstr "Kérdező párbeszédablak"
 
-#: ../mate-data/mate-2.soundlist.in.h:7
+#: ../mate-data/mate.soundlist.in.h:7
 msgid "System events"
 msgstr "Rendszeresemények"
 
-#: ../mate-data/mate-2.soundlist.in.h:8
+#: ../mate-data/mate.soundlist.in.h:8
 msgid "Warning message"
 msgstr "Figyelmeztető üzenet"
 
@@ -57,29 +53,27 @@ msgstr "Figyelmeztető üzenet"
 msgid "Default Background"
 msgstr "Alapértelmezett háttér"
 
-#: ../mate-data/gtk-events-2.soundlist.in.h:1
+#: ../mate-data/gtk2-mate-events.soundlist.in.h:1
 msgid "Choose menu item"
 msgstr "Menüelem kiválasztása"
 
-#: ../mate-data/gtk-events-2.soundlist.in.h:2
+#: ../mate-data/gtk2-mate-events.soundlist.in.h:2
 msgid "Click on command button"
 msgstr "Kattintás parancsgombra"
 
-#: ../mate-data/gtk-events-2.soundlist.in.h:3
+#: ../mate-data/gtk2-mate-events.soundlist.in.h:3
 msgid "Select check box"
 msgstr "Jelölőnégyzet kiválasztása"
 
-#: ../mate-data/gtk-events-2.soundlist.in.h:4
+#: ../mate-data/gtk2-mate-events.soundlist.in.h:4
 msgid "User interface events"
 msgstr "Felhasználói felület eseményei"
 
-#: ../libmate/mate-exec.c:450
+#: ../libmate/mate-exec.c:457
 msgid "Cannot find a terminal, using xterm, even if it may not work"
-msgstr ""
-"Nem található terminál, az xterm lesz használva, még ha az esetleg nem is "
-"működik"
+msgstr "Nem található terminál, az xterm lesz használva, még ha az esetleg nem is működik"
 
-#: ../libmate/mate-mateconf.c:175
+#: ../libmate/mate-mateconf.c:169
 msgid "MATE MateConf Support"
 msgstr "MATE MateConf-támogatás"
 
@@ -110,9 +104,7 @@ msgstr "A(z) %s vagy %s súgóútvonalak nem találhatók. Ellenőrizze a telep�
 msgid ""
 "Unable to find the help files in either %s or %s.  Please check your "
 "installation"
-msgstr ""
-"A súgófájlok nem találhatóak sem itt: %s, sem itt: %s. Ellenőrizze a "
-"telepítését"
+msgstr "A súgófájlok nem találhatóak sem itt: %s, sem itt: %s. Ellenőrizze a telepítését"
 
 #: ../libmate/mate-help.c:350
 #, c-format
@@ -133,301 +125,292 @@ msgstr "MateComponent-támogatás"
 msgid "MateComponent activation Support"
 msgstr "MateComponent-aktiválás támogatása"
 
-#: ../libmate/mate-init.c:380 ../libmate/mate-init.c:394
+#: ../libmate/mate-init.c:379 ../libmate/mate-init.c:393
 #, c-format
 msgid "Could not create per-user mate configuration directory `%s': %s\n"
 msgstr "Nem hozható létre a(z) „%s” felhasználói mate konfigurációs könyvtár: %s\n"
 
-#: ../libmate/mate-init.c:402
+#: ../libmate/mate-init.c:401
 #, c-format
 msgid "Could not stat private per-user mate configuration directory `%s': %s\n"
 msgstr "Nem érhető el a(z) „%s” felhasználónkénti mate konfigurációs könyvtár: %s\n"
 
-#: ../libmate/mate-init.c:410
+#: ../libmate/mate-init.c:409
 #, c-format
 msgid ""
-"Could not set mode 0700 on private per-user mate configuration directory `%"
-"s': %s\n"
-msgstr ""
-"Nem lehet 0700-ra állítani a(z) „%s” felhasználói mate konfigurációs "
-"könyvtár módját: %s\n"
+"Could not set mode 0700 on private per-user mate configuration directory "
+"`%s': %s\n"
+msgstr "Nem lehet 0700-ra állítani a(z) „%s” felhasználói mate konfigurációs könyvtár módját: %s\n"
 
-#: ../libmate/mate-init.c:417
+#: ../libmate/mate-init.c:416
 #, c-format
 msgid "Could not create mate accelerators directory `%s': %s\n"
 msgstr "Nem hozható létre a(z) „%s” mate gyorsbillentyűk könyvtára: %s\n"
 
-#: ../libmate/mate-init.c:456
+#: ../libmate/mate-init.c:455
 msgid "MATE Virtual Filesystem"
 msgstr "MATE virtuális fájlrendszer"
 
-#: ../libmate/mate-init.c:474 ../libmate/mate-init.c:517
+#: ../libmate/mate-init.c:473 ../libmate/mate-init.c:516
 msgid "Disable sound server usage"
 msgstr "Hangkiszolgáló használatának letiltása"
 
-#: ../libmate/mate-init.c:477 ../libmate/mate-init.c:520
+#: ../libmate/mate-init.c:476 ../libmate/mate-init.c:519
 msgid "Enable sound server usage"
 msgstr "Hangkiszolgáló használatának engedélyezése"
 
-#: ../libmate/mate-init.c:481 ../libmate/mate-init.c:523
+#: ../libmate/mate-init.c:480 ../libmate/mate-init.c:522
 msgid "Host:port on which the sound server to use is running"
 msgstr "Kiszolgáló:port, amelyen a használandó hangkiszolgáló fut"
 
-#: ../libmate/mate-init.c:482 ../libmate/mate-init.c:525
+#: ../libmate/mate-init.c:481 ../libmate/mate-init.c:524
 msgid "HOSTNAME:PORT"
 msgstr "GÉPNÉV:PORT"
 
-#: ../libmate/mate-init.c:491 ../libmate/mate-init.c:535
+#: ../libmate/mate-init.c:490 ../libmate/mate-init.c:534
 msgid "MATE Library"
 msgstr "MATE programkönyvtár"
 
-#: ../libmate/mate-init.c:492
+#: ../libmate/mate-init.c:491
 msgid "Show MATE options"
 msgstr "A MATE beállításainak megjelenítése"
 
-#: ../libmate/mate-program.c:457
+#: ../libmate/mate-program.c:469
 msgid "Popt Table"
 msgstr "Popt-táblázat"
 
-#: ../libmate/mate-program.c:458
+#: ../libmate/mate-program.c:469
 msgid "The table of options for popt"
 msgstr "A beállítások táblázata a popt-hoz"
 
-#: ../libmate/mate-program.c:465
+#: ../libmate/mate-program.c:471
 msgid "Popt Flags"
 msgstr "Popt flag-ek"
 
-#: ../libmate/mate-program.c:466
+#: ../libmate/mate-program.c:471
 msgid "The flags to use for popt"
 msgstr "A használandó flag-ek a popt-hoz"
 
-#: ../libmate/mate-program.c:474
+#: ../libmate/mate-program.c:473
 msgid "Popt Context"
 msgstr "Popt-környezet"
 
-#: ../libmate/mate-program.c:475
+#: ../libmate/mate-program.c:473
 msgid "The popt context pointer that MateProgram is using"
 msgstr "A popt környezetmutató, amit a MateProgram használ"
 
-#: ../libmate/mate-program.c:483
+#: ../libmate/mate-program.c:475
 msgid "GOption Context"
 msgstr "GOption környezet"
 
-#: ../libmate/mate-program.c:484
+#: ../libmate/mate-program.c:475
 msgid "The goption context pointer that MateProgram is using"
 msgstr "A goption környezetmutató, amit ez a MateProgram használ"
 
-#: ../libmate/mate-program.c:492
+#: ../libmate/mate-program.c:477
 msgid "Human readable name"
 msgstr "Emberek által olvasható név"
 
-#: ../libmate/mate-program.c:493
+#: ../libmate/mate-program.c:477
 msgid "Human readable name of this application"
 msgstr "Az alkalmazás emberek által olvasható neve"
 
-#: ../libmate/mate-program.c:502
+#: ../libmate/mate-program.c:479
 msgid "MATE path"
 msgstr "MATE útvonal"
 
-#: ../libmate/mate-program.c:503
+#: ../libmate/mate-program.c:479
 msgid "Path in which to look for installed files"
 msgstr "Útvonal a telepített fájlok kereséséhez"
 
-#: ../libmate/mate-program.c:512
+#: ../libmate/mate-program.c:481
 msgid "App ID"
 msgstr "Alkalmazás azonosító"
 
-#: ../libmate/mate-program.c:513
+#: ../libmate/mate-program.c:481
 msgid "ID string to use for this application"
 msgstr "Az alkalmazáshoz használandó azonosító karakterlánc"
 
-#: ../libmate/mate-program.c:520
+#: ../libmate/mate-program.c:483
 msgid "App version"
 msgstr "Alkalmazásverzió"
 
-#: ../libmate/mate-program.c:521
+#: ../libmate/mate-program.c:483
 msgid "Version of this application"
 msgstr "Az alkalmazás verziója"
 
-#: ../libmate/mate-program.c:528
+#: ../libmate/mate-program.c:485
 msgid "MATE Prefix"
 msgstr "MATE előtag"
 
-#: ../libmate/mate-program.c:529
+#: ../libmate/mate-program.c:485
 msgid "Prefix where MATE was installed"
 msgstr "A MATE telepítés előtagja"
 
-#: ../libmate/mate-program.c:538
+#: ../libmate/mate-program.c:487
 msgid "MATE Libdir"
 msgstr "MATE programkönyvtárak könyvtára"
 
-#: ../libmate/mate-program.c:539
+#: ../libmate/mate-program.c:487
 msgid "Library prefix where MATE was installed"
 msgstr "A MATE telepítés programkönyvtár-előtagja"
 
-#: ../libmate/mate-program.c:548
+#: ../libmate/mate-program.c:489
 msgid "MATE Datadir"
 msgstr "MATE adatkönyvtár"
 
-#: ../libmate/mate-program.c:549
+#: ../libmate/mate-program.c:489
 msgid "Data prefix where MATE was installed"
 msgstr "A MATE telepítés adat-előtagja"
 
-#: ../libmate/mate-program.c:558
+#: ../libmate/mate-program.c:491
 msgid "MATE Sysconfdir"
 msgstr "MATE rendszerbeállítások könyvtára"
 
-#: ../libmate/mate-program.c:559
+#: ../libmate/mate-program.c:491
 msgid "Configuration prefix where MATE was installed"
 msgstr "A MATE telepítés beállításainak előtagja"
 
-#: ../libmate/mate-program.c:569
+#: ../libmate/mate-program.c:493
 msgid "MATE App Prefix"
 msgstr "MATE alkalmazás-előtag"
 
-#: ../libmate/mate-program.c:570
+#: ../libmate/mate-program.c:493
 msgid "Prefix where this application was installed"
 msgstr "Előtag, ahová ez az alkalmazás telepítve lett"
 
-#: ../libmate/mate-program.c:578
+#: ../libmate/mate-program.c:495
 msgid "MATE App Libdir"
 msgstr "MATE alkalmazás programkönyvtára"
 
-#: ../libmate/mate-program.c:579
+#: ../libmate/mate-program.c:495
 msgid "Library prefix where this application was installed"
 msgstr "Programkönyvtár-előtag, ahová ez az alkalmazás telepítve lett"
 
-#: ../libmate/mate-program.c:588
+#: ../libmate/mate-program.c:497
 msgid "MATE App Datadir"
 msgstr "MATE alkalmazás adatkönyvtára"
 
-#: ../libmate/mate-program.c:589
+#: ../libmate/mate-program.c:497
 msgid "Data prefix where this application was installed"
 msgstr "Adat-előtag, ahová ez az alkalmazás telepítve lett"
 
-#: ../libmate/mate-program.c:598
+#: ../libmate/mate-program.c:499
 msgid "MATE App Sysconfdir"
 msgstr "MATE alkalmazás beállítás-könyvtára"
 
-#: ../libmate/mate-program.c:599
+#: ../libmate/mate-program.c:499
 msgid "Configuration prefix where this application was installed"
 msgstr "Beállítás-előtag, ahová ez az alkalmazás telepítve lett"
 
-#: ../libmate/mate-program.c:608
+#: ../libmate/mate-program.c:501
 msgid "Create Directories"
 msgstr "Könyvtárak létrehozása"
 
-#: ../libmate/mate-program.c:609
+#: ../libmate/mate-program.c:501
 msgid "Create standard MATE directories on startup"
 msgstr "Szabványos MATE könyvtárak létrehozása induláskor"
 
-#: ../libmate/mate-program.c:618
+#: ../libmate/mate-program.c:503
 msgid "Enable Sound"
 msgstr "Hang engedélyezése"
 
-#: ../libmate/mate-program.c:619
+#: ../libmate/mate-program.c:503
 msgid "Enable sound on startup"
 msgstr "Hang engedélyezése induláskor"
 
-#: ../libmate/mate-program.c:627
+#: ../libmate/mate-program.c:505
 msgid "Espeaker"
 msgstr "Espeaker"
 
-#: ../libmate/mate-program.c:628
+#: ../libmate/mate-program.c:505
 msgid "How to connect to esd"
 msgstr "Hogyan kapcsolódik az esd-hez"
 
-#: ../libmate/mate-program.c:1393
+#: ../libmate/mate-program.c:1288
 msgid "Help options"
 msgstr "Súgó beállításai"
 
-#: ../libmate/mate-program.c:1398
+#: ../libmate/mate-program.c:1294
 msgid "Application options"
 msgstr "Alkalmazás kapcsolói"
 
-#: ../libmate/mate-program.c:1414
+#: ../libmate/mate-program.c:1311
 msgid "Dynamic modules to load"
 msgstr "Betöltendő dinamikus modulok"
 
-#: ../libmate/mate-program.c:1415
+#: ../libmate/mate-program.c:1312
 msgid "MODULE1,MODULE2,..."
 msgstr "1. MODUL,2. MODUL,..."
 
 #. Translators: the first %s is the error message, 2nd %s the program name
-#: ../libmate/mate-program.c:1633
+#: ../libmate/mate-program.c:1527
 #, c-format
 msgid ""
 "%s\n"
 "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"%s\n"
-"Adja ki a(z) „%s --help” parancsot az elérhető parancssori kapcsolók teljes "
-"listájáért.\n"
+msgstr "%s\nAdja ki a(z) „%s --help” parancsot az elérhető parancssori kapcsolók teljes listájáért.\n"
 
-#: ../libmate/mate-url.c:85
+#: ../libmate/mate-url.c:82
 #, c-format
 msgid "Unknown internal error while displaying this location."
 msgstr "Ismeretlen belső hiba a hely megjelenítése közben."
 
-#: ../libmate/mate-url.c:92
+#: ../libmate/mate-url.c:86
 #, c-format
 msgid "The specified location is invalid."
 msgstr "A megadott hely érvénytelen."
 
-#: ../libmate/mate-url.c:99
+#: ../libmate/mate-url.c:90
 #, c-format
 msgid ""
 "There was an error parsing the default action command associated with this "
 "location."
-msgstr ""
-"Hiba történt a helyhez hozzárendelt alapértelmezett műveletparancs "
-"feldolgozásakor."
+msgstr "Hiba történt a helyhez hozzárendelt alapértelmezett műveletparancs feldolgozásakor."
 
-#: ../libmate/mate-url.c:107 ../libmate/mate-url.c:180
+#: ../libmate/mate-url.c:94 ../libmate/mate-url.c:145
 #, c-format
 msgid ""
-"There was an error launching the default action command associated with this "
-"location."
-msgstr ""
-"Hiba történt a helyhez hozzárendelt alapértelmezett műveletparancs "
-"indításakor."
+"There was an error launching the default action command associated with this"
+" location."
+msgstr "Hiba történt a helyhez hozzárendelt alapértelmezett műveletparancs indításakor."
 
-#: ../libmate/mate-url.c:115
+#: ../libmate/mate-url.c:98
 #, c-format
 msgid "There is no default action associated with this location."
 msgstr "Nincs alapértelmezett művelet hozzárendelve ehhez a helyhez."
 
-#: ../libmate/mate-url.c:122
+#: ../libmate/mate-url.c:102
 #, c-format
 msgid "The default action does not support this protocol."
 msgstr "Az alapértelmezett művelet nem támogatja ezt a protokollt."
 
-#: ../libmate/mate-url.c:129
+#: ../libmate/mate-url.c:106
 #, c-format
 msgid "The request was cancelled."
 msgstr "A kérés megszakítva."
 
-#: ../libmate/mate-url.c:139
+#: ../libmate/mate-url.c:115
 #, c-format
 msgid "The host \"%s\" could not be found."
 msgstr "A(z) „%s” kiszolgáló nem található."
 
-#: ../libmate/mate-url.c:145
+#: ../libmate/mate-url.c:119
 #, c-format
 msgid "The host could not be found."
 msgstr "A kiszolgáló nem található."
 
-#: ../libmate/mate-url.c:156
+#: ../libmate/mate-url.c:128
 #, c-format
 msgid "The location or file could not be found."
 msgstr "A hely vagy a fájl nem található."
 
-#: ../libmate/mate-url.c:163
+#: ../libmate/mate-url.c:132
 #, c-format
 msgid "The login has failed."
 msgstr "A bejelentkezés meghiúsult."
 
-#: ../libmate/mate-open.c:52
+#: ../libmate/mate-open.c:57
 #, c-format
 msgid "Error showing url: %s\n"
 msgstr "Hiba az URL megjelenítése közben: %s\n"
@@ -462,10 +445,9 @@ msgid "Disable if two keys are pressed at the same time."
 msgstr "Kikapcsolás két gomb egyidejű lenyomásakor."
 
 #: ../schemas/desktop_mate_accessibility_keyboard.schemas.in.h:3
-msgid "Do not accept a key as being pressed unless held for @delay milliseconds."
-msgstr ""
-"Ne fogadja el a billentyű lenyomását, hacsak nincs @delay ezredmásodpercig "
-"lenyomva."
+msgid ""
+"Do not accept a key as being pressed unless held for @delay milliseconds."
+msgstr "Ne fogadja el a billentyű lenyomását, hacsak nincs @delay ezredmásodpercig lenyomva."
 
 #: ../schemas/desktop_mate_accessibility_keyboard.schemas.in.h:4
 msgid "How long to accelerate in milliseconds"
@@ -476,7 +458,8 @@ msgid "How many milliseconds it takes to go from 0 to maximum speed."
 msgstr "Hány ezredmásodpercig tart a 0-ról maximális sebességre gyorsulás."
 
 #: ../schemas/desktop_mate_accessibility_keyboard.schemas.in.h:6
-msgid "How many milliseconds to wait before mouse movement keys start to operate."
+msgid ""
+"How many milliseconds to wait before mouse movement keys start to operate."
 msgstr "Hány másodpercet várjon mielőtt az egérmozgató billentyűk működni kezdenek."
 
 #: ../schemas/desktop_mate_accessibility_keyboard.schemas.in.h:7
@@ -485,9 +468,7 @@ msgstr "Hány képpontot mozduljon másodpercenként maximális sebességnél."
 
 #: ../schemas/desktop_mate_accessibility_keyboard.schemas.in.h:8
 msgid "Ignore multiple presses of the _same_ key within @delay milliseconds."
-msgstr ""
-"Ugyanazon billentyű többszöri lenyomásának figyelmen kívül hagyása @delay "
-"ezredmásodpercen belül."
+msgstr "Ugyanazon billentyű többszöri lenyomásának figyelmen kívül hagyása @delay ezredmásodpercen belül."
 
 #: ../schemas/desktop_mate_accessibility_keyboard.schemas.in.h:9
 msgid "Initial delay in milliseconds"
@@ -509,9 +490,7 @@ msgstr "minimális időköz ezredmásodpercben"
 msgid ""
 "List of assistive technology applications to start when logging into the "
 "MATE desktop."
-msgstr ""
-"A MATE asztalra bejelentkezéskor elindítandó akadálymentesítési "
-"alkalmazások listája."
+msgstr "A MATE asztalra bejelentkezéskor elindítandó akadálymentesítési alkalmazások listája."
 
 #: ../schemas/desktop_mate_accessibility_startup.schemas.in.h:2
 msgid "Startup Assistive Technology Applications"
@@ -521,9 +500,7 @@ msgstr "Bejelentkezéskor elindítandó akadálymentesítési alkalmazások"
 msgid ""
 "MATE to start preferred Mobility assistive technology application during "
 "login."
-msgstr ""
-"A MATE elindítsa-e bejelentkezéskor az előnyben részesített mobilitási "
-"akadálymentesítő alkalmazást?"
+msgstr "A MATE elindítsa-e bejelentkezéskor az előnyben részesített mobilitási akadálymentesítő alkalmazást?"
 
 #: ../schemas/desktop_mate_applications_at_mobility.schemas.in.h:2
 msgid "Preferred Mobility assistive technology application"
@@ -533,9 +510,7 @@ msgstr "Előnyben részesített mobilitási akadálymentesítő alkalmazás"
 msgid ""
 "Preferred Mobility assistive technology application to be used for login, "
 "menu, or command line."
-msgstr ""
-"Előnyben részesített mobilitási akadálymentesítő alkalmazás a "
-"bejelentkezéshez, menükhöz vagy parancssorhoz."
+msgstr "Előnyben részesített mobilitási akadálymentesítő alkalmazás a bejelentkezéshez, menükhöz vagy parancssorhoz."
 
 #: ../schemas/desktop_mate_applications_at_mobility.schemas.in.h:4
 msgid "Start preferred Mobility assistive technology application"
@@ -545,9 +520,7 @@ msgstr "Az előnyben részesített mobilitási akadálymentesítő alkalmazás e
 msgid ""
 "MATE to start preferred Visual assistive technology application during "
 "login."
-msgstr ""
-"A MATE elindítsa-e bejelentkezéskor az előnyben részesített vizuális "
-"akadálymentesítő alkalmazást?"
+msgstr "A MATE elindítsa-e bejelentkezéskor az előnyben részesített vizuális akadálymentesítő alkalmazást?"
 
 #: ../schemas/desktop_mate_applications_at_visual.schemas.in.h:2
 msgid "Preferred Visual assistive technology application"
@@ -557,9 +530,7 @@ msgstr "Előnyben részesített vizuális akadálymentesítő alkalmazás"
 msgid ""
 "Preferred Visual assistive technology application be used for login, menu, "
 "or command line."
-msgstr ""
-"Előnyben részesített vizuális akadálymentesítő alkalmazás a "
-"bejelentkezéshez, menükhöz vagy parancssorhoz."
+msgstr "Előnyben részesített vizuális akadálymentesítő alkalmazás a bejelentkezéshez, menükhöz vagy parancssorhoz."
 
 #: ../schemas/desktop_mate_applications_at_visual.schemas.in.h:4
 msgid "Start preferred Visual assistive technology application"
@@ -619,15 +590,12 @@ msgstr "Az alapértelmezett naptáralkalmazásnak szüksége van-e terminálra a
 
 #: ../schemas/desktop_mate_applications_office.schemas.in.h:8
 msgid "Whether the default tasks application needs a terminal to run"
-msgstr ""
-"Az alapértelmezett feladatkezelő alkalmazásnak szüksége van-e terminálra a "
-"futáshoz?"
+msgstr "Az alapértelmezett feladatkezelő alkalmazásnak szüksége van-e terminálra a futáshoz?"
 
 #: ../schemas/desktop_mate_applications_terminal.schemas.in.h:1
-msgid "Argument used to execute programs in the terminal defined by the 'exec' key."
-msgstr ""
-"Az „exec” kulcsban megadott terminálban a programok végrehajtására használt "
-"paraméter."
+msgid ""
+"Argument used to execute programs in the terminal defined by the 'exec' key."
+msgstr "Az „exec” kulcsban megadott terminálban a programok végrehajtására használt paraméter."
 
 #: ../schemas/desktop_mate_applications_terminal.schemas.in.h:2
 msgid "Exec Arguments"
@@ -645,9 +613,7 @@ msgstr "Terminált igénylő alkalmazások indításakor használandó terminál
 msgid ""
 "A list with names of the first window manager workspaces. This key has been "
 "deprecated since MATE 2.12."
-msgstr ""
-"Az első ablakkezelő munkaterületeinek neveit tartalmazó lista. Ez a kulcs a "
-"MATE 2.12 óta elavultnak számít."
+msgstr "Az első ablakkezelő munkaterületeinek neveit tartalmazó lista. Ez a kulcs a MATE 2.12 óta elavultnak számít."
 
 #: ../schemas/desktop_mate_applications_window_manager.schemas.in.h:2
 msgid "Fallback window manager (deprecated)"
@@ -657,9 +623,7 @@ msgstr "Tartalék ablakkezelő (elavult)"
 msgid ""
 "Fallback window manager if user window manager can't be found. This key has "
 "been deprecated since MATE 2.12."
-msgstr ""
-"Tartalék ablakkezelő, ha a felhasználói ablakkezelő nem használható. Ez a "
-"kulcs a MATE 2.12 óta elavultnak számít."
+msgstr "Tartalék ablakkezelő, ha a felhasználói ablakkezelő nem használható. Ez a kulcs a MATE 2.12 óta elavultnak számít."
 
 #: ../schemas/desktop_mate_applications_window_manager.schemas.in.h:4
 msgid "Names of the workspaces (deprecated)"
@@ -673,19 +637,16 @@ msgstr "A munkaterületek száma (elavult)"
 msgid ""
 "The number of workspaces the window manager should use This key has been "
 "deprecated since MATE 2.12."
-msgstr ""
-"Az ablakkezelő által használandó munkaterületek száma. Ez a kulcs a MATE "
-"2.12 óta elavultnak számít."
+msgstr "Az ablakkezelő által használandó munkaterületek száma. Ez a kulcs a MATE 2.12 óta elavultnak számít."
 
 #: ../schemas/desktop_mate_applications_window_manager.schemas.in.h:7
 msgid "User window manager (deprecated)"
 msgstr "Felhasználói ablakkezelő (elavult)"
 
 #: ../schemas/desktop_mate_applications_window_manager.schemas.in.h:8
-msgid "Window manager to try first. This key has been deprecated since MATE 2.12."
-msgstr ""
-"Az elsőként próbálandó ablakkezelő. Ez a kulcs a MATE 2.12 óta elavultnak "
-"számít."
+msgid ""
+"Window manager to try first. This key has been deprecated since MATE 2.12."
+msgstr "Az elsőként próbálandó ablakkezelő. Ez a kulcs a MATE 2.12 óta elavultnak számít."
 
 #: ../schemas/desktop_mate_background.schemas.in.in.h:1
 msgid "Color Shading Type"
@@ -694,8 +655,8 @@ msgstr "Színárnyalat típusa"
 #: ../schemas/desktop_mate_background.schemas.in.in.h:2
 msgid ""
 "Determines how the image set by wallpaper_filename is rendered. Possible "
-"values are \"none\", \"wallpaper\", \"centered\", \"scaled\", \"stretched\", "
-"\"zoom\", \"spanned\"."
+"values are \"none\", \"wallpaper\", \"centered\", \"scaled\", \"stretched\","
+" \"zoom\", \"spanned\"."
 msgstr "Meghatározza a wallpaper_filename kulcsban beállított kép megjelenését. Lehetséges értékek: „none” (nincs) „wallpaper” (mozaik), „centered” (középre igazított), „scaled” (kifeszített), „stretched” (nyújtott), „zoom” (nagyítás), „spanned” (kiterjesztett)."
 
 #: ../schemas/desktop_mate_background.schemas.in.in.h:3
@@ -712,18 +673,13 @@ msgstr "A MATE megrajzolja-e az asztal hátterét?"
 
 #: ../schemas/desktop_mate_background.schemas.in.in.h:6
 msgid ""
-"How to shade the background color. Possible values are \"horizontal-gradient"
-"\", \"vertical-gradient\", and \"solid\"."
-msgstr ""
-"Hogyan legyen árnyalva a háttérszín. Lehetséges értékek: „horizontal-"
-"gradient” (vízszintes színátmenet), „vertical-gradient” (függőleges "
-"színátmenet), és „solid” (egyszínű)."
+"How to shade the background color. Possible values are \"horizontal-"
+"gradient\", \"vertical-gradient\", and \"solid\"."
+msgstr "Hogyan legyen árnyalva a háttérszín. Lehetséges értékek: „horizontal-gradient” (vízszintes színátmenet), „vertical-gradient” (függőleges színátmenet), és „solid” (egyszínű)."
 
 #: ../schemas/desktop_mate_background.schemas.in.in.h:7
 msgid "Left or Top color when drawing gradients, or the solid color."
-msgstr ""
-"Színátmenet rajzolásánál a bal vagy a felső szín, vagy az egyszínű háttér "
-"színe."
+msgstr "Színátmenet rajzolásánál a bal vagy a felső szín, vagy az egyszínű háttér színe."
 
 #: ../schemas/desktop_mate_background.schemas.in.in.h:8
 msgid "Opacity with which to draw the background picture."
@@ -746,10 +702,9 @@ msgid "Primary Color"
 msgstr "Elsődleges szín"
 
 #: ../schemas/desktop_mate_background.schemas.in.in.h:13
-msgid "Right or Bottom color when drawing gradients, not used for solid color."
-msgstr ""
-"Színátmenet rajzolásánál a jobb vagy az alsó szín, egyszínű háttér esetén "
-"nem használt."
+msgid ""
+"Right or Bottom color when drawing gradients, not used for solid color."
+msgstr "Színátmenet rajzolásánál a jobb vagy az alsó szín, egyszínű háttér esetén nem használt."
 
 #: ../schemas/desktop_mate_background.schemas.in.in.h:14
 msgid "Secondary Color"
@@ -855,19 +810,16 @@ msgstr "Modul a GtkFileChooser-hez"
 msgid ""
 "Module to use as the filesystem model for the GtkFileChooser widget. "
 "Possible values are \"gio\", \"mate-vfs\" and \"gtk+\"."
-msgstr ""
-"A GtkFileChooser elemhez fájlrendszermodellként használandó modul. "
-"Lehetséges értékek: „gio”, „mate-vfs” és „gtk+”."
+msgstr "A GtkFileChooser elemhez fájlrendszermodellként használandó modul. Lehetséges értékek: „gio”, „mate-vfs” és „gtk+”."
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:24
 msgid "Monospace font"
 msgstr "Monospace betűkészlet"
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:25
-msgid "Name of a monospaced (fixed-width) font for use in locations like terminals."
-msgstr ""
-"A terminálokhoz hasonló helyeken használandó monospace (rögzített "
-"szélességű) betűkészlet neve."
+msgid ""
+"Name of a monospaced (fixed-width) font for use in locations like terminals."
+msgstr "A terminálokhoz hasonló helyeken használandó monospace (rögzített szélességű) betűkészlet neve."
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:26
 msgid "Name of the GTK+ input method Preedit Style used by gtk+."
@@ -899,9 +851,7 @@ msgstr "A „Unicode vezérlőkarakter beszúrása” menü megjelenítése"
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:33
 msgid "Size of icons in toolbars, either \"small-toolbar\" or \"large-toolbar\"."
-msgstr ""
-"Az eszköztárikonok mérete, a „small-toolbar” (kicsi) vagy „large-"
-"toolbar” (nagy) egyike."
+msgstr "Az eszköztárikonok mérete, a „small-toolbar” (kicsi) vagy „large-toolbar” (nagy) egyike."
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:34
 msgid "Status Bar on Right"
@@ -920,12 +870,8 @@ msgid "Toolbar Style"
 msgstr "Eszköztár stílusa"
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:38
-msgid ""
-"Toolbar Style. Valid values are \"both\", \"both-horiz\", \"icons\", and "
-"\"text\"."
-msgstr ""
-"Eszköztár stílusa. Lehetséges értékek: „both” (mindkettő), "
-"„both_horiz” (mindkettő vízszintesen), „icon” (ikon), és „text” (szöveg)."
+msgid "Toolbar Style. Valid values are \"both\", \"both-horiz\", \"icons\", and \"text\"."
+msgstr "Eszköztár stílusa. Lehetséges értékek: „both” (mindkettő), „both_horiz” (mindkettő vízszintesen), „icon” (ikon), és „text” (szöveg)."
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:39
 msgid "Use Custom Font"
@@ -939,9 +885,7 @@ msgstr "Az alkalmazások támogassák-e az akadálymentesítést?"
 msgid ""
 "Whether animations should be displayed. Note: This is a global key, it "
 "changes the behaviour of the window manager, the panel etc."
-msgstr ""
-"Megjelenjenek-e az animációk. Megjegyzés: Ez egy globális kulcs, "
-"megváltoztatja az ablakkezelő, a panel, stb. viselkedését."
+msgstr "Megjelenjenek-e az animációk. Megjegyzés: Ez egy globális kulcs, megváltoztatja az ablakkezelő, a panel, stb. viselkedését."
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:42
 msgid "Whether buttons may display an icon in addition to the button text."
@@ -959,9 +903,7 @@ msgstr "A menükben legyen-e leválasztó?"
 msgid ""
 "Whether the context menus of entries and text views should offer to change "
 "the input method."
-msgstr ""
-"A beviteli mezők és szövegnézetek helyi menüi felajánlják-e a beviteli "
-"módszer megváltoztatását?"
+msgstr "A beviteli mezők és szövegnézetek helyi menüi felajánlják-e a beviteli módszer megváltoztatását?"
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:46
 msgid ""
@@ -983,8 +925,8 @@ msgstr "A felhasználó leválaszthatja és elmozdíthatja-e az eszköztárakat?
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:50
 msgid ""
-"Whether the user can dynamically type a new accelerator when positioned over "
-"an active menuitem."
+"Whether the user can dynamically type a new accelerator when positioned over"
+" an active menuitem."
 msgstr "A felhasználó beüthet-e új gyorsbillentyűt egy aktív menüre mutatva?"
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:51
@@ -1029,38 +971,28 @@ msgstr "Az URL vagy MIME típuskezelő alkalmazások futtatásának megakadályo
 
 #: ../schemas/desktop_mate_lockdown.schemas.in.h:9
 msgid ""
-"Prevent the user from accessing the terminal or specifying a command line to "
-"be executed. For example, this would disable access to the panel's \"Run "
+"Prevent the user from accessing the terminal or specifying a command line to"
+" be executed. For example, this would disable access to the panel's \"Run "
 "Application\" dialog."
-msgstr ""
-"A felhasználó megakadályozása a terminálhoz való hozzáférésben vagy egy "
-"végrehajtandó parancssor megadásában. Például, ez letiltja a hozzáférést a "
-"panel „Alkalmazás futtatása” párbeszédablakához."
+msgstr "A felhasználó megakadályozása a terminálhoz való hozzáférésben vagy egy végrehajtandó parancssor megadásában. Például, ez letiltja a hozzáférést a panel „Alkalmazás futtatása” párbeszédablakához."
 
 #: ../schemas/desktop_mate_lockdown.schemas.in.h:10
 msgid ""
 "Prevent the user from modifying print settings. For example, this would "
 "disable access to all applications' \"Print Setup\" dialogs."
-msgstr ""
-"A felhasználó megakadályozása a nyomtatás beállításainak módosításában. "
-"Például, ez letiltja a hozzáférést az alkalmazások „Nyomtatás beállításai” "
-"párbeszédablakaihoz."
+msgstr "A felhasználó megakadályozása a nyomtatás beállításainak módosításában. Például, ez letiltja a hozzáférést az alkalmazások „Nyomtatás beállításai” párbeszédablakaihoz."
 
 #: ../schemas/desktop_mate_lockdown.schemas.in.h:11
 msgid ""
 "Prevent the user from printing. For example, this would disable access to "
 "all applications' \"Print\" dialogs."
-msgstr ""
-"A felhasználó megakadályozása a nyomtatásban. Például, ez letiltja a "
-"hozzáférést az alkalmazások „Nyomtatás” párbeszédablakaihoz."
+msgstr "A felhasználó megakadályozása a nyomtatásban. Például, ez letiltja a hozzáférést az alkalmazások „Nyomtatás” párbeszédablakaihoz."
 
 #: ../schemas/desktop_mate_lockdown.schemas.in.h:12
 msgid ""
 "Prevent the user from saving files to disk. For example, this would disable "
 "access to all applications' \"Save as\" dialogs."
-msgstr ""
-"A felhasználó megakadályozása fájlok lemezre mentésében. Például, ez "
-"letiltja a hozzáférést az alkalmazások „Mentés másként” párbeszédablakaihoz."
+msgstr "A felhasználó megakadályozása fájlok lemezre mentésében. Például, ez letiltja a hozzáférést az alkalmazások „Mentés másként” párbeszédablakaihoz."
 
 #: ../schemas/desktop_mate_lockdown.schemas.in.h:13
 msgid ""
@@ -1088,9 +1020,7 @@ msgstr "A NumLock állapotának megjegyzése"
 msgid ""
 "When set to true, MATE will remember the state of the NumLock LED between "
 "sessions."
-msgstr ""
-"Ha be van állítva, a MATE megjegyzi a NumLock LED állapotát a munkamenetek "
-"között."
+msgstr "Ha be van állítva, a MATE megjegyzi a NumLock LED állapotát a munkamenetek között."
 
 #: ../schemas/desktop_mate_peripherals_keyboard.schemas.in.h:5
 msgid "possible values are \"on\", \"off\", and \"custom\"."
@@ -1100,9 +1030,7 @@ msgstr "lehetséges értékek: „on” (be), „off” (ki), és „custom” (
 msgid ""
 "Acceleration multiplier for mouse motion. A value of -1 is the system "
 "default."
-msgstr ""
-"Gyorsítási szorzó az egér mozgatásához. A -1 érték a rendszer "
-"alapértelmezése."
+msgstr "Gyorsítási szorzó az egér mozgatásához. A -1 érték a rendszer alapértelmezése."
 
 #: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:2
 msgid "Cursor font"
@@ -1120,9 +1048,7 @@ msgstr "Kurzortéma"
 msgid ""
 "Cursor theme name. Used only by Xservers that support Xcursor, such as "
 "XFree86 4.3 and later."
-msgstr ""
-"A Kurzortéma neve. Csak az Xcursort támogató X kiszolgálók használják, mint "
-"például az XFree86 4.3 és újabbak."
+msgstr "A Kurzortéma neve. Csak az Xcursort támogató X kiszolgálók használják, mint például az XFree86 4.3 és újabbak."
 
 #: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:6
 msgid "Distance before a drag is started."
@@ -1132,9 +1058,7 @@ msgstr "Húzás indítása előtti távolság."
 msgid ""
 "Distance in pixels the pointer must move before accelerated mouse motion is "
 "activated. A value of -1 is the system default."
-msgstr ""
-"Az a távolság képpontokban, amit az egérnek meg kell tennie, mielőtt a "
-"gyorsított egérmozgatás aktivizálódik. A -1 érték a rendszer alapértelmezése."
+msgstr "Az a távolság képpontokban, amit az egérnek meg kell tennie, mielőtt a gyorsított egérmozgatás aktivizálódik. A -1 érték a rendszer alapértelmezése."
 
 #: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:8
 msgid "Double Click Time"
@@ -1149,19 +1073,13 @@ msgid ""
 "Font name of the cursor. If unset, the default font is used. This value is "
 "only propagated to the X server start of each session, so changing it mid-"
 "session won't have an effect until the next time you log in."
-msgstr ""
-"A kurzorbetűkészlet neve. Ha nincs beállítva, akkor az alapértelmezett "
-"betűkészletet használja. Ez az érték csak az egyes munkamenetek indításakor "
-"kerül átadásra az X-kiszolgálónak, így megváltoztatása egy munkamenet "
-"közepén semmilyen hatással sincs a következő bejelentkezésig."
+msgstr "A kurzorbetűkészlet neve. Ha nincs beállítva, akkor az alapértelmezett betűkészletet használja. Ez az érték csak az egyes munkamenetek indításakor kerül átadásra az X-kiszolgálónak, így megváltoztatása egy munkamenet közepén semmilyen hatással sincs a következő bejelentkezésig."
 
 #: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:11
 msgid ""
 "Highlights the current location of the pointer when the Control key is "
 "pressed and released."
-msgstr ""
-"Az egérmutató jelenlegi helyének kiemelése a Control billentyű lenyomásakor "
-"és felengedésekor."
+msgstr "Az egérmutató jelenlegi helyének kiemelése a Control billentyű lenyomásakor és felengedésekor."
 
 #: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:12
 msgid "Length of a double click."
@@ -1229,15 +1147,11 @@ msgstr "Az eseményhangokhoz használandó XDG hangtéma."
 
 #: ../schemas/desktop_mate_sound.schemas.in.h:9
 msgid "The default mixer device used by the multimedia key bindings."
-msgstr ""
-"A multimédia billentyűtársítások által használandó alapértelmezett "
-"keverőeszköz."
+msgstr "A multimédia billentyűtársítások által használandó alapértelmezett keverőeszköz."
 
 #: ../schemas/desktop_mate_sound.schemas.in.h:10
 msgid "The default mixer tracks used by the multimedia key bindings."
-msgstr ""
-"A multimédia billentyűtársítások által használandó alapértelmezett "
-"keverősávok."
+msgstr "A multimédia billentyűtársítások által használandó alapértelmezett keverősávok."
 
 #: ../schemas/desktop_mate_sound.schemas.in.h:11
 msgid "Whether to play sounds on input events."
@@ -1251,17 +1165,13 @@ msgstr "Legyen-e hanglejátszás felhasználói eseményekkor?"
 msgid ""
 "Maximum age for thumbnails in the cache, in days. Set to -1 to disable "
 "cleaning."
-msgstr ""
-"Bélyegképek maximális kora a gyorsítótárban, napokban. A tisztítás "
-"letiltásához állítsa -1-re."
+msgstr "Bélyegképek maximális kora a gyorsítótárban, napokban. A tisztítás letiltásához állítsa -1-re."
 
 #: ../schemas/desktop_mate_thumbnail_cache.schemas.in.h:2
 msgid ""
 "Maximum size of the thumbnail cache, in megabytes. Set to -1 to disable "
 "cleaning."
-msgstr ""
-"Bélyegképek maximális mérete a gyorsítótárban, megabájtokban. A tisztítás "
-"letiltásához állítsa -1-re."
+msgstr "Bélyegképek maximális mérete a gyorsítótárban, megabájtokban. A tisztítás letiltásához állítsa -1-re."
 
 #: ../schemas/desktop_mate_thumbnailers.schemas.in.h:1
 msgid "Disable all external thumbnailers"
@@ -1271,9 +1181,7 @@ msgstr "Minden külső előnézet-program kikapcsolása"
 msgid ""
 "Set to true to disable all external thumbnailer programs, independent on "
 "whether they are independently disabled/enabled."
-msgstr ""
-"Állítsa igazra az összes külső előnézet-program kikapcsolásához, függetlenül "
-"attól, hogy ezek egyenként ki vagy be vannak-e kapcsolva."
+msgstr "Állítsa igazra az összes külső előnézet-program kikapcsolásához, függetlenül attól, hogy ezek egyenként ki vagy be vannak-e kapcsolva."
 
 #: ../schemas/desktop_mate_typing_break.schemas.in.h:1
 msgid "Allow postponing of breaks"
@@ -1306,4 +1214,3 @@ msgstr "Engedélyezve legyen-e a billentyűzetzárolás vagy sem?"
 #: ../schemas/desktop_mate_typing_break.schemas.in.h:8
 msgid "Whether or not the typing break screen can be postponed."
 msgstr "A gépelési szünet felfüggeszthető legyen-e?"
-

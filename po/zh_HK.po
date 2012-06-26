@@ -1,49 +1,51 @@
-# Chinese (Hong Kong) translation of libmate.
-# Copyright (C) 2001-07 Free Software Foundation, Inc.
-# Abel Cheung <abel@oaka.org>, 2001-04, 06.
-# Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>, 2008.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: libmate 2.29.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-03-27 21:04+0800\n"
-"PO-Revision-Date: 2010-03-27 21:05+0800\n"
-"Last-Translator: Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>\n"
-"Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-01-02 23:30+0100\n"
+"PO-Revision-Date: 2012-01-02 22:49+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: zh_HK\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 
-#: ../mate-data/mate-2.soundlist.in.h:1
+#: ../mate-data/mate.soundlist.in.h:1
 msgid "Error message"
 msgstr "錯誤訊息"
 
-#: ../mate-data/mate-2.soundlist.in.h:2
+#: ../mate-data/mate.soundlist.in.h:2
 msgid "Informational message"
 msgstr "一般資訊"
 
-#: ../mate-data/mate-2.soundlist.in.h:3
+#: ../mate-data/mate.soundlist.in.h:3
 msgid "Log in"
 msgstr "登入"
 
-#: ../mate-data/mate-2.soundlist.in.h:4
+#: ../mate-data/mate.soundlist.in.h:4
 msgid "Log out"
 msgstr "登出"
 
-#: ../mate-data/mate-2.soundlist.in.h:5
+#: ../mate-data/mate.soundlist.in.h:5
 msgid "Miscellaneous message"
 msgstr "其它訊息"
 
-#: ../mate-data/mate-2.soundlist.in.h:6
+#: ../mate-data/mate.soundlist.in.h:6
 msgid "Question dialog"
 msgstr "詢問對話方塊"
 
-#: ../mate-data/mate-2.soundlist.in.h:7
+#: ../mate-data/mate.soundlist.in.h:7
 msgid "System events"
 msgstr "系統事件"
 
-#: ../mate-data/mate-2.soundlist.in.h:8
+#: ../mate-data/mate.soundlist.in.h:8
 msgid "Warning message"
 msgstr "警告訊息"
 
@@ -51,27 +53,27 @@ msgstr "警告訊息"
 msgid "Default Background"
 msgstr "預設背景"
 
-#: ../mate-data/gtk-events-2.soundlist.in.h:1
+#: ../mate-data/gtk2-mate-events.soundlist.in.h:1
 msgid "Choose menu item"
 msgstr "選取選單項目"
 
-#: ../mate-data/gtk-events-2.soundlist.in.h:2
+#: ../mate-data/gtk2-mate-events.soundlist.in.h:2
 msgid "Click on command button"
 msgstr "按下按鈕"
 
-#: ../mate-data/gtk-events-2.soundlist.in.h:3
+#: ../mate-data/gtk2-mate-events.soundlist.in.h:3
 msgid "Select check box"
 msgstr "點選核取方塊"
 
-#: ../mate-data/gtk-events-2.soundlist.in.h:4
+#: ../mate-data/gtk2-mate-events.soundlist.in.h:4
 msgid "User interface events"
 msgstr "有關用戶界面的事件"
 
-#: ../libmate/mate-exec.c:450
+#: ../libmate/mate-exec.c:457
 msgid "Cannot find a terminal, using xterm, even if it may not work"
 msgstr "找不到終端機，即使可能出問題也將會使用 xterm 代替"
 
-#: ../libmate/mate-mateconf.c:175
+#: ../libmate/mate-mateconf.c:169
 msgid "MATE MateConf Support"
 msgstr "MATE MateConf 支援"
 
@@ -123,295 +125,292 @@ msgstr "MateComponent 支援"
 msgid "MateComponent activation Support"
 msgstr "MateComponent activation 支援"
 
-#: ../libmate/mate-init.c:380 ../libmate/mate-init.c:394
+#: ../libmate/mate-init.c:379 ../libmate/mate-init.c:393
 #, c-format
 msgid "Could not create per-user mate configuration directory `%s': %s\n"
 msgstr "無法新增個人的 MATE 組態目錄“%s”：%s\n"
 
-#: ../libmate/mate-init.c:402
+#: ../libmate/mate-init.c:401
 #, c-format
-msgid ""
-"Could not stat private per-user mate configuration directory `%s': %s\n"
+msgid "Could not stat private per-user mate configuration directory `%s': %s\n"
 msgstr "無法新增私人的個別 MATE 組態目錄“%s”：%s\n"
 
-#: ../libmate/mate-init.c:410
+#: ../libmate/mate-init.c:409
 #, c-format
 msgid ""
-"Could not set mode 0700 on private per-user mate configuration directory `%"
-"s': %s\n"
+"Could not set mode 0700 on private per-user mate configuration directory "
+"`%s': %s\n"
 msgstr "無法將個人 MATE 組態目錄‘%s’的權限設為 0700：%s\n"
 
-#: ../libmate/mate-init.c:417
+#: ../libmate/mate-init.c:416
 #, c-format
 msgid "Could not create mate accelerators directory `%s': %s\n"
 msgstr "無法新增 MATE 捷徑鍵目錄‘%s’：%s\n"
 
-#: ../libmate/mate-init.c:456
+#: ../libmate/mate-init.c:455
 msgid "MATE Virtual Filesystem"
 msgstr "MATE 虛擬檔案系統"
 
-#: ../libmate/mate-init.c:474 ../libmate/mate-init.c:517
+#: ../libmate/mate-init.c:473 ../libmate/mate-init.c:516
 msgid "Disable sound server usage"
 msgstr "不啟用音效伺服程式"
 
-#: ../libmate/mate-init.c:477 ../libmate/mate-init.c:520
+#: ../libmate/mate-init.c:476 ../libmate/mate-init.c:519
 msgid "Enable sound server usage"
 msgstr "啟用音效伺服程式"
 
-#: ../libmate/mate-init.c:481 ../libmate/mate-init.c:523
+#: ../libmate/mate-init.c:480 ../libmate/mate-init.c:522
 msgid "Host:port on which the sound server to use is running"
 msgstr "音效伺服程式執行時使用的主機及連接埠"
 
-#: ../libmate/mate-init.c:482 ../libmate/mate-init.c:525
+#: ../libmate/mate-init.c:481 ../libmate/mate-init.c:524
 msgid "HOSTNAME:PORT"
 msgstr "主機：連接埠"
 
-#: ../libmate/mate-init.c:491 ../libmate/mate-init.c:535
+#: ../libmate/mate-init.c:490 ../libmate/mate-init.c:534
 msgid "MATE Library"
 msgstr "MATE 程式庫"
 
-#: ../libmate/mate-init.c:492
+#: ../libmate/mate-init.c:491
 msgid "Show MATE options"
 msgstr "顯示有關 MATE 的選項"
 
-#: ../libmate/mate-program.c:457
+#: ../libmate/mate-program.c:469
 msgid "Popt Table"
 msgstr "Popt 選項清單"
 
-#: ../libmate/mate-program.c:458
+#: ../libmate/mate-program.c:469
 msgid "The table of options for popt"
 msgstr "和 popt 有關的選項清單"
 
-#: ../libmate/mate-program.c:465
+#: ../libmate/mate-program.c:471
 msgid "Popt Flags"
 msgstr "Popt 旗標"
 
-#: ../libmate/mate-program.c:466
+#: ../libmate/mate-program.c:471
 msgid "The flags to use for popt"
 msgstr "popt 所使用的旗標"
 
-#: ../libmate/mate-program.c:474
+#: ../libmate/mate-program.c:473
 msgid "Popt Context"
 msgstr "Popt Context"
 
-#: ../libmate/mate-program.c:475
+#: ../libmate/mate-program.c:473
 msgid "The popt context pointer that MateProgram is using"
 msgstr "MateProgram 所使用的 popt context pointer"
 
-#: ../libmate/mate-program.c:483
+#: ../libmate/mate-program.c:475
 msgid "GOption Context"
 msgstr "GOption Context"
 
-#: ../libmate/mate-program.c:484
+#: ../libmate/mate-program.c:475
 msgid "The goption context pointer that MateProgram is using"
 msgstr "MateProgram 所使用的 goption context pointer"
 
-#: ../libmate/mate-program.c:492
+#: ../libmate/mate-program.c:477
 msgid "Human readable name"
 msgstr "容易理解的名稱"
 
-#: ../libmate/mate-program.c:493
+#: ../libmate/mate-program.c:477
 msgid "Human readable name of this application"
 msgstr "比較容易理解的應用程式名稱"
 
-#: ../libmate/mate-program.c:502
+#: ../libmate/mate-program.c:479
 msgid "MATE path"
 msgstr "MATE 路徑"
 
-#: ../libmate/mate-program.c:503
+#: ../libmate/mate-program.c:479
 msgid "Path in which to look for installed files"
 msgstr "搜尋系統檔案時會搜尋的路徑"
 
-#: ../libmate/mate-program.c:512
+#: ../libmate/mate-program.c:481
 msgid "App ID"
 msgstr "程式識別碼"
 
-#: ../libmate/mate-program.c:513
+#: ../libmate/mate-program.c:481
 msgid "ID string to use for this application"
 msgstr "本程式使用的識別碼"
 
-#: ../libmate/mate-program.c:520
+#: ../libmate/mate-program.c:483
 msgid "App version"
 msgstr "程式版本"
 
-#: ../libmate/mate-program.c:521
+#: ../libmate/mate-program.c:483
 msgid "Version of this application"
 msgstr "這個程式的版本"
 
-#: ../libmate/mate-program.c:528
+#: ../libmate/mate-program.c:485
 msgid "MATE Prefix"
 msgstr "MATE 前置路徑"
 
-#: ../libmate/mate-program.c:529
+#: ../libmate/mate-program.c:485
 msgid "Prefix where MATE was installed"
 msgstr "安裝 MATE 所用的路徑"
 
-#: ../libmate/mate-program.c:538
+#: ../libmate/mate-program.c:487
 msgid "MATE Libdir"
 msgstr "MATE 程式庫路徑"
 
-#: ../libmate/mate-program.c:539
+#: ../libmate/mate-program.c:487
 msgid "Library prefix where MATE was installed"
 msgstr "安裝 MATE 程式庫所用的路徑"
 
-#: ../libmate/mate-program.c:548
+#: ../libmate/mate-program.c:489
 msgid "MATE Datadir"
 msgstr "MATE 資料檔路徑"
 
-#: ../libmate/mate-program.c:549
+#: ../libmate/mate-program.c:489
 msgid "Data prefix where MATE was installed"
 msgstr "安裝 MATE 資料檔所用的路徑"
 
-#: ../libmate/mate-program.c:558
+#: ../libmate/mate-program.c:491
 msgid "MATE Sysconfdir"
 msgstr "MATE 設定檔路徑"
 
-#: ../libmate/mate-program.c:559
+#: ../libmate/mate-program.c:491
 msgid "Configuration prefix where MATE was installed"
 msgstr "安裝 MATE 設定檔所用的路徑"
 
-#: ../libmate/mate-program.c:569
+#: ../libmate/mate-program.c:493
 msgid "MATE App Prefix"
 msgstr "MATE 程式前置路徑"
 
-#: ../libmate/mate-program.c:570
+#: ../libmate/mate-program.c:493
 msgid "Prefix where this application was installed"
 msgstr "安裝本程式所用的前置路徑"
 
-#: ../libmate/mate-program.c:578
+#: ../libmate/mate-program.c:495
 msgid "MATE App Libdir"
 msgstr "MATE 程式程式庫路徑"
 
-#: ../libmate/mate-program.c:579
+#: ../libmate/mate-program.c:495
 msgid "Library prefix where this application was installed"
 msgstr "安裝本程式所用的程式庫路徑"
 
-#: ../libmate/mate-program.c:588
+#: ../libmate/mate-program.c:497
 msgid "MATE App Datadir"
 msgstr "MATE 程式資料路徑"
 
-#: ../libmate/mate-program.c:589
+#: ../libmate/mate-program.c:497
 msgid "Data prefix where this application was installed"
 msgstr "安裝本程式所用的資料路徑"
 
-#: ../libmate/mate-program.c:598
+#: ../libmate/mate-program.c:499
 msgid "MATE App Sysconfdir"
 msgstr "MATE 程式組態檔路徑"
 
-#: ../libmate/mate-program.c:599
+#: ../libmate/mate-program.c:499
 msgid "Configuration prefix where this application was installed"
 msgstr "安裝本程式所用的組態檔路徑"
 
-#: ../libmate/mate-program.c:608
+#: ../libmate/mate-program.c:501
 msgid "Create Directories"
 msgstr "新增目錄"
 
-#: ../libmate/mate-program.c:609
+#: ../libmate/mate-program.c:501
 msgid "Create standard MATE directories on startup"
 msgstr "啟動 MATE 時自動新增平常使用的 MATE 目錄"
 
-#: ../libmate/mate-program.c:618
+#: ../libmate/mate-program.c:503
 msgid "Enable Sound"
 msgstr "啟用音效"
 
-#: ../libmate/mate-program.c:619
+#: ../libmate/mate-program.c:503
 msgid "Enable sound on startup"
 msgstr "啟動 MATE 時啟用音效"
 
-#: ../libmate/mate-program.c:627
+#: ../libmate/mate-program.c:505
 msgid "Espeaker"
 msgstr "Espeaker"
 
-#: ../libmate/mate-program.c:628
+#: ../libmate/mate-program.c:505
 msgid "How to connect to esd"
 msgstr "如何連上 esd"
 
-#: ../libmate/mate-program.c:1393
+#: ../libmate/mate-program.c:1288
 msgid "Help options"
 msgstr "求助選項"
 
-#: ../libmate/mate-program.c:1398
+#: ../libmate/mate-program.c:1294
 msgid "Application options"
 msgstr "程式選項"
 
-#: ../libmate/mate-program.c:1414
+#: ../libmate/mate-program.c:1311
 msgid "Dynamic modules to load"
 msgstr "準備載入的模組"
 
-#: ../libmate/mate-program.c:1415
+#: ../libmate/mate-program.c:1312
 msgid "MODULE1,MODULE2,..."
 msgstr "模組 1，模組 2，..."
 
 #. Translators: the first %s is the error message, 2nd %s the program name
-#: ../libmate/mate-program.c:1633
+#: ../libmate/mate-program.c:1527
 #, c-format
 msgid ""
 "%s\n"
 "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"%s\n"
-"執行「%s --help」可列出命令列中可用的完整選項。\n"
+msgstr "%s\n執行「%s --help」可列出命令列中可用的完整選項。\n"
 
-#: ../libmate/mate-url.c:85
+#: ../libmate/mate-url.c:82
 #, c-format
 msgid "Unknown internal error while displaying this location."
 msgstr "顯示此位置時發生不明的內部錯誤。"
 
-#: ../libmate/mate-url.c:92
+#: ../libmate/mate-url.c:86
 #, c-format
 msgid "The specified location is invalid."
 msgstr "指定的位置無效。"
 
-#: ../libmate/mate-url.c:99
+#: ../libmate/mate-url.c:90
 #, c-format
 msgid ""
 "There was an error parsing the default action command associated with this "
 "location."
 msgstr "在讀取處理這個位置的預設指令時發生分析錯誤。"
 
-#: ../libmate/mate-url.c:107 ../libmate/mate-url.c:180
+#: ../libmate/mate-url.c:94 ../libmate/mate-url.c:145
 #, c-format
 msgid ""
-"There was an error launching the default action command associated with this "
-"location."
+"There was an error launching the default action command associated with this"
+" location."
 msgstr "在啟動處理這個位置的預設指令時發生錯誤。"
 
-#: ../libmate/mate-url.c:115
+#: ../libmate/mate-url.c:98
 #, c-format
 msgid "There is no default action associated with this location."
 msgstr "未有設定這個位置的預設處理方式。"
 
-#: ../libmate/mate-url.c:122
+#: ../libmate/mate-url.c:102
 #, c-format
 msgid "The default action does not support this protocol."
 msgstr "預設的處理方式不支援這種協定。"
 
-#: ../libmate/mate-url.c:129
+#: ../libmate/mate-url.c:106
 #, c-format
 msgid "The request was cancelled."
 msgstr "要求的操作被取消。"
 
-#: ../libmate/mate-url.c:139
+#: ../libmate/mate-url.c:115
 #, c-format
 msgid "The host \"%s\" could not be found."
 msgstr "找不到主機“%s”。"
 
-#: ../libmate/mate-url.c:145
+#: ../libmate/mate-url.c:119
 #, c-format
 msgid "The host could not be found."
 msgstr "找不到主機。"
 
-#: ../libmate/mate-url.c:156
+#: ../libmate/mate-url.c:128
 #, c-format
 msgid "The location or file could not be found."
 msgstr "找不到位置或是檔案。"
 
-#: ../libmate/mate-url.c:163
+#: ../libmate/mate-url.c:132
 #, c-format
 msgid "The login has failed."
 msgstr "登入失敗。"
 
-#: ../libmate/mate-open.c:52
+#: ../libmate/mate-open.c:57
 #, c-format
 msgid "Error showing url: %s\n"
 msgstr "顯示 URL 時發生錯誤：%s\n"
@@ -437,7 +436,6 @@ msgstr "不明的類型"
 msgid "Key %s not found in configuration"
 msgstr "組態中沒有設定鍵 %s"
 
-# modifier has no commonly used translation -- Abel
 #: ../schemas/desktop_mate_accessibility_keyboard.schemas.in.h:1
 msgid "Beep when a modifier is pressed."
 msgstr "當按下 Ctrl、Shift、Alt 等特殊按鍵時發出聲響。"
@@ -542,8 +540,6 @@ msgstr "執行偏好的視覺輔助科技程式"
 msgid "Browser needs terminal"
 msgstr "瀏覽器需要終端機方可運作"
 
-# (Abel) 這個 remote *不是* 遠端, 是 netscape/mozilla 的 -remote
-# 選項，用來控制另一個運行中的 browser 視窗
 #: ../schemas/desktop_mate_applications_browser.schemas.in.h:2
 msgid "Browser understands remote"
 msgstr "瀏覽器可辨認 remote 協定"
@@ -659,8 +655,8 @@ msgstr "背景顏色顯示方式"
 #: ../schemas/desktop_mate_background.schemas.in.in.h:2
 msgid ""
 "Determines how the image set by wallpaper_filename is rendered. Possible "
-"values are \"none\", \"wallpaper\", \"centered\", \"scaled\", \"stretched\", "
-"\"zoom\", \"spanned\"."
+"values are \"none\", \"wallpaper\", \"centered\", \"scaled\", \"stretched\","
+" \"zoom\", \"spanned\"."
 msgstr "決定 wallpaper_filename 中指定的圖像如何顯示。可使用的值為：“none”、“wallpaper”、“centered”、“scaled”、“stretched”、“zoom”、“spanned”。"
 
 #: ../schemas/desktop_mate_background.schemas.in.in.h:3
@@ -677,8 +673,8 @@ msgstr "顯示 MATE 桌面的桌布。"
 
 #: ../schemas/desktop_mate_background.schemas.in.in.h:6
 msgid ""
-"How to shade the background color. Possible values are \"horizontal-gradient"
-"\", \"vertical-gradient\", and \"solid\"."
+"How to shade the background color. Possible values are \"horizontal-"
+"gradient\", \"vertical-gradient\", and \"solid\"."
 msgstr "繪畫背景顏色的方式。可使用的值為“horizontal-gradient”、“vertical-gradient”及“solid”。"
 
 #: ../schemas/desktop_mate_background.schemas.in.in.h:7
@@ -706,7 +702,8 @@ msgid "Primary Color"
 msgstr "第一種顏色"
 
 #: ../schemas/desktop_mate_background.schemas.in.in.h:13
-msgid "Right or Bottom color when drawing gradients, not used for solid color."
+msgid ""
+"Right or Bottom color when drawing gradients, not used for solid color."
 msgstr "當繪畫漸變色時選用的右邊或底部顏色，繪畫單色時不會使用本選項。"
 
 #: ../schemas/desktop_mate_background.schemas.in.in.h:14
@@ -853,8 +850,7 @@ msgid "Show the 'Unicode Control Character' menu"
 msgstr "顯示「統一碼控制字符」選單"
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:33
-msgid ""
-"Size of icons in toolbars, either \"small-toolbar\" or \"large-toolbar\"."
+msgid "Size of icons in toolbars, either \"small-toolbar\" or \"large-toolbar\"."
 msgstr "工具列中圖示的大小，可以是「small-toolbar」或「large-toolbar」。"
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:34
@@ -874,9 +870,7 @@ msgid "Toolbar Style"
 msgstr "工具列樣式"
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:38
-msgid ""
-"Toolbar Style. Valid values are \"both\", \"both-horiz\", \"icons\", and "
-"\"text\"."
+msgid "Toolbar Style. Valid values are \"both\", \"both-horiz\", \"icons\", and \"text\"."
 msgstr "工具列的風格。可用的數值有「both」、「both-horiz」、「icons」與「text」。"
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:39
@@ -931,8 +925,8 @@ msgstr "用戶可否卸離及移動工具列。"
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:50
 msgid ""
-"Whether the user can dynamically type a new accelerator when positioned over "
-"an active menuitem."
+"Whether the user can dynamically type a new accelerator when positioned over"
+" an active menuitem."
 msgstr "當位置在使用中選單項目上時使用者能否在中隨時設定捷徑鍵。"
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:51
@@ -977,8 +971,8 @@ msgstr "避免執行任何 URL 與 MIME 類型處理程式。"
 
 #: ../schemas/desktop_mate_lockdown.schemas.in.h:9
 msgid ""
-"Prevent the user from accessing the terminal or specifying a command line to "
-"be executed. For example, this would disable access to the panel's \"Run "
+"Prevent the user from accessing the terminal or specifying a command line to"
+" be executed. For example, this would disable access to the panel's \"Run "
 "Application\" dialog."
 msgstr "禁止用戶使用虛擬終端機或者從指令列執行指令。譬如說，本設定會令面板中的「執行程式」對話方塊失效。"
 
@@ -1220,21 +1214,3 @@ msgstr "是否鎖定鍵盤"
 #: ../schemas/desktop_mate_typing_break.schemas.in.h:8
 msgid "Whether or not the typing break screen can be postponed."
 msgstr "可否暫時延後進入休息畫面的時間。"
-
-#~ msgid "Default help viewer"
-#~ msgstr "預設說明文件瀏覽器"
-
-#~ msgid "Help viewer needs terminal"
-#~ msgstr "說明文件瀏覽器需要終端機"
-
-#~ msgid "Whether the default help viewer accepts URLs"
-#~ msgstr "預設的說明文件瀏覽器能否接受 URL"
-
-#~ msgid "Whether the default help viewer needs a terminal to run"
-#~ msgstr "預設的說明文件瀏覽器是否需要終端機方可運行"
-
-#~ msgid "This specifies the size of icons displayed in toolbars"
-#~ msgstr "指定工具列中的圖示大小"
-
-#~ msgid "Unknown error code: %u"
-#~ msgstr "不明的錯誤碼：%u"

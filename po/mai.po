@@ -1,51 +1,51 @@
-# translation to libmate to Maithili
-# Copyright (C) 2006 The MATE Foundation
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# BOSS GNU/Linux <bosslinux@cdac.in>, 2008.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: gedit.HEAD\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-08-19 13:02+0000\n"
-"PO-Revision-Date: 2008-01-25 13:49+0530\n"
-"Last-Translator: Sangeeta Kumari\n"
-"Language-Team:  <en@li.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-01-02 23:30+0100\n"
+"PO-Revision-Date: 2012-01-02 22:57+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n\n\n"
+"Language: mai\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-
-#: ../mate-data/mate-2.soundlist.in.h:1
+#: ../mate-data/mate.soundlist.in.h:1
 msgid "Error message"
 msgstr "त्रुटि संदेश"
 
-#: ../mate-data/mate-2.soundlist.in.h:2
+#: ../mate-data/mate.soundlist.in.h:2
 msgid "Informational message"
 msgstr "जानकारी संदेश"
 
-#: ../mate-data/mate-2.soundlist.in.h:3
+#: ../mate-data/mate.soundlist.in.h:3
 msgid "Log in"
 msgstr "लाग इन"
 
-#: ../mate-data/mate-2.soundlist.in.h:4
+#: ../mate-data/mate.soundlist.in.h:4
 msgid "Log out"
 msgstr "लॉग आउट"
 
-#: ../mate-data/mate-2.soundlist.in.h:5
+#: ../mate-data/mate.soundlist.in.h:5
 msgid "Miscellaneous message"
 msgstr "विविध संदेश"
 
-#: ../mate-data/mate-2.soundlist.in.h:6
+#: ../mate-data/mate.soundlist.in.h:6
 msgid "Question dialog"
 msgstr "प्रश्न संवाद"
 
-#: ../mate-data/mate-2.soundlist.in.h:7
+#: ../mate-data/mate.soundlist.in.h:7
 msgid "System events"
 msgstr "तंत्र घटनासभ"
 
-#: ../mate-data/mate-2.soundlist.in.h:8
+#: ../mate-data/mate.soundlist.in.h:8
 msgid "Warning message"
 msgstr "चेतावनी संदेश"
 
@@ -53,27 +53,27 @@ msgstr "चेतावनी संदेश"
 msgid "Default Background"
 msgstr ""
 
-#: ../mate-data/gtk-events-2.soundlist.in.h:1
+#: ../mate-data/gtk2-mate-events.soundlist.in.h:1
 msgid "Choose menu item"
 msgstr "मेनू आइटम चुनू"
 
-#: ../mate-data/gtk-events-2.soundlist.in.h:2
+#: ../mate-data/gtk2-mate-events.soundlist.in.h:2
 msgid "Click on command button"
 msgstr "कमाण्ड बटन पर क्लिक करू"
 
-#: ../mate-data/gtk-events-2.soundlist.in.h:3
+#: ../mate-data/gtk2-mate-events.soundlist.in.h:3
 msgid "Select check box"
 msgstr "चेक बक्सा चुनू"
 
-#: ../mate-data/gtk-events-2.soundlist.in.h:4
+#: ../mate-data/gtk2-mate-events.soundlist.in.h:4
 msgid "User interface events"
 msgstr "प्रयोक्ता इंटरफेस घटनासभ"
 
-#: ../libmate/mate-exec.c:450
+#: ../libmate/mate-exec.c:457
 msgid "Cannot find a terminal, using xterm, even if it may not work"
 msgstr "टर्मिनल नहि भेटल, एक्सटर्म उपयोग कए रहल अछि, तखनो जखन ई काज नए करए"
 
-#: ../libmate/mate-mateconf.c:175
+#: ../libmate/mate-mateconf.c:169
 msgid "MATE MateConf Support"
 msgstr "गनोम जी-कॉन्फ़ समर्थन"
 
@@ -117,302 +117,300 @@ msgid "Help document %s/%s not found"
 msgstr "मद्दति दस्ताबेज %s/%s नहि भेटल"
 
 #. FIXME: get this from matecomponent
-#: ../libmate/mate-init.c:91
+#: ../libmate/mate-init.c:90
 msgid "MateComponent Support"
 msgstr "बोनोबो समर्थन"
 
-#: ../libmate/mate-init.c:145
+#: ../libmate/mate-init.c:144
 msgid "MateComponent activation Support"
 msgstr "बोनोबो सक्रियण समर्थन"
 
-#: ../libmate/mate-init.c:381 ../libmate/mate-init.c:395
+#: ../libmate/mate-init.c:379 ../libmate/mate-init.c:393
 #, c-format
 msgid "Could not create per-user mate configuration directory `%s': %s\n"
 msgstr "प्रति-प्रयोक्ता गनोम बिन्यास निर्देशिका `%s' बनाएल नहि जाए सकल: %s\n"
 
-#: ../libmate/mate-init.c:403
+#: ../libmate/mate-init.c:401
 #, c-format
 msgid "Could not stat private per-user mate configuration directory `%s': %s\n"
 msgstr ""
 
-#: ../libmate/mate-init.c:411
+#: ../libmate/mate-init.c:409
 #, c-format
 msgid ""
-"Could not set mode 0700 on private per-user mate configuration directory `%"
-"s': %s\n"
+"Could not set mode 0700 on private per-user mate configuration directory "
+"`%s': %s\n"
 msgstr "प्रति-प्रयोक्ता गनोम बिन्यास निर्देशिका पर मोड 0700 नियत नहि कए सकल `%s': %s\n"
 
-#: ../libmate/mate-init.c:418
+#: ../libmate/mate-init.c:416
 #, c-format
 msgid "Could not create mate accelerators directory `%s': %s\n"
 msgstr "गनोम त्वरक निर्देशिका `%s' बनाएल नहि जाए सकल: %s\n"
 
-#: ../libmate/mate-init.c:457
+#: ../libmate/mate-init.c:455
 msgid "MATE Virtual Filesystem"
 msgstr "गनोम आभासी फाइल-सिस्टम"
 
-#: ../libmate/mate-init.c:475 ../libmate/mate-init.c:518
+#: ../libmate/mate-init.c:473 ../libmate/mate-init.c:516
 msgid "Disable sound server usage"
 msgstr "ध्वनि सर्वर उपयोग अक्षम करू"
 
-#: ../libmate/mate-init.c:478 ../libmate/mate-init.c:521
+#: ../libmate/mate-init.c:476 ../libmate/mate-init.c:519
 msgid "Enable sound server usage"
 msgstr "ध्वनि सर्वर उपयोग सक्षम करू"
 
-#: ../libmate/mate-init.c:482 ../libmate/mate-init.c:524
+#: ../libmate/mate-init.c:480 ../libmate/mate-init.c:522
 msgid "Host:port on which the sound server to use is running"
 msgstr "होस्टः पोर्ट जकर प्रयोग कएल जएताह जतए ध्वनि सर्वर चलि रहल अछि"
 
-#: ../libmate/mate-init.c:483 ../libmate/mate-init.c:526
+#: ../libmate/mate-init.c:481 ../libmate/mate-init.c:524
 msgid "HOSTNAME:PORT"
 msgstr "होस्ट नाम:पोर्ट"
 
-#: ../libmate/mate-init.c:492 ../libmate/mate-init.c:536
+#: ../libmate/mate-init.c:490 ../libmate/mate-init.c:534
 msgid "MATE Library"
 msgstr "गनोम लायब्रेरी"
 
-#: ../libmate/mate-init.c:493
+#: ../libmate/mate-init.c:491
 msgid "Show MATE options"
 msgstr "MATE विकल्प देखाबू"
 
-#: ../libmate/mate-program.c:457
+#: ../libmate/mate-program.c:469
 msgid "Popt Table"
 msgstr "Popt तालिका"
 
-#: ../libmate/mate-program.c:458
+#: ../libmate/mate-program.c:469
 msgid "The table of options for popt"
 msgstr "Popt लेल विकल्पसभक तालिका"
 
-#: ../libmate/mate-program.c:465
+#: ../libmate/mate-program.c:471
 msgid "Popt Flags"
 msgstr "Popt ध्वज"
 
-#: ../libmate/mate-program.c:466
+#: ../libmate/mate-program.c:471
 msgid "The flags to use for popt"
 msgstr "Popt लेल प्रयुक्त ध्वज"
 
-#: ../libmate/mate-program.c:474
+#: ../libmate/mate-program.c:473
 msgid "Popt Context"
 msgstr "Popt संदर्भ"
 
-#: ../libmate/mate-program.c:475
+#: ../libmate/mate-program.c:473
 msgid "The popt context pointer that MateProgram is using"
 msgstr "गनोम प्रोग्राम द्वारा प्रयुक्त popt संदर्भ सूचक"
 
-#: ../libmate/mate-program.c:483
+#: ../libmate/mate-program.c:475
 msgid "GOption Context"
 msgstr "GOption संदर्भ"
 
-#: ../libmate/mate-program.c:484
+#: ../libmate/mate-program.c:475
 msgid "The goption context pointer that MateProgram is using"
 msgstr "goption संदर्भ प्वाइंटर जे MateProgram प्रयोग कए रहल अछि"
 
-#: ../libmate/mate-program.c:492
+#: ../libmate/mate-program.c:477
 msgid "Human readable name"
 msgstr "मनुष्य द्वारा पढ़ि सकैबला नाम"
 
-#: ../libmate/mate-program.c:493
+#: ../libmate/mate-program.c:477
 msgid "Human readable name of this application"
 msgstr "ई अनुप्रयोग क' मनुष्य द्वारा पढ़ि सकै योग्य नाम"
 
-#: ../libmate/mate-program.c:502
+#: ../libmate/mate-program.c:479
 msgid "MATE path"
 msgstr "गनोम पथ"
 
-#: ../libmate/mate-program.c:503
+#: ../libmate/mate-program.c:479
 msgid "Path in which to look for installed files"
 msgstr "पथ जतए संस्थापित फाइलसभ देखल जाएनाइ छै"
 
-#: ../libmate/mate-program.c:512
+#: ../libmate/mate-program.c:481
 msgid "App ID"
 msgstr "अनुप्रयोग आईडी"
 
-#: ../libmate/mate-program.c:513
+#: ../libmate/mate-program.c:481
 msgid "ID string to use for this application"
 msgstr "ई अनुप्रयोग लेल प्रयुक्त आईडी स्ट्रिंग"
 
-#: ../libmate/mate-program.c:520
+#: ../libmate/mate-program.c:483
 msgid "App version"
 msgstr "अनुप्रयोग संस्करण"
 
-#: ../libmate/mate-program.c:521
+#: ../libmate/mate-program.c:483
 msgid "Version of this application"
 msgstr "एहि अनुप्रयोग क' संस्करण"
 
-#: ../libmate/mate-program.c:528
+#: ../libmate/mate-program.c:485
 msgid "MATE Prefix"
 msgstr "गनोम उपसर्ग"
 
-#: ../libmate/mate-program.c:529
+#: ../libmate/mate-program.c:485
 msgid "Prefix where MATE was installed"
 msgstr "उपसर्ग जतए गनोम संस्थापित कएल गेल"
 
-#: ../libmate/mate-program.c:538
+#: ../libmate/mate-program.c:487
 msgid "MATE Libdir"
 msgstr "गनोम लायब्रेरी-निर्देशिका"
 
-#: ../libmate/mate-program.c:539
+#: ../libmate/mate-program.c:487
 msgid "Library prefix where MATE was installed"
 msgstr "लायब्रेरी उपसर्ग जएत गनोम संस्थापित कएल गेल"
 
-#: ../libmate/mate-program.c:548
+#: ../libmate/mate-program.c:489
 msgid "MATE Datadir"
 msgstr "गनोम आँकड़ा-निर्देशिका"
 
-#: ../libmate/mate-program.c:549
+#: ../libmate/mate-program.c:489
 msgid "Data prefix where MATE was installed"
 msgstr "आँकड़ा उपसर्ग जएत गनोम संस्थापित कएल गेल"
 
-#: ../libmate/mate-program.c:558
+#: ../libmate/mate-program.c:491
 msgid "MATE Sysconfdir"
 msgstr "गनोम सिस्टम-कॉन्फ़िग-निर्देशिका"
 
-#: ../libmate/mate-program.c:559
+#: ../libmate/mate-program.c:491
 msgid "Configuration prefix where MATE was installed"
 msgstr "बिन्यास उपसर्ग जएत गनोम संस्थापित कएल गेल"
 
-#: ../libmate/mate-program.c:569
+#: ../libmate/mate-program.c:493
 msgid "MATE App Prefix"
 msgstr "गनोम अनुप्रयोग उपसर्ग"
 
-#: ../libmate/mate-program.c:570
+#: ../libmate/mate-program.c:493
 msgid "Prefix where this application was installed"
 msgstr "उपसर्ग जएत ई अनुप्रयोग संस्थापित कएल गेल"
 
-#: ../libmate/mate-program.c:578
+#: ../libmate/mate-program.c:495
 msgid "MATE App Libdir"
 msgstr "गनोम अनुप्रयोग लायब्रेरी-निर्देशिका"
 
-#: ../libmate/mate-program.c:579
+#: ../libmate/mate-program.c:495
 msgid "Library prefix where this application was installed"
 msgstr "लायब्रेरी उपसर्ग जएत ई अनुप्रयोग संस्थापित कएल गेल"
 
-#: ../libmate/mate-program.c:588
+#: ../libmate/mate-program.c:497
 msgid "MATE App Datadir"
 msgstr "गनोम अनुप्रयोग आँकड़ा-निर्देशिका"
 
-#: ../libmate/mate-program.c:589
+#: ../libmate/mate-program.c:497
 msgid "Data prefix where this application was installed"
 msgstr "आँकड़ा उपसर्ग जएत ई अनुप्रयोग संस्थापित कएल गेल"
 
-#: ../libmate/mate-program.c:598
+#: ../libmate/mate-program.c:499
 msgid "MATE App Sysconfdir"
 msgstr "गनोम अनुप्रयोग सिस्कॉन्फ़-निर्देशिका"
 
-#: ../libmate/mate-program.c:599
+#: ../libmate/mate-program.c:499
 msgid "Configuration prefix where this application was installed"
 msgstr "बिन्यास उपसर्ग जएत ई अनुप्रयोग संस्थापित कएल गेल छला"
 
-#: ../libmate/mate-program.c:608
+#: ../libmate/mate-program.c:501
 msgid "Create Directories"
 msgstr "निर्देशिकासभ बनाबू"
 
-#: ../libmate/mate-program.c:609
+#: ../libmate/mate-program.c:501
 msgid "Create standard MATE directories on startup"
 msgstr "प्रारंभमे मानक गनोम निर्देशिका बनाबू"
 
-#: ../libmate/mate-program.c:618
+#: ../libmate/mate-program.c:503
 msgid "Enable Sound"
 msgstr "ध्वनि सक्षम करू"
 
-#: ../libmate/mate-program.c:619
+#: ../libmate/mate-program.c:503
 msgid "Enable sound on startup"
 msgstr "प्रारंभमे ध्वनि सक्षम करू"
 
-#: ../libmate/mate-program.c:627
+#: ../libmate/mate-program.c:505
 msgid "Espeaker"
 msgstr "ई-स्पीकर"
 
-#: ../libmate/mate-program.c:628
+#: ../libmate/mate-program.c:505
 msgid "How to connect to esd"
 msgstr "ईएसडीसँ कहिना जुड़ू"
 
-#: ../libmate/mate-program.c:1393
+#: ../libmate/mate-program.c:1288
 msgid "Help options"
 msgstr "मद्दति विकल्प"
 
-#: ../libmate/mate-program.c:1398
+#: ../libmate/mate-program.c:1294
 msgid "Application options"
 msgstr "अनुप्रयोग विकल्प"
 
-#: ../libmate/mate-program.c:1414
+#: ../libmate/mate-program.c:1311
 msgid "Dynamic modules to load"
 msgstr "गतिशील मोड्यूलसभकेँ लोड करू"
 
-#: ../libmate/mate-program.c:1415
+#: ../libmate/mate-program.c:1312
 msgid "MODULE1,MODULE2,..."
 msgstr "मोड्यूल1, मोड्यूल2,..."
 
 #. Translators: the first %s is the error message, 2nd %s the program name
-#: ../libmate/mate-program.c:1633
+#: ../libmate/mate-program.c:1527
 #, c-format
 msgid ""
 "%s\n"
 "Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-"%s\n"
-"'%s चलाबू--help' उपलब्ध कमाण्ड लाइन क' पूर्ण सूचीकेँ देखबाक लेल.\n"
+msgstr "%s\n'%s चलाबू--help' उपलब्ध कमाण्ड लाइन क' पूर्ण सूचीकेँ देखबाक लेल.\n"
 
-#: ../libmate/mate-url.c:85
+#: ../libmate/mate-url.c:82
 #, c-format
 msgid "Unknown internal error while displaying this location."
 msgstr "ई स्थानकेँ देखाबैमे अज्ञात भितरका त्रुटि."
 
-#: ../libmate/mate-url.c:92
+#: ../libmate/mate-url.c:86
 #, c-format
 msgid "The specified location is invalid."
 msgstr "निर्दिष्ट स्थान अवैध अछि."
 
-#: ../libmate/mate-url.c:99
+#: ../libmate/mate-url.c:90
 #, c-format
 msgid ""
 "There was an error parsing the default action command associated with this "
 "location."
 msgstr "ई स्थान क' सँग सम्बद्ध मूलभूत क्रिया कमाण्ड विश्लेषण करबामे त्रुटि भेल."
 
-#: ../libmate/mate-url.c:107 ../libmate/mate-url.c:180
+#: ../libmate/mate-url.c:94 ../libmate/mate-url.c:145
 #, c-format
 msgid ""
-"There was an error launching the default action command associated with this "
-"location."
+"There was an error launching the default action command associated with this"
+" location."
 msgstr "ई स्थानक' सँग सम्बद्ध मूलभूत क्रिया कमाण्ड चालू करबामे त्रुटि भेल."
 
-#: ../libmate/mate-url.c:115
+#: ../libmate/mate-url.c:98
 #, c-format
 msgid "There is no default action associated with this location."
 msgstr "ई स्थान क' सँग कोनो मूलभूत क्रिया सम्बद्ध नहि अछि."
 
-#: ../libmate/mate-url.c:122
+#: ../libmate/mate-url.c:102
 #, c-format
 msgid "The default action does not support this protocol."
 msgstr "मूलभूत क्रिया ई प्रोटोकाल केँ समर्थित नहि करैत अछि."
 
-#: ../libmate/mate-url.c:129
+#: ../libmate/mate-url.c:106
 #, c-format
 msgid "The request was cancelled."
 msgstr "आग्रह रद्द कए देल गेल छल."
 
-#: ../libmate/mate-url.c:139
+#: ../libmate/mate-url.c:115
 #, c-format
 msgid "The host \"%s\" could not be found."
 msgstr "मेजबाननाम \"%s\" नहि पएल जाए सकल."
 
-#: ../libmate/mate-url.c:145
+#: ../libmate/mate-url.c:119
 #, c-format
 msgid "The host could not be found."
 msgstr "मेजबान नहि पएल जाए सकल."
 
-#: ../libmate/mate-url.c:156
+#: ../libmate/mate-url.c:128
 #, c-format
 msgid "The location or file could not be found."
 msgstr "स्थान अथवा फाइल नहि पएल जाए सकल."
 
-#: ../libmate/mate-url.c:163
+#: ../libmate/mate-url.c:132
 #, c-format
 msgid "The login has failed."
 msgstr "लागिन विफल रहल."
 
-#: ../libmate/mate-open.c:36
+#: ../libmate/mate-open.c:57
 #, c-format
 msgid "Error showing url: %s\n"
 msgstr "यूआरएल देखाबैमे त्रुटि: %s\n"
@@ -447,7 +445,8 @@ msgid "Disable if two keys are pressed at the same time."
 msgstr "जँ दुइ कुंजीसभ एकटा सँग दबाएल जाए तँ अक्षम करू"
 
 #: ../schemas/desktop_mate_accessibility_keyboard.schemas.in.h:3
-msgid "Do not accept a key as being pressed unless held for @delay milliseconds."
+msgid ""
+"Do not accept a key as being pressed unless held for @delay milliseconds."
 msgstr ""
 
 #: ../schemas/desktop_mate_accessibility_keyboard.schemas.in.h:4
@@ -459,7 +458,8 @@ msgid "How many milliseconds it takes to go from 0 to maximum speed."
 msgstr ""
 
 #: ../schemas/desktop_mate_accessibility_keyboard.schemas.in.h:6
-msgid "How many milliseconds to wait before mouse movement keys start to operate."
+msgid ""
+"How many milliseconds to wait before mouse movement keys start to operate."
 msgstr ""
 
 #: ../schemas/desktop_mate_accessibility_keyboard.schemas.in.h:7
@@ -593,7 +593,8 @@ msgid "Whether the default tasks application needs a terminal to run"
 msgstr ""
 
 #: ../schemas/desktop_mate_applications_terminal.schemas.in.h:1
-msgid "Argument used to execute programs in the terminal defined by the 'exec' key."
+msgid ""
+"Argument used to execute programs in the terminal defined by the 'exec' key."
 msgstr "'exec' कुँजी क' द्वारा परिभाषित टर्मिनलमे प्रोग्राम निष्पादनक लेल तर्क."
 
 #: ../schemas/desktop_mate_applications_terminal.schemas.in.h:2
@@ -612,9 +613,7 @@ msgstr ""
 msgid ""
 "A list with names of the first window manager workspaces. This key has been "
 "deprecated since MATE 2.12."
-msgstr ""
-"पहिल विंडो प्रबंधक कार्यस्थानसभक नाम सहित सूची. ई कुँजीकेँ MATE 2.12 क' बाद पदावनत "
-"कएल जाए रहल अछि."
+msgstr "पहिल विंडो प्रबंधक कार्यस्थानसभक नाम सहित सूची. ई कुँजीकेँ MATE 2.12 क' बाद पदावनत कएल जाए रहल अछि."
 
 #: ../schemas/desktop_mate_applications_window_manager.schemas.in.h:2
 msgid "Fallback window manager (deprecated)"
@@ -624,9 +623,7 @@ msgstr "फालबैक विंडो प्रबंधक (पदाव�
 msgid ""
 "Fallback window manager if user window manager can't be found. This key has "
 "been deprecated since MATE 2.12."
-msgstr ""
-"जँ प्रयोक्ता विंडो प्रबंधक नहि भेटैत अछि तँ फालबैक विंडो प्रबंधक पएल नहि जाए सकैत अछि. ई "
-"कुँजीकेँ MATE 2.12 क' बाद पदावनत कएल जाए रहल अछि."
+msgstr "जँ प्रयोक्ता विंडो प्रबंधक नहि भेटैत अछि तँ फालबैक विंडो प्रबंधक पएल नहि जाए सकैत अछि. ई कुँजीकेँ MATE 2.12 क' बाद पदावनत कएल जाए रहल अछि."
 
 #: ../schemas/desktop_mate_applications_window_manager.schemas.in.h:4
 msgid "Names of the workspaces (deprecated)"
@@ -640,19 +637,16 @@ msgstr "कार्यस्थानसभक सँख्या (पदाव
 msgid ""
 "The number of workspaces the window manager should use This key has been "
 "deprecated since MATE 2.12."
-msgstr ""
-"कार्यस्थानसभक सँख्या जकर विंडो प्रबंधक प्रयोग करताह. ई कुँजीकेँ MATE 2.12 क' "
-"बाद पदावनत कएल जाए रहल अछि."
+msgstr "कार्यस्थानसभक सँख्या जकर विंडो प्रबंधक प्रयोग करताह. ई कुँजीकेँ MATE 2.12 क' बाद पदावनत कएल जाए रहल अछि."
 
 #: ../schemas/desktop_mate_applications_window_manager.schemas.in.h:7
 msgid "User window manager (deprecated)"
 msgstr "प्रयोक्ता विंडो प्रबंधक (पदावनत)"
 
 #: ../schemas/desktop_mate_applications_window_manager.schemas.in.h:8
-msgid "Window manager to try first. This key has been deprecated since MATE 2.12."
-msgstr ""
-"विंडो प्रबंधककेँ पहिने कोसिस कएनाइ चाही. ई कुँजी केँ MATE 2.12 क' बाद पदावनत कएल "
-"गेल अछि."
+msgid ""
+"Window manager to try first. This key has been deprecated since MATE 2.12."
+msgstr "विंडो प्रबंधककेँ पहिने कोसिस कएनाइ चाही. ई कुँजी केँ MATE 2.12 क' बाद पदावनत कएल गेल अछि."
 
 #: ../schemas/desktop_mate_background.schemas.in.in.h:1
 msgid "Color Shading Type"
@@ -661,8 +655,8 @@ msgstr "रँग आभा प्रकार"
 #: ../schemas/desktop_mate_background.schemas.in.in.h:2
 msgid ""
 "Determines how the image set by wallpaper_filename is rendered. Possible "
-"values are \"none\", \"wallpaper\", \"centered\", \"scaled\", \"stretched\", "
-"\"zoom\"."
+"values are \"none\", \"wallpaper\", \"centered\", \"scaled\", \"stretched\","
+" \"zoom\", \"spanned\"."
 msgstr ""
 
 #: ../schemas/desktop_mate_background.schemas.in.in.h:3
@@ -679,8 +673,8 @@ msgstr ""
 
 #: ../schemas/desktop_mate_background.schemas.in.in.h:6
 msgid ""
-"How to shade the background color. Possible values are \"horizontal-gradient"
-"\", \"vertical-gradient\", and \"solid\"."
+"How to shade the background color. Possible values are \"horizontal-"
+"gradient\", \"vertical-gradient\", and \"solid\"."
 msgstr ""
 
 #: ../schemas/desktop_mate_background.schemas.in.in.h:7
@@ -708,7 +702,8 @@ msgid "Primary Color"
 msgstr "प्राथमिक रँग"
 
 #: ../schemas/desktop_mate_background.schemas.in.in.h:13
-msgid "Right or Bottom color when drawing gradients, not used for solid color."
+msgid ""
+"Right or Bottom color when drawing gradients, not used for solid color."
 msgstr "दहिन्ना अथवा तल रँग जखन अनुपात आरेखित कएल जाइछ, ठोस रँगसभमे प्रयुक्त नहि."
 
 #: ../schemas/desktop_mate_background.schemas.in.in.h:14
@@ -728,212 +723,217 @@ msgid "Basename of the default theme used by gtk+."
 msgstr "जीटीके+ द्वारा उपयोग कएल मूलभूत प्रसँग क' बेसनाम."
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:2
+msgid "Buttons Have Icons"
+msgstr ""
+
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:3
 msgid "Can Change Accels"
 msgstr "त्वरककेँ परिवर्तित कए सकैत अछि"
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:3
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:4
 msgid "Cursor Blink"
 msgstr "संकेतक टिमटिमानाइ"
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:4
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:5
 msgid "Cursor Blink Time"
 msgstr "संकेतक ब्लिंक समय"
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:5
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:6
 msgid "Default font"
 msgstr "मूलभूत फाँट"
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:6
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:7
 msgid "Document font"
 msgstr "दस्ताबेज फाँट"
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:7
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:8
 msgid "Enable Accessibility"
 msgstr "अभिगम्यता सक्षम"
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:8
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:9
 msgid "Enable Animations"
 msgstr "एनीमेशन सक्रिय करू"
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:9
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:10
 msgid "GTK IM Module"
 msgstr ""
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:10
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:11
 msgid "GTK IM Preedit Style"
 msgstr "जीटीके आईएम प्री-एडिट शैली"
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:11
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:12
 msgid "GTK IM Status Style"
 msgstr "जीटीके आईएम स्थिति शैली"
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:12
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:13
 msgid "Gtk+ Theme"
 msgstr "जीटीके+ प्रसंग"
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:13
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:14
 msgid "Icon Theme"
 msgstr "चिह्न प्रसंग"
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:14
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:15
 msgid "Icon theme to use for the panel, caja etc."
 msgstr "फ़लक, नॉटिलस आदिमे उपयोगमे लेबाक लेल चिह्न प्रसंग"
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:15
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:16
 msgid "Keyboard shortcut to open the menu bars."
 msgstr "मेनूबार खोलबाक लेल कुंजीपटल शार्टकट"
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:16
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:17
 msgid "Length of the cursor blink cycle, in milliseconds."
 msgstr ""
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:17
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:18
 msgid "Menubar Detachable"
 msgstr "पृथक करबा योग्य अओजार-पट्टी"
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:18
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:19
 msgid "Menubar accelerator"
 msgstr "मेनूबार त्वरक"
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:19
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:20
 msgid "Menus Have Icons"
 msgstr "मेनूमे चिह्न रहैत अछि"
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:20
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:21
 msgid "Menus Have Tearoff"
 msgstr "मेनू अलग करबा योग्य राखैत अछि"
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:21
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:22
 msgid "Module for GtkFileChooser"
 msgstr "जीटीके-फाइल-चयनक लेल मोड्यूल"
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:22
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:23
 msgid ""
 "Module to use as the filesystem model for the GtkFileChooser widget. "
 "Possible values are \"gio\", \"mate-vfs\" and \"gtk+\"."
 msgstr ""
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:23
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:24
 msgid "Monospace font"
 msgstr "मोनोस्पेस फाँट"
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:24
-msgid "Name of a monospaced (fixed-width) font for use in locations like terminals."
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:25
+msgid ""
+"Name of a monospaced (fixed-width) font for use in locations like terminals."
 msgstr "मोनोस्पेस्ड (स्थिर-चौड़ाई) फाँट नाम जे टर्मिनल जहिना स्थानसभ पर प्रयुक्त होइछ."
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:25
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:26
 msgid "Name of the GTK+ input method Preedit Style used by gtk+."
 msgstr "जीटीके+ इनपुट विधि प्री-एडिट शैली कए नाम जे जीटीके+ द्वारा प्रयुक्त होइछ."
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:26
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:27
 msgid "Name of the GTK+ input method Status Style used by gtk+."
 msgstr "जीटीके+ इनपुट विधि स्थिति शैली क' नाम जे जीटीके+ द्वारा प्रयुक्त होइछ."
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:27
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:28
 msgid "Name of the default font used by gtk+."
 msgstr "जीटीके+ द्वारा उपयोग कएल जाएबला मूलभूत फाँट क' नाम"
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:28
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:29
 msgid "Name of the default font used for reading documents."
 msgstr ""
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:29
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:30
 msgid "Name of the input method module used by GTK+."
 msgstr ""
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:30
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:31
 msgid "Show the 'Input Methods' menu"
 msgstr "'इनपुट विधि' मेनू देखाबू"
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:31
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:32
 msgid "Show the 'Unicode Control Character' menu"
 msgstr "'यूनीकोड नियंत्रण संप्रतीक' मेनू देखाबू"
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:32
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:33
 msgid "Size of icons in toolbars, either \"small-toolbar\" or \"large-toolbar\"."
 msgstr ""
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:33
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:34
 msgid "Status Bar on Right"
 msgstr "स्थिति पट्टी दाएँ"
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:34
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:35
 msgid "Toolbar Detachable"
 msgstr "पृथक करबा योग्य अओजार-पट्टी"
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:35
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:36
 msgid "Toolbar Icon Size"
 msgstr "अओजार-पट्टीकेँ चिह्न आकार"
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:36
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:37
 msgid "Toolbar Style"
 msgstr "अओजार-पट्टीक स्टाइल"
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:37
-msgid ""
-"Toolbar Style. Valid values are \"both\", \"both-horiz\", \"icons\", and "
-"\"text\"."
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:38
+msgid "Toolbar Style. Valid values are \"both\", \"both-horiz\", \"icons\", and \"text\"."
 msgstr ""
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:38
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:39
 msgid "Use Custom Font"
 msgstr "अनुकूलित फाँटक उपयोग करू"
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:39
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:40
 msgid "Whether Applications should have accessibility support."
 msgstr ""
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:40
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:41
 msgid ""
 "Whether animations should be displayed. Note: This is a global key, it "
 "changes the behaviour of the window manager, the panel etc."
-msgstr ""
-"की एनीमेशन प्रदर्शित कएल जाएनाइ चाही. टिप्पणी: ई एकटा वैश्विक कुँजी अछि. ई विंडो प्रबंधक, पलक "
-"आदि क' व्यवहारकेँ परिवर्तित करैत अछि."
-
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:41
-msgid "Whether menus may display an icon next to a menu entry."
-msgstr ""
+msgstr "की एनीमेशन प्रदर्शित कएल जाएनाइ चाही. टिप्पणी: ई एकटा वैश्विक कुँजी अछि. ई विंडो प्रबंधक, पलक आदि क' व्यवहारकेँ परिवर्तित करैत अछि."
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:42
-msgid "Whether menus should have a tearoff."
+msgid "Whether buttons may display an icon in addition to the button text."
 msgstr ""
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:43
+msgid "Whether menus may display an icon next to a menu entry."
+msgstr ""
+
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:44
+msgid "Whether menus should have a tearoff."
+msgstr ""
+
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:45
 msgid ""
 "Whether the context menus of entries and text views should offer to change "
 "the input method."
 msgstr ""
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:44
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:46
 msgid ""
 "Whether the context menus of entries and text views should offer to insert "
 "control characters."
 msgstr ""
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:45
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:47
 msgid "Whether the cursor should blink."
 msgstr ""
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:46
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:48
 msgid "Whether the user can detach menubars and move them around."
 msgstr ""
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:47
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:49
 msgid "Whether the user can detach toolbars and move them around."
 msgstr ""
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:48
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:50
 msgid ""
-"Whether the user can dynamically type a new accelerator when positioned over "
-"an active menuitem."
+"Whether the user can dynamically type a new accelerator when positioned over"
+" an active menuitem."
 msgstr ""
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:49
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:51
 msgid "Whether to display a status bar meter on the right."
 msgstr ""
 
-#: ../schemas/desktop_mate_interface.schemas.in.in.h:50
+#: ../schemas/desktop_mate_interface.schemas.in.in.h:52
 msgid "Whether to use a custom font in gtk+ applications."
 msgstr "की जीटीके+ मे अनुकूलित फाँट उपयोग कएनाइ अछि"
 
@@ -971,28 +971,22 @@ msgstr ""
 
 #: ../schemas/desktop_mate_lockdown.schemas.in.h:9
 msgid ""
-"Prevent the user from accessing the terminal or specifying a command line to "
-"be executed. For example, this would disable access to the panel's \"Run "
+"Prevent the user from accessing the terminal or specifying a command line to"
+" be executed. For example, this would disable access to the panel's \"Run "
 "Application\" dialog."
-msgstr ""
-"प्रयोक्ताकेँ टर्मिनल पर पहुँचसँ अथवा कमाण्ड लाइन चलाबैसँ रोकू. उदाहरण क' लेल, ई फलक क' "
-"\"अनुप्रयोग चलाबू\" समाद पर पहुँचकेँ अक्षम कए दैत अछि."
+msgstr "प्रयोक्ताकेँ टर्मिनल पर पहुँचसँ अथवा कमाण्ड लाइन चलाबैसँ रोकू. उदाहरण क' लेल, ई फलक क' \"अनुप्रयोग चलाबू\" समाद पर पहुँचकेँ अक्षम कए दैत अछि."
 
 #: ../schemas/desktop_mate_lockdown.schemas.in.h:10
 msgid ""
 "Prevent the user from modifying print settings. For example, this would "
 "disable access to all applications' \"Print Setup\" dialogs."
-msgstr ""
-"प्रयोक्ताकेँ मुद्रण बिन्यासमे परिवर्धन करबासँ रोकू. उदाहरण क' लेल, ई सबहि अनुप्रयोगसभ "
-"क' \"मुद्रण सेटअप\" समादसभ पर पहुँचकेँ अक्षम कए दैछ."
+msgstr "प्रयोक्ताकेँ मुद्रण बिन्यासमे परिवर्धन करबासँ रोकू. उदाहरण क' लेल, ई सबहि अनुप्रयोगसभ क' \"मुद्रण सेटअप\" समादसभ पर पहुँचकेँ अक्षम कए दैछ."
 
 #: ../schemas/desktop_mate_lockdown.schemas.in.h:11
 msgid ""
 "Prevent the user from printing. For example, this would disable access to "
 "all applications' \"Print\" dialogs."
-msgstr ""
-"प्रयोक्ताकेँ मुद्रणसँ रोकू. उदाहरण क' लेल, ई सबहि अनुप्रयोगसभ क' \"मुद्रण\" समादसभ पर "
-"पहुँचकेँ अक्षम कए दैत अछि."
+msgstr "प्रयोक्ताकेँ मुद्रणसँ रोकू. उदाहरण क' लेल, ई सबहि अनुप्रयोगसभ क' \"मुद्रण\" समादसभ पर पहुँचकेँ अक्षम कए दैत अछि."
 
 #: ../schemas/desktop_mate_lockdown.schemas.in.h:12
 msgid ""
@@ -1054,9 +1048,7 @@ msgstr "कर्सर प्रसंग"
 msgid ""
 "Cursor theme name. Used only by Xservers that support Xcursor, such as "
 "XFree86 4.3 and later."
-msgstr ""
-"कर्सर थीम क' नाम. Xservers क' द्वारा सिर्फ प्रयुक्त जे Xcursor क' समर्थन करैत अछि. जहिना "
-"की XFree86 4.3 आओर बादमे आबैबला."
+msgstr "कर्सर थीम क' नाम. Xservers क' द्वारा सिर्फ प्रयुक्त जे Xcursor क' समर्थन करैत अछि. जहिना की XFree86 4.3 आओर बादमे आबैबला."
 
 #: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:6
 msgid "Distance before a drag is started."
@@ -1066,9 +1058,7 @@ msgstr ""
 msgid ""
 "Distance in pixels the pointer must move before accelerated mouse motion is "
 "activated. A value of -1 is the system default."
-msgstr ""
-"पिक्सेलमे दूरी कर्सर केँ त्वरित माउस गति क' शुरू होबा क' पहिने बढनाइ चाही.-1 मान सिस्टम "
-"मूलभूत अछि."
+msgstr "पिक्सेलमे दूरी कर्सर केँ त्वरित माउस गति क' शुरू होबा क' पहिने बढनाइ चाही.-1 मान सिस्टम मूलभूत अछि."
 
 #: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:8
 msgid "Double Click Time"
@@ -1083,10 +1073,7 @@ msgid ""
 "Font name of the cursor. If unset, the default font is used. This value is "
 "only propagated to the X server start of each session, so changing it mid-"
 "session won't have an effect until the next time you log in."
-msgstr ""
-"कर्सर क' फाँट नाम. जँ सेट नहि अछि तँ मूलभूत फाँट प्रयोग कएल जाइछ. ई मान हर सत्र क' "
-"सिर्फ X सर्वरमे भेजल जाइछ. जाहिसँ एकरा बदलनाइ कोनो प्रभाव नहि लाबै जखन अहाँ फिनु "
-"लागिन नहि करैत अछि."
+msgstr "कर्सर क' फाँट नाम. जँ सेट नहि अछि तँ मूलभूत फाँट प्रयोग कएल जाइछ. ई मान हर सत्र क' सिर्फ X सर्वरमे भेजल जाइछ. जाहिसँ एकरा बदलनाइ कोनो प्रभाव नहि लाबै जखन अहाँ फिनु लागिन नहि करैत अछि."
 
 #: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:11
 msgid ""
@@ -1227,4 +1214,3 @@ msgstr "कुंजीपटल तालाबन्न सक्षम कए
 #: ../schemas/desktop_mate_typing_break.schemas.in.h:8
 msgid "Whether or not the typing break screen can be postponed."
 msgstr "टाइपिंग ब्रेक स्क्रीन स्थगित कएल जाएनाइ अछि अथवा नहि."
-

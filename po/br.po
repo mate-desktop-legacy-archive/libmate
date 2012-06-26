@@ -1,51 +1,51 @@
-# Breton translation for libmate
-# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
-# This file is distributed under the same license as the libmate package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: libmate\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2009-03-23 12:01+0000\n"
-"PO-Revision-Date: 2009-08-25 04:36+0100\n"
-"Last-Translator: Denis\n"
-"Language-Team: Breton <br@li.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-01-02 23:30+0100\n"
+"PO-Revision-Date: 2012-01-02 22:56+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2009-05-06 06:12+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
+"Language: br\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
 
-#: ../mate-data/mate-2.soundlist.in.h:1
+#: ../mate-data/mate.soundlist.in.h:1
 msgid "Error message"
 msgstr "Kemenn-fazi"
 
-#: ../mate-data/mate-2.soundlist.in.h:2
+#: ../mate-data/mate.soundlist.in.h:2
 msgid "Informational message"
 msgstr "Kemenn-gelaouiñ"
 
-#: ../mate-data/mate-2.soundlist.in.h:3
+#: ../mate-data/mate.soundlist.in.h:3
 msgid "Log in"
 msgstr "Lugañ"
 
-#: ../mate-data/mate-2.soundlist.in.h:4
+#: ../mate-data/mate.soundlist.in.h:4
 msgid "Log out"
 msgstr "Dilugañ"
 
-#: ../mate-data/mate-2.soundlist.in.h:5
+#: ../mate-data/mate.soundlist.in.h:5
 msgid "Miscellaneous message"
 msgstr "Kemenn all"
 
-#: ../mate-data/mate-2.soundlist.in.h:6
+#: ../mate-data/mate.soundlist.in.h:6
 msgid "Question dialog"
 msgstr "Boest goulennata"
 
-#: ../mate-data/mate-2.soundlist.in.h:7
+#: ../mate-data/mate.soundlist.in.h:7
 msgid "System events"
 msgstr "Darvoudoù sistem"
 
-#: ../mate-data/mate-2.soundlist.in.h:8
+#: ../mate-data/mate.soundlist.in.h:8
 msgid "Warning message"
 msgstr "Kemenn-diwall"
 
@@ -53,28 +53,27 @@ msgstr "Kemenn-diwall"
 msgid "Default Background"
 msgstr "Drekleur dre ziouer"
 
-#: ../mate-data/gtk-events-2.soundlist.in.h:1
+#: ../mate-data/gtk2-mate-events.soundlist.in.h:1
 msgid "Choose menu item"
 msgstr "Dibab un elfenn el lañser"
 
-#: ../mate-data/gtk-events-2.soundlist.in.h:2
+#: ../mate-data/gtk2-mate-events.soundlist.in.h:2
 msgid "Click on command button"
 msgstr "Klikit war an afell-arc'had"
 
-#: ../mate-data/gtk-events-2.soundlist.in.h:3
-#, fuzzy
+#: ../mate-data/gtk2-mate-events.soundlist.in.h:3
 msgid "Select check box"
-msgstr "Diuzañ ul log da askañ"
+msgstr ""
 
-#: ../mate-data/gtk-events-2.soundlist.in.h:4
+#: ../mate-data/gtk2-mate-events.soundlist.in.h:4
 msgid "User interface events"
 msgstr "Darvoudoù an etrefas-arveriad"
 
-#: ../libmate/mate-exec.c:450
+#: ../libmate/mate-exec.c:457
 msgid "Cannot find a terminal, using xterm, even if it may not work"
 msgstr "N'eus ket tu da gaout un dermenell, implijet e vo xterm, Met ne c'halle ket labourat"
 
-#: ../libmate/mate-mateconf.c:175
+#: ../libmate/mate-mateconf.c:169
 msgid "MATE MateConf Support"
 msgstr "Skor MateConf MATE"
 
@@ -88,11 +87,24 @@ msgstr "N'eus ket tu da gaout an domani MATE_FILE_DOMAIN_APP_HELP"
 msgid "Unable to find the MATE_FILE_DOMAIN_HELP domain."
 msgstr "N'eus ket tu da gaout an domani MATE_FILE_DOMAIN_HELP."
 
-#: ../libmate/mate-help.c:193
-#: ../libmate/mate-help.c:208
+#: ../libmate/mate-help.c:193 ../libmate/mate-help.c:208
 #, c-format
-msgid "Unable to show help as %s is not a directory.  Please check your installation."
+msgid ""
+"Unable to show help as %s is not a directory.  Please check your "
+"installation."
 msgstr "N'eus ket da ziskouez ar skoazell rak n'eo ket ur c'havlec'h %s.  Gwirit hoc'h staliadur mar plij ganeoc'h."
+
+#: ../libmate/mate-help.c:217
+#, c-format
+msgid "Unable to find help paths %s or %s. Please check your installation"
+msgstr "N'eus ket tu da gavout ar c'havlec'hioù skoazell %s pe %s. Gwirit hoc'h staliadur mar plij ganeoc'h"
+
+#: ../libmate/mate-help.c:233
+#, c-format
+msgid ""
+"Unable to find the help files in either %s or %s.  Please check your "
+"installation"
+msgstr "N'eus ket tu da gavout ar restroù skoazell en %s pe %s.  Gwirit hoc'h staliadur mar plij ganeoc'h"
 
 #: ../libmate/mate-help.c:350
 #, c-format
@@ -109,104 +121,303 @@ msgstr "N'eo ket bet kavet an teul skoazell %s/%s"
 msgid "MateComponent Support"
 msgstr "Skor MateComponent"
 
-#: ../libmate/mate-init.c:380
-#: ../libmate/mate-init.c:394
+#: ../libmate/mate-init.c:144
+msgid "MateComponent activation Support"
+msgstr ""
+
+#: ../libmate/mate-init.c:379 ../libmate/mate-init.c:393
 #, c-format
 msgid "Could not create per-user mate configuration directory `%s': %s\n"
 msgstr "N'eus ket tu da grouiñ ur c'havlec'h kefluniadur MATE evit an arveriad `%s': %s\n"
 
-#: ../libmate/mate-init.c:456
+#: ../libmate/mate-init.c:401
+#, c-format
+msgid "Could not stat private per-user mate configuration directory `%s': %s\n"
+msgstr ""
+
+#: ../libmate/mate-init.c:409
+#, c-format
+msgid ""
+"Could not set mode 0700 on private per-user mate configuration directory "
+"`%s': %s\n"
+msgstr ""
+
+#: ../libmate/mate-init.c:416
+#, c-format
+msgid "Could not create mate accelerators directory `%s': %s\n"
+msgstr ""
+
+#: ../libmate/mate-init.c:455
 msgid "MATE Virtual Filesystem"
 msgstr "Reizhiad restroù galloudel MATE"
 
-#: ../libmate/mate-init.c:491
-#: ../libmate/mate-init.c:535
+#: ../libmate/mate-init.c:473 ../libmate/mate-init.c:516
+msgid "Disable sound server usage"
+msgstr ""
+
+#: ../libmate/mate-init.c:476 ../libmate/mate-init.c:519
+msgid "Enable sound server usage"
+msgstr ""
+
+#: ../libmate/mate-init.c:480 ../libmate/mate-init.c:522
+msgid "Host:port on which the sound server to use is running"
+msgstr ""
+
+#: ../libmate/mate-init.c:481 ../libmate/mate-init.c:524
+msgid "HOSTNAME:PORT"
+msgstr "OSTIZ : PORZH"
+
+#: ../libmate/mate-init.c:490 ../libmate/mate-init.c:534
 msgid "MATE Library"
 msgstr "Levraoueg MATE"
 
-#: ../libmate/mate-init.c:492
+#: ../libmate/mate-init.c:491
 msgid "Show MATE options"
 msgstr "Diskouez an dibarzhioù MATE"
 
-#: ../libmate/mate-program.c:461
+#: ../libmate/mate-program.c:469
 msgid "Popt Table"
 msgstr "Taolenn Popt"
 
-#: ../libmate/mate-program.c:462
+#: ../libmate/mate-program.c:469
 msgid "The table of options for popt"
 msgstr "Taolenn dibarzhioù evit popt"
 
-#: ../libmate/mate-program.c:506
+#: ../libmate/mate-program.c:471
+msgid "Popt Flags"
+msgstr "Banneloù Popt"
+
+#: ../libmate/mate-program.c:471
+msgid "The flags to use for popt"
+msgstr ""
+
+#: ../libmate/mate-program.c:473
+msgid "Popt Context"
+msgstr ""
+
+#: ../libmate/mate-program.c:473
+msgid "The popt context pointer that MateProgram is using"
+msgstr ""
+
+#: ../libmate/mate-program.c:475
+msgid "GOption Context"
+msgstr ""
+
+#: ../libmate/mate-program.c:475
+msgid "The goption context pointer that MateProgram is using"
+msgstr ""
+
+#: ../libmate/mate-program.c:477
+msgid "Human readable name"
+msgstr ""
+
+#: ../libmate/mate-program.c:477
+msgid "Human readable name of this application"
+msgstr ""
+
+#: ../libmate/mate-program.c:479
 msgid "MATE path"
 msgstr "Treug MATE"
 
-#: ../libmate/mate-program.c:507
+#: ../libmate/mate-program.c:479
 msgid "Path in which to look for installed files"
 msgstr "Kavlec'h e-lec'h klask restroù staliet"
 
-#: ../libmate/mate-program.c:524
+#: ../libmate/mate-program.c:481
+msgid "App ID"
+msgstr "ID an arload"
+
+#: ../libmate/mate-program.c:481
+msgid "ID string to use for this application"
+msgstr ""
+
+#: ../libmate/mate-program.c:483
 msgid "App version"
 msgstr "Handelv an arload"
 
-#: ../libmate/mate-program.c:525
+#: ../libmate/mate-program.c:483
 msgid "Version of this application"
 msgstr "Handelv an arload-mañ"
 
-#: ../libmate/mate-program.c:542
+#: ../libmate/mate-program.c:485
+msgid "MATE Prefix"
+msgstr ""
+
+#: ../libmate/mate-program.c:485
+msgid "Prefix where MATE was installed"
+msgstr ""
+
+#: ../libmate/mate-program.c:487
 msgid "MATE Libdir"
 msgstr "MATE Libdir"
 
-#: ../libmate/mate-program.c:552
+#: ../libmate/mate-program.c:487
+msgid "Library prefix where MATE was installed"
+msgstr ""
+
+#: ../libmate/mate-program.c:489
 msgid "MATE Datadir"
 msgstr "MATE Datadir"
 
-#: ../libmate/mate-program.c:562
+#: ../libmate/mate-program.c:489
+msgid "Data prefix where MATE was installed"
+msgstr ""
+
+#: ../libmate/mate-program.c:491
 msgid "MATE Sysconfdir"
 msgstr "MATE Sysconfdir"
 
-#: ../libmate/mate-program.c:573
+#: ../libmate/mate-program.c:491
+msgid "Configuration prefix where MATE was installed"
+msgstr ""
+
+#: ../libmate/mate-program.c:493
 msgid "MATE App Prefix"
 msgstr "MATE App Prefix"
 
-#: ../libmate/mate-program.c:582
+#: ../libmate/mate-program.c:493
+msgid "Prefix where this application was installed"
+msgstr ""
+
+#: ../libmate/mate-program.c:495
 msgid "MATE App Libdir"
 msgstr "MATE App Libdir"
 
-#: ../libmate/mate-program.c:592
+#: ../libmate/mate-program.c:495
+msgid "Library prefix where this application was installed"
+msgstr ""
+
+#: ../libmate/mate-program.c:497
 msgid "MATE App Datadir"
 msgstr "MATE App Datadir"
 
-#: ../libmate/mate-program.c:602
+#: ../libmate/mate-program.c:497
+msgid "Data prefix where this application was installed"
+msgstr ""
+
+#: ../libmate/mate-program.c:499
 msgid "MATE App Sysconfdir"
 msgstr "MATE App Sysconfdir"
 
-#: ../libmate/mate-program.c:612
+#: ../libmate/mate-program.c:499
+msgid "Configuration prefix where this application was installed"
+msgstr ""
+
+#: ../libmate/mate-program.c:501
 msgid "Create Directories"
 msgstr "Krouiñ teuliadoù"
 
-#: ../libmate/mate-program.c:622
+#: ../libmate/mate-program.c:501
+msgid "Create standard MATE directories on startup"
+msgstr ""
+
+#: ../libmate/mate-program.c:503
 msgid "Enable Sound"
 msgstr "Gweredekaat ar son"
 
-#: ../libmate/mate-program.c:623
+#: ../libmate/mate-program.c:503
 msgid "Enable sound on startup"
 msgstr "Gweredekaat ar son e-pad al loc'hañ"
 
-#: ../libmate/mate-program.c:631
+#: ../libmate/mate-program.c:505
 msgid "Espeaker"
 msgstr "Espeaker"
 
-#: ../libmate/mate-program.c:1397
+#: ../libmate/mate-program.c:505
+msgid "How to connect to esd"
+msgstr ""
+
+#: ../libmate/mate-program.c:1288
 msgid "Help options"
 msgstr "Dibarzhioù ar skoazell"
 
-#: ../libmate/mate-program.c:1402
+#: ../libmate/mate-program.c:1294
 msgid "Application options"
 msgstr "Dibarzhioù an arload"
 
-#: ../libmate/mate-program.c:1419
+#: ../libmate/mate-program.c:1311
+msgid "Dynamic modules to load"
+msgstr ""
+
+#: ../libmate/mate-program.c:1312
 msgid "MODULE1,MODULE2,..."
 msgstr "MOLLAD1, MOLLAD2,..."
+
+#. Translators: the first %s is the error message, 2nd %s the program name
+#: ../libmate/mate-program.c:1527
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+
+#: ../libmate/mate-url.c:82
+#, c-format
+msgid "Unknown internal error while displaying this location."
+msgstr ""
+
+#: ../libmate/mate-url.c:86
+#, c-format
+msgid "The specified location is invalid."
+msgstr ""
+
+#: ../libmate/mate-url.c:90
+#, c-format
+msgid ""
+"There was an error parsing the default action command associated with this "
+"location."
+msgstr ""
+
+#: ../libmate/mate-url.c:94 ../libmate/mate-url.c:145
+#, c-format
+msgid ""
+"There was an error launching the default action command associated with this"
+" location."
+msgstr ""
+
+#: ../libmate/mate-url.c:98
+#, c-format
+msgid "There is no default action associated with this location."
+msgstr ""
+
+#: ../libmate/mate-url.c:102
+#, c-format
+msgid "The default action does not support this protocol."
+msgstr ""
+
+#: ../libmate/mate-url.c:106
+#, c-format
+msgid "The request was cancelled."
+msgstr ""
+
+#: ../libmate/mate-url.c:115
+#, c-format
+msgid "The host \"%s\" could not be found."
+msgstr ""
+
+#: ../libmate/mate-url.c:119
+#, c-format
+msgid "The host could not be found."
+msgstr ""
+
+#: ../libmate/mate-url.c:128
+#, c-format
+msgid "The location or file could not be found."
+msgstr ""
+
+#: ../libmate/mate-url.c:132
+#, c-format
+msgid "The login has failed."
+msgstr ""
+
+#: ../libmate/mate-open.c:57
+#, c-format
+msgid "Error showing url: %s\n"
+msgstr ""
+
+#: ../monikers/MATE_Moniker_std.server.in.in.h:1
+msgid "Extra Moniker factory"
+msgstr ""
 
 #: ../monikers/MATE_Moniker_std.server.in.in.h:2
 msgid "MateConf moniker"
@@ -219,220 +430,6 @@ msgstr ""
 #: ../monikers/matecomponent-config-bag.c:231
 msgid "Unknown type"
 msgstr "Rizh dianav"
-
-#: ../schemas/desktop_mate_applications_terminal.schemas.in.h:3
-msgid "Terminal application"
-msgstr "Arload termenell"
-
-#: ../libmate/mate-help.c:217
-#, c-format
-msgid "Unable to find help paths %s or %s. Please check your installation"
-msgstr "N'eus ket tu da gavout ar c'havlec'hioù skoazell %s pe %s. Gwirit hoc'h staliadur mar plij ganeoc'h"
-
-#: ../libmate/mate-help.c:233
-#, c-format
-msgid "Unable to find the help files in either %s or %s.  Please check your installation"
-msgstr "N'eus ket tu da gavout ar restroù skoazell en %s pe %s.  Gwirit hoc'h staliadur mar plij ganeoc'h"
-
-#: ../libmate/mate-init.c:144
-msgid "MateComponent activation Support"
-msgstr ""
-
-#: ../libmate/mate-init.c:402
-#, c-format
-msgid "Could not stat private per-user mate configuration directory `%s': %s\n"
-msgstr ""
-
-#: ../libmate/mate-init.c:410
-#, c-format
-msgid "Could not set mode 0700 on private per-user mate configuration directory `%s': %s\n"
-msgstr ""
-
-#: ../libmate/mate-init.c:417
-#, c-format
-msgid "Could not create mate accelerators directory `%s': %s\n"
-msgstr ""
-
-#: ../libmate/mate-init.c:474
-#: ../libmate/mate-init.c:517
-msgid "Disable sound server usage"
-msgstr ""
-
-#: ../libmate/mate-init.c:477
-#: ../libmate/mate-init.c:520
-msgid "Enable sound server usage"
-msgstr ""
-
-#: ../libmate/mate-init.c:481
-#: ../libmate/mate-init.c:523
-msgid "Host:port on which the sound server to use is running"
-msgstr ""
-
-#: ../libmate/mate-init.c:482
-#: ../libmate/mate-init.c:525
-msgid "HOSTNAME:PORT"
-msgstr "OSTIZ : PORZH"
-
-#: ../libmate/mate-program.c:469
-msgid "Popt Flags"
-msgstr "Banneloù Popt"
-
-#: ../libmate/mate-program.c:470
-msgid "The flags to use for popt"
-msgstr ""
-
-#: ../libmate/mate-program.c:478
-msgid "Popt Context"
-msgstr ""
-
-#: ../libmate/mate-program.c:479
-msgid "The popt context pointer that MateProgram is using"
-msgstr ""
-
-#: ../libmate/mate-program.c:487
-msgid "GOption Context"
-msgstr ""
-
-#: ../libmate/mate-program.c:488
-msgid "The goption context pointer that MateProgram is using"
-msgstr ""
-
-#: ../libmate/mate-program.c:496
-msgid "Human readable name"
-msgstr ""
-
-#: ../libmate/mate-program.c:497
-msgid "Human readable name of this application"
-msgstr ""
-
-#: ../libmate/mate-program.c:516
-msgid "App ID"
-msgstr "ID an arload"
-
-#: ../libmate/mate-program.c:517
-msgid "ID string to use for this application"
-msgstr ""
-
-#: ../libmate/mate-program.c:532
-msgid "MATE Prefix"
-msgstr ""
-
-#: ../libmate/mate-program.c:533
-msgid "Prefix where MATE was installed"
-msgstr ""
-
-#: ../libmate/mate-program.c:543
-msgid "Library prefix where MATE was installed"
-msgstr ""
-
-#: ../libmate/mate-program.c:553
-msgid "Data prefix where MATE was installed"
-msgstr ""
-
-#: ../libmate/mate-program.c:563
-msgid "Configuration prefix where MATE was installed"
-msgstr ""
-
-#: ../libmate/mate-program.c:574
-msgid "Prefix where this application was installed"
-msgstr ""
-
-#: ../libmate/mate-program.c:583
-msgid "Library prefix where this application was installed"
-msgstr ""
-
-#: ../libmate/mate-program.c:593
-msgid "Data prefix where this application was installed"
-msgstr ""
-
-#: ../libmate/mate-program.c:603
-msgid "Configuration prefix where this application was installed"
-msgstr ""
-
-#: ../libmate/mate-program.c:613
-msgid "Create standard MATE directories on startup"
-msgstr ""
-
-#: ../libmate/mate-program.c:632
-msgid "How to connect to esd"
-msgstr ""
-
-#: ../libmate/mate-program.c:1418
-msgid "Dynamic modules to load"
-msgstr ""
-
-#. Translators: the first %s is the error message, 2nd %s the program name
-#: ../libmate/mate-program.c:1637
-#, c-format
-msgid ""
-"%s\n"
-"Run '%s --help' to see a full list of available command line options.\n"
-msgstr ""
-
-#: ../libmate/mate-url.c:85
-#, c-format
-msgid "Unknown internal error while displaying this location."
-msgstr ""
-
-#: ../libmate/mate-url.c:92
-#, c-format
-msgid "The specified location is invalid."
-msgstr ""
-
-#: ../libmate/mate-url.c:99
-#, c-format
-msgid "There was an error parsing the default action command associated with this location."
-msgstr ""
-
-#: ../libmate/mate-url.c:107
-#: ../libmate/mate-url.c:180
-#, c-format
-msgid "There was an error launching the default action command associated with this location."
-msgstr ""
-
-#: ../libmate/mate-url.c:115
-#, c-format
-msgid "There is no default action associated with this location."
-msgstr ""
-
-#: ../libmate/mate-url.c:122
-#, c-format
-msgid "The default action does not support this protocol."
-msgstr ""
-
-#: ../libmate/mate-url.c:129
-#, c-format
-msgid "The request was cancelled."
-msgstr ""
-
-#: ../libmate/mate-url.c:139
-#, c-format
-msgid "The host \"%s\" could not be found."
-msgstr ""
-
-#: ../libmate/mate-url.c:145
-#, c-format
-msgid "The host could not be found."
-msgstr ""
-
-#: ../libmate/mate-url.c:156
-#, c-format
-msgid "The location or file could not be found."
-msgstr ""
-
-#: ../libmate/mate-url.c:163
-#, c-format
-msgid "The login has failed."
-msgstr ""
-
-#: ../libmate/mate-open.c:52
-#, c-format
-msgid "Error showing url: %s\n"
-msgstr ""
-
-#: ../monikers/MATE_Moniker_std.server.in.in.h:1
-msgid "Extra Moniker factory"
-msgstr ""
 
 #: ../monikers/matecomponent-moniker-conf-indirect.c:44
 #, c-format
@@ -448,7 +445,8 @@ msgid "Disable if two keys are pressed at the same time."
 msgstr ""
 
 #: ../schemas/desktop_mate_accessibility_keyboard.schemas.in.h:3
-msgid "Do not accept a key as being pressed unless held for @delay milliseconds."
+msgid ""
+"Do not accept a key as being pressed unless held for @delay milliseconds."
 msgstr ""
 
 #: ../schemas/desktop_mate_accessibility_keyboard.schemas.in.h:4
@@ -460,7 +458,8 @@ msgid "How many milliseconds it takes to go from 0 to maximum speed."
 msgstr ""
 
 #: ../schemas/desktop_mate_accessibility_keyboard.schemas.in.h:6
-msgid "How many milliseconds to wait before mouse movement keys start to operate."
+msgid ""
+"How many milliseconds to wait before mouse movement keys start to operate."
 msgstr ""
 
 #: ../schemas/desktop_mate_accessibility_keyboard.schemas.in.h:7
@@ -488,7 +487,9 @@ msgid "minimum interval in milliseconds"
 msgstr ""
 
 #: ../schemas/desktop_mate_accessibility_startup.schemas.in.h:1
-msgid "List of assistive technology applications to start when logging into the MATE desktop."
+msgid ""
+"List of assistive technology applications to start when logging into the "
+"MATE desktop."
 msgstr ""
 
 #: ../schemas/desktop_mate_accessibility_startup.schemas.in.h:2
@@ -496,7 +497,9 @@ msgid "Startup Assistive Technology Applications"
 msgstr ""
 
 #: ../schemas/desktop_mate_applications_at_mobility.schemas.in.h:1
-msgid "MATE to start preferred Mobility assistive technology application during login."
+msgid ""
+"MATE to start preferred Mobility assistive technology application during "
+"login."
 msgstr ""
 
 #: ../schemas/desktop_mate_applications_at_mobility.schemas.in.h:2
@@ -504,7 +507,9 @@ msgid "Preferred Mobility assistive technology application"
 msgstr ""
 
 #: ../schemas/desktop_mate_applications_at_mobility.schemas.in.h:3
-msgid "Preferred Mobility assistive technology application to be used for login, menu, or command line."
+msgid ""
+"Preferred Mobility assistive technology application to be used for login, "
+"menu, or command line."
 msgstr ""
 
 #: ../schemas/desktop_mate_applications_at_mobility.schemas.in.h:4
@@ -512,7 +517,9 @@ msgid "Start preferred Mobility assistive technology application"
 msgstr ""
 
 #: ../schemas/desktop_mate_applications_at_visual.schemas.in.h:1
-msgid "MATE to start preferred Visual assistive technology application during login."
+msgid ""
+"MATE to start preferred Visual assistive technology application during "
+"login."
 msgstr ""
 
 #: ../schemas/desktop_mate_applications_at_visual.schemas.in.h:2
@@ -520,7 +527,9 @@ msgid "Preferred Visual assistive technology application"
 msgstr ""
 
 #: ../schemas/desktop_mate_applications_at_visual.schemas.in.h:3
-msgid "Preferred Visual assistive technology application be used for login, menu, or command line."
+msgid ""
+"Preferred Visual assistive technology application be used for login, menu, "
+"or command line."
 msgstr ""
 
 #: ../schemas/desktop_mate_applications_at_visual.schemas.in.h:4
@@ -584,19 +593,26 @@ msgid "Whether the default tasks application needs a terminal to run"
 msgstr ""
 
 #: ../schemas/desktop_mate_applications_terminal.schemas.in.h:1
-msgid "Argument used to execute programs in the terminal defined by the 'exec' key."
+msgid ""
+"Argument used to execute programs in the terminal defined by the 'exec' key."
 msgstr ""
 
 #: ../schemas/desktop_mate_applications_terminal.schemas.in.h:2
 msgid "Exec Arguments"
 msgstr ""
 
+#: ../schemas/desktop_mate_applications_terminal.schemas.in.h:3
+msgid "Terminal application"
+msgstr "Arload termenell"
+
 #: ../schemas/desktop_mate_applications_terminal.schemas.in.h:4
 msgid "Terminal program to use when starting applications that require one."
 msgstr ""
 
 #: ../schemas/desktop_mate_applications_window_manager.schemas.in.h:1
-msgid "A list with names of the first window manager workspaces. This key has been deprecated since MATE 2.12."
+msgid ""
+"A list with names of the first window manager workspaces. This key has been "
+"deprecated since MATE 2.12."
 msgstr ""
 
 #: ../schemas/desktop_mate_applications_window_manager.schemas.in.h:2
@@ -604,7 +620,9 @@ msgid "Fallback window manager (deprecated)"
 msgstr ""
 
 #: ../schemas/desktop_mate_applications_window_manager.schemas.in.h:3
-msgid "Fallback window manager if user window manager can't be found. This key has been deprecated since MATE 2.12."
+msgid ""
+"Fallback window manager if user window manager can't be found. This key has "
+"been deprecated since MATE 2.12."
 msgstr ""
 
 #: ../schemas/desktop_mate_applications_window_manager.schemas.in.h:4
@@ -616,7 +634,9 @@ msgid "The number of workspaces (deprecated)"
 msgstr ""
 
 #: ../schemas/desktop_mate_applications_window_manager.schemas.in.h:6
-msgid "The number of workspaces the window manager should use This key has been deprecated since MATE 2.12."
+msgid ""
+"The number of workspaces the window manager should use This key has been "
+"deprecated since MATE 2.12."
 msgstr ""
 
 #: ../schemas/desktop_mate_applications_window_manager.schemas.in.h:7
@@ -624,7 +644,8 @@ msgid "User window manager (deprecated)"
 msgstr ""
 
 #: ../schemas/desktop_mate_applications_window_manager.schemas.in.h:8
-msgid "Window manager to try first. This key has been deprecated since MATE 2.12."
+msgid ""
+"Window manager to try first. This key has been deprecated since MATE 2.12."
 msgstr ""
 
 #: ../schemas/desktop_mate_background.schemas.in.in.h:1
@@ -632,7 +653,10 @@ msgid "Color Shading Type"
 msgstr ""
 
 #: ../schemas/desktop_mate_background.schemas.in.in.h:2
-msgid "Determines how the image set by wallpaper_filename is rendered. Possible values are \"none\", \"wallpaper\", \"centered\", \"scaled\", \"stretched\", \"zoom\"."
+msgid ""
+"Determines how the image set by wallpaper_filename is rendered. Possible "
+"values are \"none\", \"wallpaper\", \"centered\", \"scaled\", \"stretched\","
+" \"zoom\", \"spanned\"."
 msgstr ""
 
 #: ../schemas/desktop_mate_background.schemas.in.in.h:3
@@ -648,7 +672,9 @@ msgid "Have MATE draw the desktop background."
 msgstr ""
 
 #: ../schemas/desktop_mate_background.schemas.in.in.h:6
-msgid "How to shade the background color. Possible values are \"horizontal-gradient\", \"vertical-gradient\", and \"solid\"."
+msgid ""
+"How to shade the background color. Possible values are \"horizontal-"
+"gradient\", \"vertical-gradient\", and \"solid\"."
 msgstr ""
 
 #: ../schemas/desktop_mate_background.schemas.in.in.h:7
@@ -676,7 +702,8 @@ msgid "Primary Color"
 msgstr ""
 
 #: ../schemas/desktop_mate_background.schemas.in.in.h:13
-msgid "Right or Bottom color when drawing gradients, not used for solid color."
+msgid ""
+"Right or Bottom color when drawing gradients, not used for solid color."
 msgstr ""
 
 #: ../schemas/desktop_mate_background.schemas.in.in.h:14
@@ -780,7 +807,9 @@ msgid "Module for GtkFileChooser"
 msgstr ""
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:23
-msgid "Module to use as the filesystem model for the GtkFileChooser widget. Possible values are \"gio\", \"mate-vfs\" and \"gtk+\"."
+msgid ""
+"Module to use as the filesystem model for the GtkFileChooser widget. "
+"Possible values are \"gio\", \"mate-vfs\" and \"gtk+\"."
 msgstr ""
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:24
@@ -788,7 +817,8 @@ msgid "Monospace font"
 msgstr ""
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:25
-msgid "Name of a monospaced (fixed-width) font for use in locations like terminals."
+msgid ""
+"Name of a monospaced (fixed-width) font for use in locations like terminals."
 msgstr ""
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:26
@@ -852,7 +882,9 @@ msgid "Whether Applications should have accessibility support."
 msgstr ""
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:41
-msgid "Whether animations should be displayed. Note: This is a global key, it changes the behaviour of the window manager, the panel etc."
+msgid ""
+"Whether animations should be displayed. Note: This is a global key, it "
+"changes the behaviour of the window manager, the panel etc."
 msgstr ""
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:42
@@ -868,11 +900,15 @@ msgid "Whether menus should have a tearoff."
 msgstr ""
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:45
-msgid "Whether the context menus of entries and text views should offer to change the input method."
+msgid ""
+"Whether the context menus of entries and text views should offer to change "
+"the input method."
 msgstr ""
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:46
-msgid "Whether the context menus of entries and text views should offer to insert control characters."
+msgid ""
+"Whether the context menus of entries and text views should offer to insert "
+"control characters."
 msgstr ""
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:47
@@ -888,7 +924,9 @@ msgid "Whether the user can detach toolbars and move them around."
 msgstr ""
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:50
-msgid "Whether the user can dynamically type a new accelerator when positioned over an active menuitem."
+msgid ""
+"Whether the user can dynamically type a new accelerator when positioned over"
+" an active menuitem."
 msgstr ""
 
 #: ../schemas/desktop_mate_interface.schemas.in.in.h:51
@@ -932,23 +970,34 @@ msgid "Prevent running any URL or MIME type handler applications."
 msgstr ""
 
 #: ../schemas/desktop_mate_lockdown.schemas.in.h:9
-msgid "Prevent the user from accessing the terminal or specifying a command line to be executed. For example, this would disable access to the panel's \"Run Application\" dialog."
+msgid ""
+"Prevent the user from accessing the terminal or specifying a command line to"
+" be executed. For example, this would disable access to the panel's \"Run "
+"Application\" dialog."
 msgstr ""
 
 #: ../schemas/desktop_mate_lockdown.schemas.in.h:10
-msgid "Prevent the user from modifying print settings. For example, this would disable access to all applications' \"Print Setup\" dialogs."
+msgid ""
+"Prevent the user from modifying print settings. For example, this would "
+"disable access to all applications' \"Print Setup\" dialogs."
 msgstr ""
 
 #: ../schemas/desktop_mate_lockdown.schemas.in.h:11
-msgid "Prevent the user from printing. For example, this would disable access to all applications' \"Print\" dialogs."
+msgid ""
+"Prevent the user from printing. For example, this would disable access to "
+"all applications' \"Print\" dialogs."
 msgstr ""
 
 #: ../schemas/desktop_mate_lockdown.schemas.in.h:12
-msgid "Prevent the user from saving files to disk. For example, this would disable access to all applications' \"Save as\" dialogs."
+msgid ""
+"Prevent the user from saving files to disk. For example, this would disable "
+"access to all applications' \"Save as\" dialogs."
 msgstr ""
 
 #: ../schemas/desktop_mate_lockdown.schemas.in.h:13
-msgid "Prevent the user from switching to another account while his session is active."
+msgid ""
+"Prevent the user from switching to another account while his session is "
+"active."
 msgstr ""
 
 #: ../schemas/desktop_mate_lockdown.schemas.in.h:14
@@ -968,7 +1017,9 @@ msgid "Remember NumLock state"
 msgstr ""
 
 #: ../schemas/desktop_mate_peripherals_keyboard.schemas.in.h:4
-msgid "When set to true, MATE will remember the state of the NumLock LED between sessions."
+msgid ""
+"When set to true, MATE will remember the state of the NumLock LED between "
+"sessions."
 msgstr ""
 
 #: ../schemas/desktop_mate_peripherals_keyboard.schemas.in.h:5
@@ -976,7 +1027,9 @@ msgid "possible values are \"on\", \"off\", and \"custom\"."
 msgstr ""
 
 #: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:1
-msgid "Acceleration multiplier for mouse motion. A value of -1 is the system default."
+msgid ""
+"Acceleration multiplier for mouse motion. A value of -1 is the system "
+"default."
 msgstr ""
 
 #: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:2
@@ -992,7 +1045,9 @@ msgid "Cursor theme"
 msgstr ""
 
 #: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:5
-msgid "Cursor theme name. Used only by Xservers that support Xcursor, such as XFree86 4.3 and later."
+msgid ""
+"Cursor theme name. Used only by Xservers that support Xcursor, such as "
+"XFree86 4.3 and later."
 msgstr ""
 
 #: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:6
@@ -1000,7 +1055,9 @@ msgid "Distance before a drag is started."
 msgstr ""
 
 #: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:7
-msgid "Distance in pixels the pointer must move before accelerated mouse motion is activated. A value of -1 is the system default."
+msgid ""
+"Distance in pixels the pointer must move before accelerated mouse motion is "
+"activated. A value of -1 is the system default."
 msgstr ""
 
 #: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:8
@@ -1012,75 +1069,48 @@ msgid "Drag Threshold"
 msgstr ""
 
 #: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:10
-msgid "Enable the touchpad"
+msgid ""
+"Font name of the cursor. If unset, the default font is used. This value is "
+"only propagated to the X server start of each session, so changing it mid-"
+"session won't have an effect until the next time you log in."
 msgstr ""
 
 #: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:11
-msgid "Font name of the cursor. If unset, the default font is used. This value is only propagated to the X server start of each session, so changing it mid-session won't have an effect until the next time you log in."
+msgid ""
+"Highlights the current location of the pointer when the Control key is "
+"pressed and released."
 msgstr ""
 
 #: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:12
-msgid "Highlights the current location of the pointer when the Control key is pressed and released."
-msgstr ""
-
-#: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:13
 msgid "Length of a double click."
 msgstr ""
 
-#: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:14
+#: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:13
 msgid "Locate Pointer"
 msgstr ""
 
-#: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:15
+#: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:14
 msgid "Motion Threshold"
 msgstr ""
 
-#: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:16
+#: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:15
 msgid "Mouse button orientation"
 msgstr ""
 
-#: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:17
+#: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:16
 msgid "Single Click"
 msgstr ""
 
-#: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:18
+#: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:17
 msgid "Single click to open icons."
 msgstr ""
 
-#: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:19
+#: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:18
 msgid "Size of the cursor referenced by cursor_theme."
 msgstr ""
 
-#: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:20
+#: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:19
 msgid "Swap left and right mouse buttons for left-handed mice."
-msgstr ""
-
-#: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:21
-msgid "Tap on the trackpad to perform a mouse click"
-msgstr ""
-
-#: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:22
-msgid "Tap to Click"
-msgstr ""
-
-#: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:23
-msgid "Touchpad Enabled"
-msgstr ""
-
-#: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:24
-msgid "Touchpad horizontal scrolling"
-msgstr ""
-
-#: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:25
-msgid "Touchpad vertical scrolling"
-msgstr ""
-
-#: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:26
-msgid "Use the bottom edge of the touchpad to perform horizontal scrolling"
-msgstr ""
-
-#: ../schemas/desktop_mate_peripherals_mouse.schemas.in.h:27
-msgid "Use the right edge of the touchpad to perform vertical scrolling"
 msgstr ""
 
 #: ../schemas/desktop_mate_sound.schemas.in.h:1
@@ -1132,11 +1162,15 @@ msgid "Whether to play sounds on user events."
 msgstr ""
 
 #: ../schemas/desktop_mate_thumbnail_cache.schemas.in.h:1
-msgid "Maximum age for thumbnails in the cache, in days. Set to -1 to disable cleaning."
+msgid ""
+"Maximum age for thumbnails in the cache, in days. Set to -1 to disable "
+"cleaning."
 msgstr ""
 
 #: ../schemas/desktop_mate_thumbnail_cache.schemas.in.h:2
-msgid "Maximum size of the thumbnail cache, in megabytes. Set to -1 to disable cleaning."
+msgid ""
+"Maximum size of the thumbnail cache, in megabytes. Set to -1 to disable "
+"cleaning."
 msgstr ""
 
 #: ../schemas/desktop_mate_thumbnailers.schemas.in.h:1
@@ -1144,7 +1178,9 @@ msgid "Disable all external thumbnailers"
 msgstr ""
 
 #: ../schemas/desktop_mate_thumbnailers.schemas.in.h:2
-msgid "Set to true to disable all external thumbnailer programs, independent on whether they are independently disabled/enabled."
+msgid ""
+"Set to true to disable all external thumbnailer programs, independent on "
+"whether they are independently disabled/enabled."
 msgstr ""
 
 #: ../schemas/desktop_mate_typing_break.schemas.in.h:1
@@ -1178,4 +1214,3 @@ msgstr ""
 #: ../schemas/desktop_mate_typing_break.schemas.in.h:8
 msgid "Whether or not the typing break screen can be postponed."
 msgstr ""
-
