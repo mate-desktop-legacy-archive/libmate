@@ -1,3 +1,189 @@
+commit a3993c423efa859c2b55ea994a66f0755bb25947
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Tue Jun 26 17:57:25 2012 +0200
+
+    sync translations with transifex
+
+ po/am.po          |  890 +++++++++++++--------
+ po/ar.po          |  326 ++++----
+ po/as.po          |  383 ++++-----
+ po/ast.po         |  365 +++++----
+ po/az.po          | 1017 ++++++++++++++----------
+ po/be.po          | 1015 +++++++++++-------------
+ po/bg.po          |  452 ++++-------
+ po/bn.po          |  566 ++++---------
+ po/bn_IN.po       |  504 ++++--------
+ po/br.po          |  597 +++++++-------
+ po/bs.po          | 1053 +++++++++++++++----------
+ po/ca.po          |  600 ++++----------
+ po/ca@valencia.po |  600 ++++----------
+ po/crh.po         |  462 ++++-------
+ po/cs.po          |  410 ++++------
+ po/cy.po          |  601 ++++----------
+ po/da.po          |  639 ++++-----------
+ po/de.po          |  505 +++++-------
+ po/dz.po          |  814 +++++++++++--------
+ po/el.po          |  531 ++++---------
+ po/en_CA.po       |  704 ++++++++---------
+ po/en_GB.po       |  439 ++++-------
+ po/eo.po          |  420 +++++-----
+ po/es.po          |  497 ++++--------
+ po/et.po          |  551 ++++++++-----
+ po/eu.po          |  463 ++++-------
+ po/fa.po          |  994 ++++++++++++++---------
+ po/fi.po          |  507 ++++--------
+ po/fr.po          |  498 +++++-------
+ po/fur.po         | 2281 ++++++++++++++++++++++++++++-------------------------
+ po/ga.po          |  529 +++++++------
+ po/gl.po          |  486 ++++--------
+ po/gu.po          |  406 ++++------
+ po/he.po          |  436 ++++------
+ po/hi.po          |  378 ++++-----
+ po/hr.po          |  474 +++++------
+ po/hu.po          |  415 ++++------
+ po/id.po          |  419 ++++------
+ po/is.po          | 1142 +++++++++++++++------------
+ po/it.po          |  492 +++++-------
+ po/ka.po          |  706 +++++++++--------
+ po/kk.po          |  359 +++++----
+ po/kn.po          |  247 +++---
+ po/ko.po          |  318 ++++----
+ po/ku.po          |  843 +++++++++++---------
+ po/lt.po          |  421 ++++------
+ po/lv.po          |  412 ++++------
+ po/mai.po         |  386 +++++----
+ po/mg.po          |  650 +++++++--------
+ po/mk.po          |  524 +++++-------
+ po/ml.po          |  366 ++++-----
+ po/mn.po          |  389 ++++-----
+ po/mr.po          |  317 ++++----
+ po/ms.po          | 1101 ++++++++++++++------------
+ po/nb.po          |  398 ++++------
+ po/nds.po         |  352 +++++----
+ po/ne.po          |  688 ++++++++--------
+ po/nl.po          |  668 ++++------------
+ po/nn.po          |  574 +++++++-------
+ po/oc.po          |  428 +++++-----
+ po/or.po          |  339 ++++----
+ po/pa.po          |  300 ++++---
+ po/pl.po          |  444 ++++-------
+ po/pt.po          |  618 ++++++---------
+ po/pt_BR.po       |  446 ++++-------
+ po/ro.po          |  362 +++++----
+ po/ru.po          |  446 ++++-------
+ po/rw.po          | 1387 +++++++++++++++++---------------
+ po/si.po          |  556 +++++++------
+ po/sk.po          |  415 ++++------
+ po/sl.po          |  363 +++++----
+ po/sq.po          |  704 ++++++-----------
+ po/sr.po          |  493 ++++--------
+ po/sr@latin.po    |  493 ++++--------
+ po/sv.po          |  630 +++++----------
+ po/ta.po          |  321 ++++----
+ po/te.po          |  289 +++----
+ po/th.po          |  730 ++++++++---------
+ po/tr.po          |  431 ++++------
+ po/tt.po          |  764 ++++++++++++------
+ po/vi.po          |  396 +++++-----
+ po/wa.po          |  931 +++++++++++++---------
+ po/xh.po          | 1039 +++++++++++++++---------
+ po/yi.po          |  936 +++++++++++++---------
+ po/zh_CN.po       |  284 +++----
+ po/zh_HK.po       |  246 +++---
+ po/zh_TW.po       |  297 +++----
+ 87 files changed, 23082 insertions(+), 26586 deletions(-)
+
+commit 5ca2722df95a8fb6ac24d17d43634052f7b9abf5
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Tue Jun 26 17:12:07 2012 +0200
+
+    add po gnome copyrights file
+
+ po/gnome-copyrights.txt | 1125 +++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 1125 insertions(+)
+
+commit 3fbb835233448772e8057352742f383141556864
+Merge: 04409cd 18ec6c1
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Sun Jun 24 14:22:27 2012 -0700
+
+    Merge pull request #2 from MDykstra/master
+    
+    default background set to Stripes.png
+
+commit 18ec6c12b54dabdfeb4977591772eae0919db0b8
+Author: Marcel Dijkstra <marcel.dykstra@gmail.com>
+Date:   Sun Jun 24 19:16:30 2012 +0200
+
+    default background set to Stripes.png
+
+ mate-data/mate-default.xml.in.in              |    2 +-
+ schemas/desktop_mate_background.schemas.in.in |    2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 04409cdb290951950a30eae072064e39e0c55c38
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Mon May 21 18:15:03 2012 +0200
+
+    add summary in configure, start 1.3
+
+ configure.in |    9 ++++++++-
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+
+commit 826b11465b90ddd228184c8320e7adf81b1b5126
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Mon May 21 18:14:53 2012 +0200
+
+    fix manpage
+
+ mate-data/mate-options.7 |    4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit b10e1b0af22671d91e13465397ea25061e9d119d
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Sat May 19 23:43:09 2012 +0200
+
+    remove distro/ubuntu folder
+
+ distro/ubuntu/build    |   40 ----------------------------------------
+ distro/ubuntu/postinst |   11 -----------
+ distro/ubuntu/postrm   |    7 -------
+ distro/ubuntu/preinst  |    8 --------
+ distro/ubuntu/prerm    |    9 ---------
+ 5 files changed, 75 deletions(-)
+
+commit 96945bedab6e926742316e9530b43c0c8625d2ab
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Thu Mar 29 22:06:51 2012 +0200
+
+    updated Stripes.jpg filename and path
+
+ mate-data/mate-default.xml.in.in              |    2 +-
+ schemas/desktop_mate_background.schemas.in.in |    2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 6f36692ff08d1d69aaa76c5b39fcded7dbc56ea8
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Mon Feb 20 15:49:53 2012 +0100
+
+    fix things for 1.2
+
+ AUTHORS      |    1 +
+ ChangeLog    |  472 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ README       |    2 +
+ autogen.sh   |    4 +-
+ configure.in |    4 +-
+ 5 files changed, 477 insertions(+), 6 deletions(-)
+
+commit 0db623f5e7d025646b05dc3dc203310f597fbff0
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Mon Feb 20 15:48:32 2012 +0100
+
+    updated uk translation
+
+ po/uk.po |  454 ++++++++++++++++++++++++--------------------------------------
+ 1 file changed, 178 insertions(+), 276 deletions(-)
+
 commit df568951848ab6cd4f92a49a255f7b8ad2d72984
 Author: Stefano Karapetsas <stefano@karapetsas.com>
 Date:   Thu Jan 26 00:30:54 2012 +0100
@@ -16,7 +202,7 @@ Date:   Tue Jan 24 15:15:49 2012 -0300
     changing pkgbuild source method
 
  distro/archlinux/PKGBUILD |   11 +++++------
- 1 files changed, 5 insertions(+), 6 deletions(-)
+ 1 file changed, 5 insertions(+), 6 deletions(-)
 
 commit c6006ac3e31eb65033860a1ae1b153dfd1e62994
 Author: Perberos <perberos@gmail.com>
@@ -25,7 +211,7 @@ Date:   Mon Jan 23 12:50:22 2012 -0300
     mirror link on PKGBUILD
 
  distro/archlinux/PKGBUILD |    1 +
- 1 files changed, 1 insertions(+), 0 deletions(-)
+ 1 file changed, 1 insertion(+)
 
 commit 09808b71ca62280b84958fa864f2f9b64f4a30a2
 Merge: fd47b8f 3b0f5a2
@@ -68,7 +254,7 @@ Date:   Tue Dec 20 15:24:21 2011 -0200
     removing mate_program_init for speed up on mate-open
 
  libmate/mate-open.c |    8 ++++++--
- 1 files changed, 6 insertions(+), 2 deletions(-)
+ 1 file changed, 6 insertions(+), 2 deletions(-)
 
 commit 11a5f18674537f90cb945483e9e358fd74a0bbe2
 Author: Perberos <perberos@gmail.com>
@@ -77,7 +263,7 @@ Date:   Tue Dec 20 15:22:28 2011 -0200
     removing extra LD flags from mate-open
 
  libmate/Makefile.am |    2 --
- 1 files changed, 0 insertions(+), 2 deletions(-)
+ 1 file changed, 2 deletions(-)
 
 commit 0b4ab6a1c3dfe6e77db76bdc3dffd5079ada8ff3
 Author: Stefano Karapetsas <stefano@karapetsas.com>
@@ -97,7 +283,7 @@ Date:   Fri Dec 16 17:39:49 2011 +0100
     fixed another old version requirement
 
  libmate/mate-init.c |    2 +-
- 1 files changed, 1 insertions(+), 1 deletions(-)
+ 1 file changed, 1 insertion(+), 1 deletion(-)
 
 commit ee5d5c9fa7eaac24b4d1e1c904412b4984225069
 Author: Stefano Karapetsas <stefano@karapetsas.com>
@@ -142,7 +328,7 @@ Date:   Sat Dec 3 19:26:13 2011 -0300
     set to ~/.config/mate/private/
 
  doc/reference/html/libmate-mate-config.html |    4 +-
- doc/reference/tmpl/mate-config.sgml         |  262 +++++++++++++-------------
+ doc/reference/tmpl/mate-config.sgml         |  262 +++++++++++++--------------
  libmate/mate-init.h                         |    2 +-
  3 files changed, 134 insertions(+), 134 deletions(-)
 
@@ -153,7 +339,7 @@ Date:   Sat Dec 3 19:07:06 2011 -0300
     ~/.mate2_private/ is empty, set to ~/.cache/mate/private/
 
  libmate/mate-init.h |    2 +-
- 1 files changed, 1 insertions(+), 1 deletions(-)
+ 1 file changed, 1 insertion(+), 1 deletion(-)
 
 commit 8ff1ad94de3486e3b9a7ff38da0437f57a85f0e2
 Merge: 774b0f4 d577050
@@ -201,7 +387,7 @@ Date:   Fri Dec 2 01:09:59 2011 +0100
  monikers/Makefile.in      |  648 --
  po/Makefile.in.in         |  217 -
  schemas/Makefile.in       |  525 --
- 18 files changed, 0 insertions(+), 38280 deletions(-)
+ 18 files changed, 38280 deletions(-)
 
 commit 774b0f40ea6cd9d02f89e41820186d6e04af3beb
 Author: Perberos <perberos@gmail.com>
@@ -468,4 +654,4 @@ Date:   Thu Dec 1 20:16:22 2011 -0300
  schemas/desktop_mate_thumbnail_cache.schemas.in    |   30 +
  schemas/desktop_mate_thumbnailers.schemas.in       |   18 +
  schemas/desktop_mate_typing_break.schemas.in       |   60 +
- 259 files changed, 193527 insertions(+), 0 deletions(-)
+ 259 files changed, 193527 insertions(+)
