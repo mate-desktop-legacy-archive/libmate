@@ -51,7 +51,7 @@
         <applyto>/desktop/mate/background/primary_color</applyto>
         <owner>mate</owner>
         <type>string</type>
-        <default>#335592</default>
+        <default>#5891BC</default>
         <locale name="C">
         <short>Primary Color</short>
         <long>Left or Top color when drawing gradients, or the solid color.</long>
@@ -62,7 +62,7 @@
         <applyto>/desktop/mate/background/secondary_color</applyto>
         <owner>mate</owner>
         <type>string</type>
-        <default>#4367A5</default>
+        <default>#3C8F25</default>
         <locale name="C">
         <short>Secondary Color</short>
         <long>Right or Bottom color when drawing gradients, not used for solid color.</long>
@@ -73,7 +73,7 @@
         <applyto>/desktop/mate/background/color_shading_type</applyto>
         <owner>mate</owner>
         <type>string</type>
-        <default>solid</default>
+        <default>vertical-gradient</default>
         <locale name="C">
         <short>Color Shading Type</short>
         <long>How to shade the background color. Possible values are "horizontal-gradient", "vertical-gradient", and "solid".</long>

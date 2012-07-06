@@ -5,7 +5,8 @@
 		<_name>Default Background</_name>
 		<filename>@datadir@/pixmaps/backgrounds/mate/desktop/Stripes.png</filename>
 		<options>zoom</options>
-		<shade_type>solid</shade_type>
-		<pcolor>#66ba00</pcolor>
+		<shade_type>vertical-gradient</shade_type>
+		<pcolor>#5891BC</pcolor>
+		<scolor>#3C8F25</scolor>
 	</wallpaper>
 </wallpapers>
