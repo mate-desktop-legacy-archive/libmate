@@ -50,8 +50,6 @@
 #include <matecomponent-activation/matecomponent-activation-version.h>
 #include <libmatecomponent.h>
 
-#include <libmatevfs/mate-vfs-init.h>
-
 /* implemented in mate-sound.c */
 G_GNUC_INTERNAL extern void _mate_sound_set_enabled (gboolean);
 
@@ -441,29 +439,6 @@ libmate_post_args_parse (MateProgram *program,
         libmate_userdir_setup (create_dirs);
 }
 
-static void
-mate_vfs_post_args_parse (MateProgram *program, MateModuleInfo *mod_info)
-{
-	mate_vfs_init ();
-}
-
-/* No need for this to be public */
-static const MateModuleInfo *
-mate_vfs_module_info_get (void)
-{
-	static MateModuleInfo module_info = {
-		"mate-vfs", MATEVFSVERSION, N_("MATE Virtual Filesystem"),
-		NULL, NULL,
-		NULL, mate_vfs_post_args_parse,
-		NULL,
-		NULL,
-		NULL,
-		NULL,
-		NULL
-	};
-	return &module_info;
-}
-
 static GOptionGroup *
 libmate_module_get_goption_group (void)
 {
@@ -541,7 +516,7 @@ libmate_module_info_get (void)
 	int i = 0;
 
 	if (module_info.requirements == NULL) {
-		static MateModuleRequirement req[4];
+		static MateModuleRequirement req[3];
 
 		bindtextdomain (GETTEXT_PACKAGE, LIBMATE_LOCALEDIR);
 #ifdef HAVE_BIND_TEXTDOMAIN_CODESET
@@ -549,10 +524,6 @@ libmate_module_info_get (void)
 #endif
 		req[i].required_version = "1.1.0";
 		req[i].module_info = mate_matecomponent_activation_module_info_get ();
-		i++;
-
-		req[i].required_version = "1.1.0";
-		req[i].module_info = mate_vfs_module_info_get ();
 		i++;
 
 		req[i].required_version = "1.1.0";

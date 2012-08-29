@@ -33,8 +33,6 @@
 
 #include <libmate/mate-mateconf.h>
 
-#include <libmate/mate-help.h>
-
 #include <libmate/mate-macros.h>
 
 #include <libmate/mate-triggers.h>

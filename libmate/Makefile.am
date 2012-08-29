@@ -24,7 +24,6 @@ INCLUDES = \
 	-DLIBMATE_LOCALSTATEDIR=\""$(localstatedir)"\" \
 	-DLIBMATE_SYSCONFDIR=\""$(sysconfdir)"\" \
 	-DLIBMATE_LOCALEDIR="\"$(datadir)/locale\"" \
-	-DMATEVFSVERSION=\"$(MATE_VFS_VERSION)\" \
 	-DMATE_EXPLICIT_TRANSLATION_DOMAIN="GETTEXT_PACKAGE" \
 	-DG_LOG_DOMAIN=\"Mate\"
 
@@ -40,7 +39,6 @@ libmate_2_la_SOURCES = \
 	mate-triggers.c \
 	mate-triggersP.h \
 	mate-program.c \
-	mate-help.c \
 	mate-exec.c \
 	mate-mateconf.c \
 	mate-mateconfP.h \
@@ -59,7 +57,6 @@ libmate_headers = \
 	mate-sound.h \
 	mate-triggers.h \
 	mate-program.h \
-	mate-help.h \
 	mate-i18n.h \
 	mate-exec.h \
 	mate-mateconf.h \
@@ -142,7 +139,8 @@ libmate_2_la_LDFLAGS = \
 	-export-symbols-regex "^[^_].*"
 
 libmate_2_la_LIBADD = \
-	$(LIBMATE_LIBS)
+	$(LIBMATE_LIBS) \
+	$(GIO_LIBS)
 
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = libmate-2.0.pc

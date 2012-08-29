@@ -53,8 +53,6 @@ GQuark mate_url_error_quark(void) G_GNUC_CONST;
 
 gboolean mate_url_show(const char* url, GError** error);
 
-gboolean mate_url_show_with_env(const char* url, char** envp, GError** error);
-
 #ifdef __cplusplus
 }
 #endif

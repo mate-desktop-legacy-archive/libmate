@@ -8,7 +8,7 @@ AC_PREREQ(2.54)
 # set LIBMATE_BINARY_AGE and LIBMATE_INTERFACE_AGE to 0.
 #
 m4_define([libmate_major_version], [1])
-m4_define([libmate_minor_version], [4])
+m4_define([libmate_minor_version], [5])
 m4_define([libmate_micro_version], [0])
 m4_define([libmate_interface_age], [0])
 # If you need a modifier for the version number.
@@ -16,15 +16,14 @@ m4_define([libmate_interface_age], [0])
 m4_define([libmate_extraversion], [])
 
 dnl required versions of other tools.
-m4_define([audiofile_required_version], [0.2.3])
-m4_define([esound_required_version],    [0.2.26])
-m4_define([mateconf_required_version],     [1.1.0])
-m4_define([glib_required_version],      [2.8.0])
-m4_define([mate_vfs_required_version], [1.1.0])
+m4_define([audiofile_required_version],        [0.2.3])
+m4_define([esound_required_version],           [0.2.26])
+m4_define([mateconf_required_version],         [1.1.0])
+m4_define([glib_required_version],             [2.8.0])
 m4_define([libmatecomponent_required_version], [1.1.0])
-m4_define([gobject_required_version], [2.0.0])
-m4_define([gio_required_version],       [2.16.0])
-m4_define([canberra_required_version], [0])
+m4_define([gobject_required_version],          [2.0.0])
+m4_define([gio_required_version],              [2.16.0])
+m4_define([canberra_required_version],         [0])
 
 dnl libtool versioning from libmate
 m4_define([libmate_current], [m4_eval(100 * libmate_minor_version + libmate_micro_version - libmate_interface_age)])
@@ -180,13 +179,12 @@ PKG_CHECK_MODULES(LIBMATE, dnl
   gobject-2.0 >= gobject_required_version dnl
   gmodule-2.0 >= glib_required_version dnl
   gobject-2.0 >= glib_required_version dnl
-  mate-vfs-2.0 >= mate_vfs_required_version dnl
   libmatecomponent-2.0 >= libmatecomponent_required_version dnl
   mateconf-2.0 >= mateconf_required_version dnl
   $SOUND_MODULES])
 
 # for mate-open
-PKG_CHECK_MODULES([GIO],[gio-2.0 >= gio_required_version])
+PKG_CHECK_MODULES([GIO], [gio-2.0 >= gio_required_version])
 
 dnl
 dnl Check for gtk-doc
@@ -204,12 +202,6 @@ if test x"$MATECONFTOOL" = xno; then
 fi
 
 AM_MATECONF_SOURCE_2
-
-dnl
-dnl Substitute these
-dnl
-MATE_VFS_VERSION=`$PKG_CONFIG --modversion mate-vfs-2.0`
-AC_SUBST(MATE_VFS_VERSION)
 
 AC_CHECK_LIB(popt, poptStrippedArgv,, AC_MSG_ERROR([popt 1.5 or newer is required to build
 libmate. You can download the latest version from ftp://ftp.rpm.org/pub/rpm/dist/rpm-4.0.x/]))

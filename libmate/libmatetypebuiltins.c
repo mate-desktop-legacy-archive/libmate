@@ -57,25 +57,6 @@ mate_file_domain_get_type (void)
 }
 
 
-/* enumerations from "mate-help.h" */
-static const GEnumValue _mate_help_error_values[] = {
-  { MATE_HELP_ERROR_INTERNAL, "MATE_HELP_ERROR_INTERNAL", "internal" },
-  { MATE_HELP_ERROR_NOT_FOUND, "MATE_HELP_ERROR_NOT_FOUND", "not-found" },
-  { 0, NULL, NULL }
-};
-
-GType
-mate_help_error_get_type (void)
-{
-  static GType type = 0;
-
-  if (!type)
-    type = g_enum_register_static ("MateHelpError", _mate_help_error_values);
-
-  return type;
-}
-
-
 /* enumerations from "mate-url.h" */
 static const GEnumValue _mate_url_error_values[] = {
   { MATE_URL_ERROR_PARSE, "MATE_URL_ERROR_PARSE", "parse" },

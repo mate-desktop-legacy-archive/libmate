@@ -269,8 +269,7 @@
       <locale name="C">
 	<short>Module for GtkFileChooser</short>
 	<long>Module to use as the filesystem model for the
-	GtkFileChooser widget.  Possible values are "gio", "mate-vfs" and
-	"gtk+".</long>
+	GtkFileChooser widget.  Possible values are "gio" and "gtk+".</long>
       </locale>
     </schema>
     <schema>

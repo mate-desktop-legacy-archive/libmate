@@ -4,7 +4,6 @@ mate-data/mate-default.xml.in.in
 mate-data/gtk2-mate-events.soundlist.in
 libmate/mate-exec.c
 libmate/mate-mateconf.c
-libmate/mate-help.c
 libmate/mate-i18n.c
 libmate/mate-init.c
 libmate/mate-program.c
