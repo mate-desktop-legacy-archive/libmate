@@ -18,11 +18,10 @@ m4_define([libmate_extraversion], [])
 dnl required versions of other tools.
 m4_define([audiofile_required_version],        [0.2.3])
 m4_define([esound_required_version],           [0.2.26])
-m4_define([mateconf_required_version],         [1.1.0])
 m4_define([glib_required_version],             [2.8.0])
 m4_define([libmatecomponent_required_version], [1.1.0])
 m4_define([gobject_required_version],          [2.0.0])
-m4_define([gio_required_version],              [2.16.0])
+m4_define([gio_required_version],              [2.25.0])
 m4_define([canberra_required_version],         [0])
 
 dnl libtool versioning from libmate
@@ -180,7 +179,6 @@ PKG_CHECK_MODULES(LIBMATE, dnl
   gmodule-2.0 >= glib_required_version dnl
   gobject-2.0 >= glib_required_version dnl
   libmatecomponent-2.0 >= libmatecomponent_required_version dnl
-  mateconf-2.0 >= mateconf_required_version dnl
   $SOUND_MODULES])
 
 # for mate-open
@@ -192,16 +190,10 @@ dnl
 GTK_DOC_CHECK([1.0])
 
 dnl ==============================================
-dnl Special MateConf section
+dnl Special GSettings section
 dnl ==============================================
 
-AC_PATH_PROG(MATECONFTOOL, mateconftool-2, no)
-
-if test x"$MATECONFTOOL" = xno; then
-	AC_MSG_ERROR([mateconftool-2 executable not found in your path - should be installed with MateConf])
-fi
-
-AM_MATECONF_SOURCE_2
+GLIB_GSETTINGS
 
 AC_CHECK_LIB(popt, poptStrippedArgv,, AC_MSG_ERROR([popt 1.5 or newer is required to build
 libmate. You can download the latest version from ftp://ftp.rpm.org/pub/rpm/dist/rpm-4.0.x/]))
@@ -220,9 +212,8 @@ Makefile
 libmate-zip
 po/Makefile.in
 libmate/Makefile
-monikers/Makefile
 schemas/Makefile
-schemas/desktop_mate_interface.schemas.in
+schemas/org.mate.interface.gschema.xml
 mate-data/Makefile
 libmate/libmate-2.0.pc
 libmate/libmate-2.0-uninstalled.pc

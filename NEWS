@@ -1,5 +1,6 @@
 libmate 1.5.0
 
+dropped mate-conf dependency.
 dropped mate-vfs dependency.
 dropped mate_url_show_with_env() in libmate/mate-url.c. it was used only
 in libmateui and replaced with gio g_app_info_launch_default_for_uri().

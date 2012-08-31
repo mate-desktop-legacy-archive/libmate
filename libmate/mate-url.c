@@ -32,8 +32,6 @@
 
 #include <glib/gi18n-lib.h>
 
-#include <mateconf/mateconf-client.h>
-
 #ifndef G_OS_WIN32
 	#include <gio/gio.h>
 #else
@@ -43,7 +41,6 @@
 #include "mate-exec.h"
 #include "mate-util.h"
 #include "mate-init.h"
-#include "mate-mateconfP.h"
 
 #include "mate-url.h"
 

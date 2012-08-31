@@ -22,7 +22,6 @@ CFILE_GLOB=$(top_srcdir)/libmate/*.c
 
 # Header files to ignore when scanning.
 IGNORE_HFILES = \
-	mate-mateconfP.h \
 	mate-i18nP.h \
 	mate-preferences.h \
 	mate-triggersP.h

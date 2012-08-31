@@ -17,6 +17,7 @@ INCLUDES = \
 	-I$(srcdir)/.. \
 	$(WARN_CFLAGS) \
 	$(LIBMATE_CFLAGS) \
+	$(GIO_CFLAGS) \
 	-DG_DISABLE_DEPRECATED \
 	-DLIBMATE_PREFIX=\""$(prefix)"\" \
 	-DLIBMATE_LIBDIR=\""$(libdir)"\" \
@@ -40,8 +41,6 @@ libmate_2_la_SOURCES = \
 	mate-triggersP.h \
 	mate-program.c \
 	mate-exec.c \
-	mate-mateconf.c \
-	mate-mateconfP.h \
 	mate-i18n.c \
 	mate-url.c \
 	mate-util.c \
@@ -59,7 +58,6 @@ libmate_headers = \
 	mate-program.h \
 	mate-i18n.h \
 	mate-exec.h \
-	mate-mateconf.h \
 	mate-url.h \
 	mate-util.h \
 	mate-macros.h \

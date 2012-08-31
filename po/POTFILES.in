@@ -3,15 +3,11 @@ mate-data/mate.soundlist.in
 mate-data/mate-default.xml.in.in
 mate-data/gtk2-mate-events.soundlist.in
 libmate/mate-exec.c
-libmate/mate-mateconf.c
 libmate/mate-i18n.c
 libmate/mate-init.c
 libmate/mate-program.c
 libmate/mate-url.c
 libmate/mate-open.c
-monikers/MATE_Moniker_std.server.in.in
-monikers/matecomponent-config-bag.c
-monikers/matecomponent-moniker-conf-indirect.c
 schemas/desktop_mate_accessibility_keyboard.schemas.in
 schemas/desktop_mate_accessibility_startup.schemas.in
 schemas/desktop_mate_applications_at_mobility.schemas.in

@@ -27,7 +27,8 @@
 #undef TIME_INIT
 
 #define MATE_ACCESSIBILITY_ENV "MATE_ACCESSIBILITY"
-#define MATE_ACCESSIBILITY_KEY "/desktop/mate/interface/accessibility"
+#define MATE_ACCESSIBILITY_SCHEMA "org.mate.interface"
+#define MATE_ACCESSIBILITY_KEY "accessibility"
 
 /* This module takes care of handling application and library
    initialization and command line parsing */
@@ -42,11 +43,9 @@
 #include <unistd.h>
 #include <gmodule.h>
 #include <locale.h>
-#include <mateconf/mateconf.h>
-#include <mateconf/mateconf-value.h>
-#include <mateconf/mateconf-client.h>
 
 #include <glib/gi18n-lib.h>
+#include <gio/gio.h>
 
 #include "mate-program.h"
 #include "mate-util.h"
@@ -1685,10 +1684,10 @@ static void accessibility_init(MateProgram* program)
 	if ((env_var = g_getenv (MATE_ACCESSIBILITY_ENV)))
 		do_init = atoi (env_var);
 	else {
-		MateConfClient* gc = mateconf_client_get_default ();
-		do_init = mateconf_client_get_bool (
-			gc, MATE_ACCESSIBILITY_KEY, NULL);
-		g_object_unref (gc);
+		GSettings* gsettings;
+		gsettings = g_settings_new (MATE_ACCESSIBILITY_SCHEMA);
+		do_init = g_settings_get_boolean (gsettings, MATE_ACCESSIBILITY_KEY);
+		g_object_unref (gsettings);
 	}
 
 	if (do_init)
@@ -1758,7 +1757,6 @@ void mate_program_postinit(MateProgram* program)
  * - to find the programme's help files by mate_help_*()
  * - to load the app-specific gtkrc file from ~/.mate2/$(APPID)rc
  * - to load/save the app's accelerators map from ~/.mate2/accelerators/$(APPID)
- * - to load/save a MateEntry's history from mateconf/apps/mate-settings/$(APPID)/history-$(ENTRYID)
  *
  * Returns: A new #MateProgram instance representing the current application.
  * Unref the returned reference right before exiting your application.

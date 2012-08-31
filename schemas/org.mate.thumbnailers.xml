@@ -1,0 +1,9 @@
+<schemalist>
+  <schema id="org.mate.thumbnailers" path="/desktop/mate/thumbnailers/">
+    <key name="disable-all" type="b">
+      <default>false</default>
+      <summary>Disable all external thumbnailers</summary>
+      <description>Set to true to disable all external thumbnailer programs, independent on whether they are independently disabled/enabled.</description>
+    </key>
+  </schema>
+</schemalist>

@@ -1,4 +1,4 @@
-SUBDIRS = libmate monikers schemas mate-data po doc
+SUBDIRS = libmate schemas mate-data po doc
 
 EXTRA_DIST = \
 	ChangeLog.pre-git \

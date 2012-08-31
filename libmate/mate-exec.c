@@ -27,7 +27,6 @@
 
 #include "mate-exec.h"
 #include "mate-util.h"
-#include "mate-mateconfP.h"
 #include "mate-init.h"
 
 #include <unistd.h>
@@ -43,7 +42,7 @@
 #include <string.h>
 #include <signal.h>
 
-#include <mateconf/mateconf-client.h>
+#include <gio/gio.h>
 
 #include <errno.h>
 
@@ -52,6 +51,8 @@
 #endif
 
 #ifndef G_OS_WIN32
+
+#define GSETTINGS_SCHEMA "org.mate.applications-terminal"
 
 static void set_cloexec(gint fd)
 {
@@ -374,7 +375,7 @@ void mate_prepend_terminal_to_vector(int* argc, char*** argv)
 		int i, j;
 		char** term_argv = NULL;
 		int term_argc = 0;
-		MateConfClient* client;
+		GSettings* gsettings;
 
 		gchar* terminal = NULL;
 
@@ -398,19 +399,15 @@ void mate_prepend_terminal_to_vector(int* argc, char*** argv)
 			*argc = i;
 		}
 
-		/* init our mateconf stuff if necessary */
-		mate_mateconf_lazy_init();
-
-		client = mateconf_client_get_default();
-		terminal = mateconf_client_get_string(client, "/desktop/mate/applications/terminal/exec", NULL);
-		g_object_unref(client);
+		gsettings = g_settings_new (GSETTINGS_SCHEMA);
+		terminal = g_settings_get_string (gsettings, "exec");
 
 		if (terminal)
 		{
 			gchar* command_line;
 			gchar* exec_flag;
 
-			exec_flag = mateconf_client_get_string(client, "/desktop/mate/applications/terminal/exec_arg", NULL);
+			exec_flag = g_settings_get_string(gsettings, "exec-arg");
 
 			if (exec_flag == NULL)
 				command_line = g_strdup(terminal);
@@ -423,6 +420,7 @@ void mate_prepend_terminal_to_vector(int* argc, char*** argv)
 			g_free(exec_flag);
 			g_free(terminal);
 		}
+		g_object_unref(gsettings);
 
 		if (term_argv == NULL)
 		{

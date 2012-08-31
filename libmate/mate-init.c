@@ -40,7 +40,6 @@
 
 #include "mate-i18n.h"
 #include "mate-init.h"
-#include "mate-mateconfP.h"
 #include "mate-util.h"
 #include "mate-sound.h"
 #include "mate-triggers.h"
@@ -516,7 +515,7 @@ libmate_module_info_get (void)
 	int i = 0;
 
 	if (module_info.requirements == NULL) {
-		static MateModuleRequirement req[3];
+		static MateModuleRequirement req[2];
 
 		bindtextdomain (GETTEXT_PACKAGE, LIBMATE_LOCALEDIR);
 #ifdef HAVE_BIND_TEXTDOMAIN_CODESET
@@ -524,10 +523,6 @@ libmate_module_info_get (void)
 #endif
 		req[i].required_version = "1.1.0";
 		req[i].module_info = mate_matecomponent_activation_module_info_get ();
-		i++;
-
-		req[i].required_version = "1.1.0";
-		req[i].module_info = mate_mateconf_module_info_get ();
 		i++;
 
 		req[i].required_version = NULL;
