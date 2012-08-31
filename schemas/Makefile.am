@@ -1,6 +1,3 @@
-org.mate.background.gschema.xml: org.mate.background.gschema.xml.in Makefile
-	$(AM_V_GEN) $(SED) -e 's^\@datadir\@^$(datadir)^g' < $(srcdir)/org.mate.background.gschema.xml.in > org.mate.background.gschema.xml
-
 gsettings_SCHEMAS = \
 	org.mate.accessibility-keyboard.gschema.xml \
 	org.mate.accessibility-startup.gschema.xml \
@@ -16,9 +13,13 @@ gsettings_SCHEMAS = \
 	org.mate.peripherals-keyboard.gschema.xml \
 	org.mate.peripherals-mouse.gschema.xml \
 	org.mate.sound.gschema.xml \
-	org.mate.thumbnail-cache.xml \
-	org.mate.thumbnailers.xml \
-	org.mate.typing-break.xml
+	org.mate.thumbnail-cache.gschema.xml \
+	org.mate.thumbnailers.gschema.xml \
+	org.mate.typing-break.gschema.xml
+@GSETTINGS_RULES@
+
+org.mate.background.gschema.xml: org.mate.background.gschema.xml.in Makefile
+	$(AM_V_GEN) $(SED) -e 's^\@datadir\@^$(datadir)^g' < $(srcdir)/org.mate.background.gschema.xml.in > org.mate.background.gschema.xml
 
 EXTRA_DIST = \
 	$(gsettings_SCHEMAS)

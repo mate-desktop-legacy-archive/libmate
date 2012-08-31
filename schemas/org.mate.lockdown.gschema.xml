@@ -35,10 +35,5 @@
       <summary>Disable URL and MIME type handlers</summary>
       <description>Prevent running any URL or MIME type handler applications.</description>
     </key>
-    <key name="disable-application-handlers" type="b">
-      <default>false</default>
-      <summary>Disable URL and MIME type handlers</summary>
-      <description>Prevent running any URL or MIME type handler applications.</description>
-    </key>
   </schema>
 </schemalist>
